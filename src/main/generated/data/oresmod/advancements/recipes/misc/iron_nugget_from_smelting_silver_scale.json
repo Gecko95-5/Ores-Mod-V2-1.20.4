@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:iron_nugget_from_smelting_silver_scale"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

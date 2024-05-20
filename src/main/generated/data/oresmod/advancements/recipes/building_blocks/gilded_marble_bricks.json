@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:gilded_marble_bricks"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

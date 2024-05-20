@@ -43,6 +43,5 @@
     "recipes": [
       "minecraft:night_vision_potion_tank"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

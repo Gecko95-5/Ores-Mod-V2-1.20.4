@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:aluminum_nugget_from_blasting_aluminum_pickaxe"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

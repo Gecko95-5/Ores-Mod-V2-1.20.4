@@ -69,6 +69,5 @@
     "recipes": [
       "minecraft:crossbow_from_aluminum_ingot"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:cut_black_sandstone"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

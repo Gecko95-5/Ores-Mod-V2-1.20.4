@@ -1,5 +1,6 @@
 package net.gecko95.oresmod.block.custom;
 
+import com.mojang.serialization.MapCodec;
 import net.gecko95.oresmod.block.ModBlocks;
 import net.gecko95.oresmod.entity.ModEntities;
 import net.gecko95.oresmod.entity.custom.SilverwyrmEntity;
@@ -29,8 +30,14 @@ public class SilverCrownBlock extends HorizontalFacingBlock {
     private static final Predicate<BlockState> IS_SILVER_CROWN_PREDICATE = state -> state != null && (state.isOf(ModBlocks.SILVER_CROWN));
 
     private static final VoxelShape SHAPE = Block.createCuboidShape(4, 0, 4, 12, 4, 12);
+    public static final MapCodec<SilverCrownBlock> CODEC = SilverCrownBlock.createCodec(SilverCrownBlock::new);
     public SilverCrownBlock(Settings settings) {
         super(settings);
+    }
+
+    @Override
+    protected MapCodec<? extends HorizontalFacingBlock> getCodec() {
+        return CODEC;
     }
 
     @Override

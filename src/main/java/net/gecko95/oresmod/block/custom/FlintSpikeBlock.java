@@ -1,5 +1,6 @@
 package net.gecko95.oresmod.block.custom;
 
+import com.mojang.serialization.MapCodec;
 import net.minecraft.block.*;
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.entity.Entity;
@@ -11,8 +12,14 @@ import net.minecraft.world.World;
 
 public class FlintSpikeBlock extends HorizontalFacingBlock {
     private static final VoxelShape SHAPE = Block.createCuboidShape(0,0,0,16,7,16);
+    public static final MapCodec<FlintSpikeBlock> CODEC = FlintSpikeBlock.createCodec(FlintSpikeBlock::new);
     public FlintSpikeBlock(Settings settings) {
         super(settings);
+    }
+
+    @Override
+    protected MapCodec<? extends HorizontalFacingBlock> getCodec() {
+        return CODEC;
     }
 
     @Override

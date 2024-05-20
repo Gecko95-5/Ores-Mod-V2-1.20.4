@@ -56,6 +56,5 @@
     "recipes": [
       "minecraft:frosite_drill"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

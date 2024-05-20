@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:clay_helmet"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

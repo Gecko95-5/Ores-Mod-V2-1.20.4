@@ -30,6 +30,5 @@
     "recipes": [
       "oresmod:polished_bedrock_bricks_wall"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

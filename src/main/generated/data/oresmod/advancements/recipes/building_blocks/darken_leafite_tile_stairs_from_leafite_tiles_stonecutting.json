@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:darken_leafite_tile_stairs_from_leafite_tiles_stonecutting"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

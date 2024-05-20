@@ -43,6 +43,5 @@
     "recipes": [
       "minecraft:sandite_chestplate"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

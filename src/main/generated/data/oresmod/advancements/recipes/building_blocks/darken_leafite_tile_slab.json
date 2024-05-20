@@ -30,6 +30,5 @@
     "recipes": [
       "oresmod:darken_leafite_tile_slab"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

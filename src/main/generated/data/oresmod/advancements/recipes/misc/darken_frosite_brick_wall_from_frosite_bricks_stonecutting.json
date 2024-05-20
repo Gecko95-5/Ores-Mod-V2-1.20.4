@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:darken_frosite_brick_wall_from_frosite_bricks_stonecutting"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

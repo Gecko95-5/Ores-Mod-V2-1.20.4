@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:chainmail_leggings"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

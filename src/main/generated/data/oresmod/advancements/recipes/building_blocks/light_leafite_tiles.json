@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:light_leafite_tiles"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

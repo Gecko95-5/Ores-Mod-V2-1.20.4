@@ -43,6 +43,5 @@
     "recipes": [
       "minecraft:rusted_steel_trapdoor_from_lighty_rusted_steel_trapdoor"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

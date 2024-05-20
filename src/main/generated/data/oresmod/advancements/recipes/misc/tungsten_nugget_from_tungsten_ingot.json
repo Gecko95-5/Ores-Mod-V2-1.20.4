@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:tungsten_nugget_from_tungsten_ingot"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

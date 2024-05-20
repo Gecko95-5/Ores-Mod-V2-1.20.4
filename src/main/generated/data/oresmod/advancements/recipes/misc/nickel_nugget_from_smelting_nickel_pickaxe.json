@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:nickel_nugget_from_smelting_nickel_pickaxe"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

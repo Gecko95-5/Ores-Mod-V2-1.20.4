@@ -43,6 +43,5 @@
     "recipes": [
       "minecraft:bedrock_shovel"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

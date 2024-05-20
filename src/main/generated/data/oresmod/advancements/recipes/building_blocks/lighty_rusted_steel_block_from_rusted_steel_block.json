@@ -43,6 +43,5 @@
     "recipes": [
       "minecraft:lighty_rusted_steel_block_from_rusted_steel_block"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

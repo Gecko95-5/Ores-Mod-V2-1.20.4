@@ -43,6 +43,5 @@
     "recipes": [
       "minecraft:chiseled_end_ite"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

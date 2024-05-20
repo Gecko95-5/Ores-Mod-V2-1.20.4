@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:light_leafite_tile_wall_from_light_leafite_block_stonecutting"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

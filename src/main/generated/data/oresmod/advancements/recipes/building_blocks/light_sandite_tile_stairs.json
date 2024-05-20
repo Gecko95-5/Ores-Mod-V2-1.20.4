@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:light_sandite_tile_stairs"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

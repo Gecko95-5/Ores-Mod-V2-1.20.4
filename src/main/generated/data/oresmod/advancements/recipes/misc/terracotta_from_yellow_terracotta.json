@@ -43,6 +43,5 @@
     "recipes": [
       "minecraft:terracotta_from_yellow_terracotta"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

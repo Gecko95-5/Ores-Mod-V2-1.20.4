@@ -43,6 +43,5 @@
     "recipes": [
       "minecraft:red_terracotta_chestplate"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

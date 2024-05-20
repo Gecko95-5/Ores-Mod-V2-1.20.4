@@ -43,6 +43,5 @@
     "recipes": [
       "minecraft:tungsten_sword"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

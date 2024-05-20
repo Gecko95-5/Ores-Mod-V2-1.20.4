@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:leafite_brick_stairs_from_leafite_bricks_stonecutting"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

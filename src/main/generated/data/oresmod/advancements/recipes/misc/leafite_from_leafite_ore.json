@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:leafite_from_leafite_ore"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

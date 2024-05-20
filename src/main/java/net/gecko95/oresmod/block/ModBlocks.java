@@ -8,9 +8,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.gecko95.oresmod.OresMod;
 import net.gecko95.oresmod.block.custom.*;
-import net.gecko95.oresmod.world.tree.DeepbarkSaplingGenerator;
-import net.gecko95.oresmod.world.tree.LeafiteSaplingGenerator;
-import net.gecko95.oresmod.world.tree.StonebarkSaplingGenerator;
+import net.gecko95.oresmod.world.tree.ModSaplingGenerators;
 import net.minecraft.block.*;
 import net.minecraft.block.enums.Instrument;
 import net.minecraft.block.piston.PistonBehavior;
@@ -22,6 +20,7 @@ import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
+import net.minecraft.util.ColorCode;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
@@ -68,10 +67,10 @@ public class ModBlocks {
             new WallBlock(FabricBlockSettings.copyOf(ModBlocks.FROSITE_TILES)));
 
     public static final Block FROSITE_PRESSURE_PLATE = registerBlock("frosite_pressure_plate",
-            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
-                    FabricBlockSettings.copyOf(ModBlocks.FROSITE_BLOCK), BlockSetType.GOLD));
+            new PressurePlateBlock(BlockSetType.GOLD,
+                    FabricBlockSettings.copyOf(ModBlocks.FROSITE_BLOCK)));
     public static final Block FROSITE_BUTTON = registerBlock("frosite_button",
-            new ButtonBlock(FabricBlockSettings.copyOf(ModBlocks.FROSITE_BLOCK), BlockSetType.GOLD, 20,false));
+            new ButtonBlock(BlockSetType.GOLD, 20, FabricBlockSettings.copyOf(ModBlocks.FROSITE_BLOCK)));
 
     public static final Block ALUMINUM_ORE = registerBlock("aluminum_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE).strength(2.5f, 2.5f)));
@@ -85,17 +84,16 @@ public class ModBlocks {
                     .requiresTool().strength(4.0f, 5.0f)));
 
     public static final Block ALUMINUM_DOOR = registerBlock("aluminum_door",
-            new DoorBlock(AbstractBlock.Settings.create().mapColor(MapColor.LIGHT_BLUE_GRAY).
-                    requiresTool().strength(4.0f).nonOpaque().pistonBehavior(PistonBehavior.DESTROY), BlockSetType.IRON));
+            new DoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().mapColor(MapColor.LIGHT_BLUE_GRAY).
+                    requiresTool().strength(4.0f).nonOpaque().pistonBehavior(PistonBehavior.DESTROY)));
     public static final Block ALUMINUM_TRAPDOOR = registerBlock("aluminum_trapdoor",
-            new TrapdoorBlock(AbstractBlock.Settings.create().mapColor(MapColor.LIGHT_BLUE_GRAY).requiresTool()
-                    .strength(4.0f).nonOpaque().allowsSpawning(Blocks::never), BlockSetType.IRON));
+            new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().mapColor(MapColor.LIGHT_BLUE_GRAY).requiresTool()
+                    .strength(4.0f).nonOpaque().allowsSpawning(Blocks::never)));
     public static final Block ALUMINUM_BARS = registerBlock("aluminum_bars",
             new PaneBlock(AbstractBlock.Settings.create().requiresTool().strength(4.0f, 5.0f)
                     .sounds(BlockSoundGroup.METAL).nonOpaque()));
     public static final Block ALUMINUM_PRESSURE_PLATE = registerBlock("aluminum_pressure_plate",
-            new WeightedPressurePlateBlock(75, FabricBlockSettings.copyOf(Blocks.HEAVY_WEIGHTED_PRESSURE_PLATE),
-                    BlockSetType.IRON));
+            new WeightedPressurePlateBlock(75, BlockSetType.IRON, FabricBlockSettings.copyOf(Blocks.HEAVY_WEIGHTED_PRESSURE_PLATE)));
 
     public static final Block NICKEL_ORE = registerBlock("nickel_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.COPPER_ORE)));
@@ -108,8 +106,7 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.RAW_IRON_BLOCK).mapColor(MapColor.TERRACOTTA_GRAY).instrument(Instrument.BASEDRUM)
                     .requiresTool()));
     public static final Block NICKEL_PRESSURE_PLATE = registerBlock("nickel_pressure_plate",
-            new WeightedPressurePlateBlock(7, FabricBlockSettings.copyOf(Blocks.HEAVY_WEIGHTED_PRESSURE_PLATE),
-                    BlockSetType.IRON));
+            new WeightedPressurePlateBlock(7, BlockSetType.IRON, FabricBlockSettings.copyOf(Blocks.HEAVY_WEIGHTED_PRESSURE_PLATE)));
 
     public static final Block STEEL_BLOCK = registerBlock("steel_block",
             new Block(AbstractBlock.Settings.create().mapColor(MapColor.DEEPSLATE_GRAY).requiresTool()
@@ -132,17 +129,16 @@ public class ModBlocks {
             new SlabBlock(FabricBlockSettings.copyOf(ModBlocks.CUT_STEEL)));
 
     public static final Block STEEL_DOOR = registerBlock("steel_door",
-            new DoorBlock(AbstractBlock.Settings.create().mapColor(MapColor.DEEPSLATE_GRAY).
-                    requiresTool().strength(25.0f).nonOpaque().pistonBehavior(PistonBehavior.DESTROY), BlockSetType.IRON));
+            new DoorBlock(BlockSetType.IRON,AbstractBlock.Settings.create().mapColor(MapColor.DEEPSLATE_GRAY).
+                    requiresTool().strength(25.0f).nonOpaque().pistonBehavior(PistonBehavior.DESTROY)));
     public static final Block STEEL_TRAPDOOR = registerBlock("steel_trapdoor",
-            new TrapdoorBlock(AbstractBlock.Settings.create().mapColor(MapColor.DEEPSLATE_GRAY).requiresTool()
-                    .strength(25.0f).nonOpaque().allowsSpawning(Blocks::never), BlockSetType.IRON));
+            new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().mapColor(MapColor.DEEPSLATE_GRAY).requiresTool()
+                    .strength(25.0f).nonOpaque().allowsSpawning(Blocks::never)));
     public static final Block STEEL_BARS = registerBlock("steel_bars",
             new PaneBlock(AbstractBlock.Settings.create().requiresTool().strength(25.0f, 600.0f)
                     .sounds(BlockSoundGroup.METAL).nonOpaque()));
     public static final Block STEEL_PRESSURE_PLATE = registerBlock("steel_pressure_plate",
-            new WeightedPressurePlateBlock(300, FabricBlockSettings.copyOf(Blocks.HEAVY_WEIGHTED_PRESSURE_PLATE),
-                    BlockSetType.IRON));
+            new WeightedPressurePlateBlock(300, BlockSetType.IRON, FabricBlockSettings.copyOf(Blocks.HEAVY_WEIGHTED_PRESSURE_PLATE)));
 
     public static final Block STEEL_LAMP = registerBlock("steel_lamp",
             new Block(FabricBlockSettings.copyOf(ModBlocks.STEEL_BLOCK).luminance(state -> 15).solidBlock(Blocks::never)));
@@ -204,18 +200,17 @@ public class ModBlocks {
     public static final Block STONEBARK_FENCE = registerBlock("stonebark_fence",
             new FenceBlock(FabricBlockSettings.copyOf(ModBlocks.STONEBARK_PLANKS)));
     public static final Block STONEBARK_FENCE_GATE = registerBlock("stonebark_fence_gate",
-            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.STONEBARK_PLANKS),WoodType.OAK));
+            new FenceGateBlock(WoodType.OAK,FabricBlockSettings.copyOf(ModBlocks.STONEBARK_PLANKS)));
     public static final Block STONEBARK_BUTTON = registerBlock("stonebark_button",
-            new ButtonBlock(FabricBlockSettings.copyOf(ModBlocks.STONEBARK_PLANKS), BlockSetType.STONE, 10,false));
+            new ButtonBlock(BlockSetType.STONE, 10,FabricBlockSettings.copyOf(ModBlocks.STONEBARK_PLANKS)));
     public static final Block STONEBARK_PRESSURE_PLATE = registerBlock("stonebark_pressure_plate",
-            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
-                    FabricBlockSettings.copyOf(ModBlocks.STONEBARK_PLANKS), BlockSetType.STONE));
+            new PressurePlateBlock(BlockSetType.STONE, FabricBlockSettings.copyOf(ModBlocks.STONEBARK_PLANKS)));
     public static final Block STONEBARK_DOOR = registerBlock("stonebark_door",
-            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONEBARK_PLANKS).requiresTool()
-                    .nonOpaque().pistonBehavior(PistonBehavior.DESTROY), BlockSetType.STONE));
+            new DoorBlock(BlockSetType.STONE, FabricBlockSettings.copyOf(ModBlocks.STONEBARK_PLANKS).requiresTool()
+                    .nonOpaque().pistonBehavior(PistonBehavior.DESTROY)));
     public static final Block STONEBARK_TRAPDOOR = registerBlock("stonebark_trapdoor",
-            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.STONEBARK_PLANKS).requiresTool()
-                    .nonOpaque().allowsSpawning(Blocks::never), BlockSetType.STONE));
+            new TrapdoorBlock(BlockSetType.STONE, FabricBlockSettings.copyOf(ModBlocks.STONEBARK_PLANKS).requiresTool()
+                    .nonOpaque().allowsSpawning(Blocks::never)));
 
     public static Identifier STONEBARK_SIGN_TEXTURE = new Identifier(OresMod.MOD_ID, "entity/signs/stonebark");
     public static Identifier STONEBARK_HANDING_SIGN_TEXTURE = new Identifier(OresMod.MOD_ID, "entity/signs/hanging/stonebark");
@@ -245,18 +240,17 @@ public class ModBlocks {
     public static final Block DEEPBARK_FENCE = registerBlock("deepbark_fence",
             new FenceBlock(FabricBlockSettings.copyOf(ModBlocks.DEEPSLATE_PLANKS)));
     public static final Block DEEPBARK_FENCE_GATE = registerBlock("deepbark_fence_gate",
-            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.DEEPSLATE_PLANKS),WoodType.OAK));
+            new FenceGateBlock(WoodType.OAK, FabricBlockSettings.copyOf(ModBlocks.DEEPSLATE_PLANKS)));
     public static final Block DEEPBARK_BUTTON = registerBlock("deepbark_button",
-            new ButtonBlock(FabricBlockSettings.copyOf(ModBlocks.DEEPSLATE_PLANKS), BlockSetType.STONE, 10,false));
+            new ButtonBlock(BlockSetType.STONE, 10,FabricBlockSettings.copyOf(ModBlocks.DEEPSLATE_PLANKS)));
     public static final Block DEEPBARK_PRESSURE_PLATE = registerBlock("deepbark_pressure_plate",
-            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
-                    FabricBlockSettings.copyOf(ModBlocks.DEEPSLATE_PLANKS), BlockSetType.STONE));
+            new PressurePlateBlock(BlockSetType.STONE, FabricBlockSettings.copyOf(ModBlocks.DEEPSLATE_PLANKS)));
     public static final Block DEEPBARK_DOOR = registerBlock("deepbark_door",
-            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.DEEPSLATE_PLANKS).requiresTool()
-                    .nonOpaque().pistonBehavior(PistonBehavior.DESTROY), BlockSetType.STONE));
+            new DoorBlock(BlockSetType.STONE, FabricBlockSettings.copyOf(ModBlocks.DEEPSLATE_PLANKS).requiresTool()
+                                .nonOpaque().pistonBehavior(PistonBehavior.DESTROY)));
     public static final Block DEEPBARK_TRAPDOOR = registerBlock("deepbark_trapdoor",
-            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.DEEPSLATE_PLANKS).requiresTool()
-                    .nonOpaque().allowsSpawning(Blocks::never), BlockSetType.STONE));
+            new TrapdoorBlock(BlockSetType.STONE, FabricBlockSettings.copyOf(ModBlocks.DEEPSLATE_PLANKS).requiresTool()
+                                .nonOpaque().allowsSpawning(Blocks::never)));
     public static Identifier DEEPBARK_SIGN_TEXTURE = new Identifier(OresMod.MOD_ID, "entity/signs/deepbark");
     public static Identifier DEEPBARK_HANDING_SIGN_TEXTURE = new Identifier(OresMod.MOD_ID, "entity/signs/hanging/deepbark");
     public static Identifier DEEPBARK_HANDING_GUI_SIGN_TEXTURE = new Identifier(OresMod.MOD_ID, "textures/gui/hanging_signs/deepbark");
@@ -278,14 +272,14 @@ public class ModBlocks {
             .group("wooden").unlockCriterionName("has_planks").build();
 
     public static final Block STONEBARK_SAPLING = registerBlock("stonebark_sapling",
-            new StonebarkSaplingBlock(new StonebarkSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
+            new StonebarkSaplingBlock(ModSaplingGenerators.STONEBARK, FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
     public static final Block POTTED_STONEBARK_SAPLING = Registry.register(Registries.BLOCK, new Identifier(OresMod.MOD_ID,
             "potted_stonebark_sapling"), new FlowerPotBlock(STONEBARK_SAPLING,
             FabricBlockSettings.copyOf(Blocks.POTTED_OAK_SAPLING).nonOpaque()));
 
 
     public static final Block DEEPBARK_SAPLING = registerBlock("deepbark_sapling",
-            new DeepbarkSaplingBlock(new DeepbarkSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
+            new DeepbarkSaplingBlock(ModSaplingGenerators.DEEPBARK, FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
     public static final Block POTTED_DEEPBARK_SAPLING = Registry.register(Registries.BLOCK, new Identifier(OresMod.MOD_ID,
             "potted_deepbark_sapling"), new FlowerPotBlock(DEEPBARK_SAPLING,
             FabricBlockSettings.copyOf(Blocks.POTTED_OAK_SAPLING).nonOpaque()));
@@ -423,18 +417,17 @@ public class ModBlocks {
     public static final Block LEAFITE_PLANKS_FENCE = registerBlock("leafite_planks_fence",
             new FenceBlock(FabricBlockSettings.copyOf(ModBlocks.LEAFITE_PLANKS)));
     public static final Block LEAFITE_PLANKS_FENCE_GATE = registerBlock("leafite_planks_fence_gate",
-            new FenceGateBlock(FabricBlockSettings.copyOf(ModBlocks.LEAFITE_PLANKS),WoodType.JUNGLE));
+            new FenceGateBlock(WoodType.JUNGLE, FabricBlockSettings.copyOf(ModBlocks.LEAFITE_PLANKS)));
     public static final Block LEAFITE_PLANKS_BUTTON = registerBlock("leafite_planks_button",
-            new ButtonBlock(FabricBlockSettings.copyOf(ModBlocks.LEAFITE_PLANKS), BlockSetType.JUNGLE, 10,false));
+            new ButtonBlock(BlockSetType.JUNGLE, 10,FabricBlockSettings.copyOf(ModBlocks.LEAFITE_PLANKS)));
     public static final Block LEAFITE_PLANKS_PRESSURE_PLATE = registerBlock("leafite_planks_pressure_plate",
-            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
-                    FabricBlockSettings.copyOf(ModBlocks.LEAFITE_PLANKS), BlockSetType.JUNGLE));
+            new PressurePlateBlock(BlockSetType.JUNGLE, FabricBlockSettings.copyOf(ModBlocks.LEAFITE_PLANKS)));
     public static final Block LEAFITE_DOOR = registerBlock("leafite_door",
-            new DoorBlock(FabricBlockSettings.copyOf(ModBlocks.LEAFITE_PLANKS)
-                    .nonOpaque().pistonBehavior(PistonBehavior.DESTROY), BlockSetType.JUNGLE));
+            new DoorBlock(BlockSetType.JUNGLE, FabricBlockSettings.copyOf(ModBlocks.LEAFITE_PLANKS)
+                                .nonOpaque().pistonBehavior(PistonBehavior.DESTROY)));
     public static final Block LEAFITE_TRAPDOOR = registerBlock("leafite_trapdoor",
-            new TrapdoorBlock(FabricBlockSettings.copyOf(ModBlocks.LEAFITE_PLANKS)
-                    .nonOpaque().allowsSpawning(Blocks::never), BlockSetType.JUNGLE));
+            new TrapdoorBlock(BlockSetType.JUNGLE, FabricBlockSettings.copyOf(ModBlocks.LEAFITE_PLANKS)
+                                .nonOpaque().allowsSpawning(Blocks::never)));
 
     public static Identifier LEAFITE_SIGN_TEXTURE = new Identifier(OresMod.MOD_ID, "entity/signs/leafite");
     public static Identifier LEAFITE_HANDING_SIGN_TEXTURE = new Identifier(OresMod.MOD_ID, "entity/signs/hanging/leafite");
@@ -457,15 +450,15 @@ public class ModBlocks {
             .group("wooden").unlockCriterionName("has_planks").build();
 
     public static final Block LEAFITE_SAPLING = registerBlock("leafite_sapling",
-            new SaplingBlock(new LeafiteSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.JUNGLE_SAPLING)));
+            new SaplingBlock(ModSaplingGenerators.LEAFITE, FabricBlockSettings.copyOf(Blocks.JUNGLE_SAPLING)));
     public static final Block POTTED_LEAFITE_SAPLING = Registry.register(Registries.BLOCK, new Identifier(OresMod.MOD_ID,
             "potted_leafite_sapling"), new FlowerPotBlock(LEAFITE_SAPLING,
             FabricBlockSettings.copyOf(Blocks.POTTED_JUNGLE_SAPLING).nonOpaque()));
 
     public static final Block WHITE_SAND = registerBlock("white_sand",
-            new GravelBlock(FabricBlockSettings.copyOf(Blocks.SAND).mapColor(MapColor.WHITE)));
+            new ColoredFallingBlock(new ColorCode(16777215),FabricBlockSettings.copyOf(Blocks.SAND).mapColor(MapColor.WHITE)));
     public static final Block SUSPICIOUS_WHITE_SAND = registerBlock("suspicious_white_sand",
-            new GravelBlock(FabricBlockSettings.copyOf(ModBlocks.WHITE_SAND)));
+            new ColoredFallingBlock(new ColorCode(16777215),FabricBlockSettings.copyOf(ModBlocks.WHITE_SAND)));
     public static final Block WHITE_SANDSTONE = registerBlock("white_sandstone",
             new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE).mapColor(MapColor.WHITE)));
     public static final Block WHITE_SANDSTONE_STAIRS = registerBlock("white_sandstone_stairs",
@@ -490,7 +483,7 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.CHISELED_SANDSTONE).mapColor(MapColor.WHITE)));
 
     public static final Block BLACK_SAND = registerBlock("black_sand",
-            new GravelBlock(FabricBlockSettings.copyOf(Blocks.SAND).mapColor(MapColor.BLACK)));
+            new ColoredFallingBlock(new ColorCode(0),FabricBlockSettings.copyOf(Blocks.SAND).mapColor(MapColor.BLACK)));
     public static final Block BLACK_SANDSTONE = registerBlock("black_sandstone",
             new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE).mapColor(MapColor.BLACK)));
     public static final Block BLACK_SANDSTONE_STAIRS = registerBlock("black_sandstone_stairs",
@@ -518,7 +511,7 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.GOLD_ORE).mapColor(MapColor.ORANGE)
                     .instrument(Instrument.BASEDRUM).strength(1.25f, 4.2f)));
     public static final Block GRAVEL_COAL_ORE = registerBlock("gravel_coal_ore",
-            new GravelBlock(FabricBlockSettings.copyOf(Blocks.COAL_ORE).mapColor(MapColor.STONE_GRAY)
+            new ColoredFallingBlock(new ColorCode(-8356741),FabricBlockSettings.copyOf(Blocks.COAL_ORE).mapColor(MapColor.STONE_GRAY)
                     .instrument(Instrument.SNARE).strength(0.6f).sounds(BlockSoundGroup.GRAVEL)));
     public static final Block DRIPSTONE_COPPER_ORE = registerBlock("dripstone_copper_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.COPPER_ORE).mapColor(MapColor.TERRACOTTA_BROWN)
@@ -744,18 +737,18 @@ public class ModBlocks {
             new SlabBlock(FabricBlockSettings.copyOf(ModBlocks.RUSTED_CUT_STEEL)));
 
     public static final Block LIGHTY_RUSTED_STEEL_DOOR = registerBlock("lighty_rusted_steel_door",
-            new DoorBlock(AbstractBlock.Settings.create().mapColor(MapColor.TERRACOTTA_LIGHT_GRAY).
-                    requiresTool().strength(12.5f).nonOpaque().pistonBehavior(PistonBehavior.DESTROY), BlockSetType.GOLD));
+            new DoorBlock(BlockSetType.GOLD, AbstractBlock.Settings.create().mapColor(MapColor.TERRACOTTA_LIGHT_GRAY).
+                                requiresTool().strength(12.5f).nonOpaque().pistonBehavior(PistonBehavior.DESTROY)));
     public static final Block LIGHTY_RUSTED_STEEL_TRAPDOOR = registerBlock("lighty_rusted_steel_trapdoor",
-            new TrapdoorBlock(AbstractBlock.Settings.create().mapColor(MapColor.TERRACOTTA_LIGHT_GRAY).requiresTool()
-                    .strength(12.5f).nonOpaque().allowsSpawning(Blocks::never), BlockSetType.GOLD));
+            new TrapdoorBlock(BlockSetType.GOLD, AbstractBlock.Settings.create().mapColor(MapColor.TERRACOTTA_LIGHT_GRAY).requiresTool()
+                                .strength(12.5f).nonOpaque().allowsSpawning(Blocks::never)));
 
     public static final Block RUSTED_STEEL_DOOR = registerBlock("rusted_steel_door",
-            new DoorBlock(AbstractBlock.Settings.create().mapColor(MapColor.TERRACOTTA_ORANGE).
-                    requiresTool().strength(6.25f).nonOpaque().pistonBehavior(PistonBehavior.DESTROY), BlockSetType.GOLD));
+            new DoorBlock(BlockSetType.GOLD, AbstractBlock.Settings.create().mapColor(MapColor.TERRACOTTA_ORANGE).
+                                requiresTool().strength(6.25f).nonOpaque().pistonBehavior(PistonBehavior.DESTROY)));
     public static final Block RUSTED_STEEL_TRAPDOOR = registerBlock("rusted_steel_trapdoor",
-            new TrapdoorBlock(AbstractBlock.Settings.create().mapColor(MapColor.TERRACOTTA_ORANGE).requiresTool()
-                    .strength(6.25f).nonOpaque().allowsSpawning(Blocks::never), BlockSetType.GOLD));
+            new TrapdoorBlock(BlockSetType.GOLD, AbstractBlock.Settings.create().mapColor(MapColor.TERRACOTTA_ORANGE).requiresTool()
+                                .strength(6.25f).nonOpaque().allowsSpawning(Blocks::never)));
 
     public static final Block LIGHTY_RUSTED_STEEL_BARS = registerBlock("lighty_rusted_steel_bars",
             new PaneBlock(AbstractBlock.Settings.create().requiresTool().strength(12.5f, 300.0f)
@@ -872,15 +865,13 @@ public class ModBlocks {
             new WallBlock(FabricBlockSettings.copyOf(ModBlocks.DARKEN_FROSITE_TILES)));
 
     public static final Block LIGHT_FROSITE_PRESSURE_PLATE = registerBlock("light_frosite_pressure_plate",
-            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
-                    FabricBlockSettings.copyOf(ModBlocks.LIGHT_FROSITE_BLOCK), BlockSetType.GOLD));
+            new PressurePlateBlock(BlockSetType.GOLD, FabricBlockSettings.copyOf(ModBlocks.LIGHT_FROSITE_BLOCK)));
     public static final Block LIGHT_FROSITE_BUTTON = registerBlock("light_frosite_button",
-            new ButtonBlock(FabricBlockSettings.copyOf(ModBlocks.LIGHT_FROSITE_BLOCK), BlockSetType.GOLD, 20,false));
+            new ButtonBlock(BlockSetType.GOLD, 20,FabricBlockSettings.copyOf(ModBlocks.LIGHT_FROSITE_BLOCK)));
     public static final Block DARKEN_FROSITE_PRESSURE_PLATE = registerBlock("darken_frosite_pressure_plate",
-            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
-                    FabricBlockSettings.copyOf(ModBlocks.DARKEN_FROSITE_BLOCK), BlockSetType.GOLD));
+            new PressurePlateBlock(BlockSetType.GOLD, FabricBlockSettings.copyOf(ModBlocks.DARKEN_FROSITE_BLOCK)));
     public static final Block DARKEN_FROSITE_BUTTON = registerBlock("darken_frosite_button",
-            new ButtonBlock(FabricBlockSettings.copyOf(ModBlocks.DARKEN_FROSITE_BLOCK), BlockSetType.GOLD, 20,false));
+            new ButtonBlock(BlockSetType.GOLD, 20,FabricBlockSettings.copyOf(ModBlocks.DARKEN_FROSITE_BLOCK)));
 
     public static final Block LIGHT_SANDITE_BRICKS = registerBlock("light_sandite_bricks",
             new Block(FabricBlockSettings.copyOf(ModBlocks.LIGHT_SANDITE_BLOCK)));

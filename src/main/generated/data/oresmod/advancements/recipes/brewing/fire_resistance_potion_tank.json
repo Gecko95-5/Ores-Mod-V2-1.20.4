@@ -43,6 +43,5 @@
     "recipes": [
       "minecraft:fire_resistance_potion_tank"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

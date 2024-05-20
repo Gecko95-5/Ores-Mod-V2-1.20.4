@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:aluminum_ingot_from_smelting_raw_aluminum"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

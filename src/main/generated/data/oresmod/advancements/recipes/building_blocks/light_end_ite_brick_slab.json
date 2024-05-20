@@ -30,6 +30,5 @@
     "recipes": [
       "oresmod:light_end_ite_brick_slab"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

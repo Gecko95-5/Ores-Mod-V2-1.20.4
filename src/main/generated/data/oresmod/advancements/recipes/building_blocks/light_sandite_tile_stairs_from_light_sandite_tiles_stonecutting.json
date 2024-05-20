@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:light_sandite_tile_stairs_from_light_sandite_tiles_stonecutting"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

@@ -1,5 +1,6 @@
 package net.gecko95.oresmod.block.custom;
 
+import com.mojang.serialization.MapCodec;
 import net.minecraft.block.*;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
@@ -10,8 +11,14 @@ import net.minecraft.world.World;
 
 public class IronSpikeBlock extends HorizontalFacingBlock {
     private static final VoxelShape SHAPE = Block.createCuboidShape(0,0,0,16,7,16);
+    public static final MapCodec<IronSpikeBlock> CODEC = IronSpikeBlock.createCodec(IronSpikeBlock::new);
     public IronSpikeBlock(Settings settings) {
         super(settings);
+    }
+
+    @Override
+    protected MapCodec<? extends HorizontalFacingBlock> getCodec() {
+        return CODEC;
     }
 
     @Override

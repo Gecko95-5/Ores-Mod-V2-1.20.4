@@ -43,6 +43,5 @@
     "recipes": [
       "minecraft:platinum_sword"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

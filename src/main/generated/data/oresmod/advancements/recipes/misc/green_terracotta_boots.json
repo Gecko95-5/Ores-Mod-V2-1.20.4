@@ -43,6 +43,5 @@
     "recipes": [
       "minecraft:green_terracotta_boots"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

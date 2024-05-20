@@ -43,6 +43,5 @@
     "recipes": [
       "minecraft:steel_spikes"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

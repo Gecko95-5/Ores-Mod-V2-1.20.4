@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:silver_scales"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:chiseled_polished_bedrock_from_polished_bedrock_stonecutting"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

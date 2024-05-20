@@ -43,6 +43,5 @@
     "recipes": [
       "minecraft:tungsten_pickaxe"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

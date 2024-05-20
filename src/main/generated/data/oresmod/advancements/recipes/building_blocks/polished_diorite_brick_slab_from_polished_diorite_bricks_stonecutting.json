@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:polished_diorite_brick_slab_from_polished_diorite_bricks_stonecutting"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

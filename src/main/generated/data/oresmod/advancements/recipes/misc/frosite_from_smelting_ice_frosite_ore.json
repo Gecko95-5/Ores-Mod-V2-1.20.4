@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:frosite_from_smelting_ice_frosite_ore"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

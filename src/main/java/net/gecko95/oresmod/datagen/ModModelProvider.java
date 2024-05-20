@@ -44,7 +44,8 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LAVA_TANK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SCULK_DIAMOND_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CLAY_LAPIS_ORE);
-        BlockStateModelGenerator.BlockTexturePool watertankPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.WATER_TANK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WATER_TANK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.AWKWARD_WATER_TANK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MILK_TANK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.FIRE_RESISTANCE_POTION_TANK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.HEALING_POTION_TANK);
@@ -237,8 +238,6 @@ public class ModModelProvider extends FabricModelProvider {
         sanditetilePool.stairs(ModBlocks.SANDITE_TILE_STAIRS);
         sanditetilePool.slab(ModBlocks.SANDITE_TILE_SLAB);
         sanditetilePool.wall(ModBlocks.SANDITE_TILE_WALL);
-
-        watertankPool.same(ModBlocks.AWKWARD_WATER_TANK);
 
         stonebarkPool.stairs(ModBlocks.STONEBARK_STAIRS);
         stonebarkPool.slab(ModBlocks.STONEBARK_SLAB);

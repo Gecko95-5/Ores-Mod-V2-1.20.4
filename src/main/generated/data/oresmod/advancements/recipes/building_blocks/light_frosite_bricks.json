@@ -43,6 +43,5 @@
     "recipes": [
       "minecraft:light_frosite_bricks"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

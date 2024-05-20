@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:powered_salt_from_raw_salt"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

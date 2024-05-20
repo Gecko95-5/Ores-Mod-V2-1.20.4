@@ -43,6 +43,5 @@
     "recipes": [
       "minecraft:flint_pickaxe"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

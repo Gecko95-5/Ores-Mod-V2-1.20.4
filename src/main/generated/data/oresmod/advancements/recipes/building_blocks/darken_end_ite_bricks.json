@@ -43,6 +43,5 @@
     "recipes": [
       "minecraft:darken_end_ite_bricks"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

@@ -43,6 +43,5 @@
     "recipes": [
       "minecraft:light_leafite_bricks"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

@@ -43,6 +43,5 @@
     "recipes": [
       "minecraft:frosite_sword"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

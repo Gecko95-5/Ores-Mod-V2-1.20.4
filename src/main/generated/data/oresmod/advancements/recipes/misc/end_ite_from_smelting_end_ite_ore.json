@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:end_ite_from_smelting_end_ite_ore"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

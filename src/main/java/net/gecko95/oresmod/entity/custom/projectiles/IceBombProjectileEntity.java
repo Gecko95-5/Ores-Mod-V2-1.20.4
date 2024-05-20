@@ -47,7 +47,7 @@ public class IceBombProjectileEntity extends ThrownItemEntity {
             BlockPos position = it.next();
             if(this.getWorld().getBlockState(position).isAir() ||
                     this.getWorld().getBlockState(position).isOf(Blocks.TALL_GRASS) ||
-                    this.getWorld().getBlockState(position).isOf(Blocks.GRASS)) {
+                    this.getWorld().getBlockState(position).isOf(Blocks.SHORT_GRASS)) {
                 if(this.random.nextFloat() > 0.6f) {
                     this.getWorld().setBlockState(position, Blocks.PACKED_ICE.getDefaultState());
                 } else if(this.random.nextFloat() > 0.1f) {

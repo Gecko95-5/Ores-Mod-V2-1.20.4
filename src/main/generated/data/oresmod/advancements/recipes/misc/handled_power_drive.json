@@ -43,6 +43,5 @@
     "recipes": [
       "minecraft:handled_power_drive"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

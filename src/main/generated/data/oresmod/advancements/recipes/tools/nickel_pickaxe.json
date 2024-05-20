@@ -43,6 +43,5 @@
     "recipes": [
       "minecraft:nickel_pickaxe"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }
