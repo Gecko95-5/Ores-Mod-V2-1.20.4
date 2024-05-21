@@ -9,9 +9,10 @@
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Gecko95-5/Ores-Mod-1.20.2"
 	},
 	"license": "MIT",
+	"icon": "assets/oresmod/icon/oom_icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
