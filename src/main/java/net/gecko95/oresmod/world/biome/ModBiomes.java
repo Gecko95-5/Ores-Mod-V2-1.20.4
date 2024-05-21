@@ -53,22 +53,22 @@ public class ModBiomes {
         DefaultBiomeFeatures.addEmeraldOre(biomeBuilder);
         DefaultBiomeFeatures.addInfestedStone(biomeBuilder);
 
-        biomeBuilder.feature(GenerationStep.Feature.VEGETAL_DECORATION, VegetationPlacedFeatures.TREES_PLAINS);
+        DefaultBiomeFeatures.addPlainsFeatures(biomeBuilder);
         DefaultBiomeFeatures.addDefaultMushrooms(biomeBuilder);
         DefaultBiomeFeatures.addDefaultVegetation(biomeBuilder);
 
         return new Biome.Builder()
                 .precipitation(true)
-                .downfall(0.4f)
-                .temperature(0.7f)
+                .downfall(0.3f)
+                .temperature(0.2f)
                 .generationSettings(biomeBuilder.build())
                 .spawnSettings(spawnBuilder.build())
                 .effects((new BiomeEffects.Builder())
                         .waterColor(0x13f3c4)
                         .waterFogColor(0x13f3c4)
                         .skyColor(0x13f3c4)
-                        .grassColor(0x61b663)
-                        .foliageColor(0x61b663)
+                        .grassColor(0x7ea27f)
+                        .foliageColor(0x749475)
                         .fogColor(0x22a1e6)
                         .moodSound(BiomeMoodSound.CAVE).build())
                 .build();
@@ -129,7 +129,7 @@ public class ModBiomes {
         return new Biome.Builder()
                 .precipitation(true)
                 .downfall(0.4f)
-                .temperature(0.8f)
+                .temperature(0.95f)
                 .generationSettings(biomeBuilder.build())
                 .spawnSettings(spawnBuilder.build())
                 .effects((new BiomeEffects.Builder())

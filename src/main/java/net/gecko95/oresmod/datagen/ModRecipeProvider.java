@@ -2597,7 +2597,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModBlocks.SWIFTNESS_POTION_TANK), conditionsFromItem(ModBlocks.SWIFTNESS_POTION_TANK))
                 .offerTo(exporter, new Identifier("slowness_potion_tank_from_swiftness_potion_tank"));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.BREWING, ModBlocks.HARMING_POTION_TANK)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BREWING, ModBlocks.SLOWNESS_POTION_TANK)
                 .pattern(" W ")
                 .pattern("WTW")
                 .pattern(" W ")
