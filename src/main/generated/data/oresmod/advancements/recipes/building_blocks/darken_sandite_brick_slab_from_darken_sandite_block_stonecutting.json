@@ -30,5 +30,6 @@
     "recipes": [
       "minecraft:darken_sandite_brick_slab_from_darken_sandite_block_stonecutting"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

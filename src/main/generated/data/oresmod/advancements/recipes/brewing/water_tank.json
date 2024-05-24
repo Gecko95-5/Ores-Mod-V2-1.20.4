@@ -56,5 +56,6 @@
     "recipes": [
       "minecraft:water_tank"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

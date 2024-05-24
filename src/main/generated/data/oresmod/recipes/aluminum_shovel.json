@@ -16,5 +16,6 @@
   ],
   "result": {
     "item": "oresmod:aluminum_shovel"
-  }
+  },
+  "show_notification": true
 }

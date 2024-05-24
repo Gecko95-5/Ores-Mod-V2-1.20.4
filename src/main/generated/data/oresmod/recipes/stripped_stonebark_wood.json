@@ -12,5 +12,6 @@
   ],
   "result": {
     "item": "oresmod:stripped_stonebark_wood"
-  }
+  },
+  "show_notification": true
 }

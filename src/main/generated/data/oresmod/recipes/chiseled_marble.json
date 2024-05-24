@@ -12,5 +12,6 @@
   ],
   "result": {
     "item": "oresmod:chiseled_marble"
-  }
+  },
+  "show_notification": true
 }

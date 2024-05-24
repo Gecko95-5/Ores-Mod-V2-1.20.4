@@ -30,5 +30,6 @@
     "recipes": [
       "oresmod:darken_end_ite_tile_wall"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

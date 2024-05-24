@@ -16,5 +16,6 @@
   ],
   "result": {
     "item": "oresmod:raw_steel"
-  }
+  },
+  "show_notification": true
 }

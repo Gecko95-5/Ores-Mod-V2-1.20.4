@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:sandite_boots"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

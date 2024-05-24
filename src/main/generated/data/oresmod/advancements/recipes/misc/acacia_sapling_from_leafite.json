@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:acacia_sapling_from_leafite"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

@@ -12,5 +12,6 @@
   ],
   "result": {
     "item": "oresmod:stonebark_wood"
-  }
+  },
+  "show_notification": true
 }

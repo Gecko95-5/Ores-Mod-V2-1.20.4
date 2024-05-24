@@ -56,5 +56,6 @@
     "recipes": [
       "minecraft:nickel_drill"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

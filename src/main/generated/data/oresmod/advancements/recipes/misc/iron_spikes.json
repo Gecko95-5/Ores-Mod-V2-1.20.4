@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:iron_spikes"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

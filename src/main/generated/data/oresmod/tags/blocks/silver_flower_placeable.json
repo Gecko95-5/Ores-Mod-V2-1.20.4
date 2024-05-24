@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#oresmod:stonebark_placeable",
+    "#oresmod:deepbark_placeable",
+    "#minecraft:dirt",
+    "minecraft:farmland"
+  ]
+}

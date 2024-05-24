@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:steel_compound_coppinum"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

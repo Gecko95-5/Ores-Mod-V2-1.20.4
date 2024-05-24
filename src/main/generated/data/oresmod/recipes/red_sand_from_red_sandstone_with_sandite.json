@@ -17,5 +17,6 @@
   "result": {
     "count": 32,
     "item": "minecraft:red_sand"
-  }
+  },
+  "show_notification": true
 }

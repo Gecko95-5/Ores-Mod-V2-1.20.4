@@ -30,5 +30,6 @@
     "recipes": [
       "minecraft:cobalt_nugget_from_cobalt_ingot"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

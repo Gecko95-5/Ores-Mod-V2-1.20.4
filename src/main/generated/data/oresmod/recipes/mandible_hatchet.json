@@ -16,5 +16,6 @@
   ],
   "result": {
     "item": "oresmod:mandible_hatchet"
-  }
+  },
+  "show_notification": true
 }

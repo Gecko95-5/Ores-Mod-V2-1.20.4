@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:silver_carver"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

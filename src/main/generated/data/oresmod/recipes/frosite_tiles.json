@@ -13,5 +13,6 @@
   "result": {
     "count": 4,
     "item": "oresmod:frosite_tiles"
-  }
+  },
+  "show_notification": true
 }

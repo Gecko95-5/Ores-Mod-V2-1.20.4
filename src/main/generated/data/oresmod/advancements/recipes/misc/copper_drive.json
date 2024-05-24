@@ -56,5 +56,6 @@
     "recipes": [
       "minecraft:copper_drive"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

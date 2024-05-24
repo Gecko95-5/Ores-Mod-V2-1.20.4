@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:bedrock_pickaxe"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

@@ -16,5 +16,6 @@
   ],
   "result": {
     "item": "oresmod:black_terracotta_helmet"
-  }
+  },
+  "show_notification": true
 }

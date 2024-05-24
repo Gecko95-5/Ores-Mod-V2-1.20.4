@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:raw_steel_from_steel_compound"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

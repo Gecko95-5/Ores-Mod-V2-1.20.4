@@ -56,5 +56,6 @@
     "recipes": [
       "minecraft:steel_drill"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

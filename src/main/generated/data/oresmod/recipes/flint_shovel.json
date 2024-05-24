@@ -15,5 +15,6 @@
   ],
   "result": {
     "item": "oresmod:flint_shovel"
-  }
+  },
+  "show_notification": true
 }

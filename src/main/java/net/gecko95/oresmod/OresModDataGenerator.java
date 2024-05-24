@@ -24,6 +24,7 @@ public class OresModDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModRecipeProvider::new);
 		pack.addProvider(ModWorldGenerator::new);
 		pack.addProvider(ModEntityTypeTagProvider::new);
+		pack.addProvider(ModBiomeTagProvider::new);
 	}
 
 	@Override

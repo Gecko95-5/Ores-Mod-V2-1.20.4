@@ -9,8 +9,8 @@ import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
 
 public class TrophyBlock extends HorizontalFacingBlock {
-    private static final VoxelShape SHAPE = Block.createCuboidShape(0, 0, 0, 16, 16, 16);
     public static final MapCodec<TrophyBlock> CODEC = TrophyBlock.createCodec(TrophyBlock::new);
+    private static final VoxelShape SHAPE = Block.createCuboidShape(0, 0, 0, 16, 16, 16);
     public TrophyBlock(Settings settings) {
         super(settings);
     }

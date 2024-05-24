@@ -19,5 +19,6 @@
   ],
   "result": {
     "item": "oresmod:bomb"
-  }
+  },
+  "show_notification": true
 }

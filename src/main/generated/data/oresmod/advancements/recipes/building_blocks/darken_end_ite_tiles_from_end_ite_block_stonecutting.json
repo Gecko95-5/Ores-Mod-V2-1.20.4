@@ -30,5 +30,6 @@
     "recipes": [
       "minecraft:darken_end_ite_tiles_from_end_ite_block_stonecutting"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

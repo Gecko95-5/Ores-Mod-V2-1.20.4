@@ -19,5 +19,6 @@
   ],
   "result": {
     "item": "oresmod:titanium_alloy_drill"
-  }
+  },
+  "show_notification": true
 }

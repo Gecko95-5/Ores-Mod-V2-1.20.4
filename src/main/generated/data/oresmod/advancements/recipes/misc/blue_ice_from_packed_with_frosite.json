@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:blue_ice_from_packed_with_frosite"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

@@ -1,0 +1,25 @@
+// 1.20.2	2024-05-24T17:38:45.7056057	Overwhelming Ores Mod/Tags for minecraft:worldgen/biome
+3fe1c0cec6fc31c893268b3bf2d1338b37388a0e data\minecraft\tags\worldgen\biome\stronghold_biased_to.json
+9564cfb3eb75f53b7a2d68c0ee3368344f7a17e8 data\minecraft\tags\worldgen\biome\is_beach.json
+2b4e9f1796c44398ebd1e25435ef83a65697cac9 data\minecraft\tags\worldgen\biome\is_mountain.json
+72d61b0a82b18d36313c04605f07d8b5adb0b282 data\minecraft\tags\worldgen\biome\has_structure\igloo.json
+9a4d55f86858b681746daacca86f2ab7a2868faa data\minecraft\tags\worldgen\biome\has_structure\nether_fossil.json
+bdb1d6dba4109bb21201c0ae72faa423d0cbd839 data\minecraft\tags\worldgen\biome\without_wandering_trader_spawns.json
+a619212ad40350d103c86ae75386d4c9f9399f0d data\oresmod\tags\worldgen\biome\has_icy_frosite.json
+48093d453145b5b1d29e6c5a66817796a8cc2f74 data\oresmod\tags\worldgen\biome\is_end_islands.json
+fe9c51bae52e9041d35dc264f68110329a79123e data\oresmod\tags\worldgen\biome\stonebark_safe.json
+615d3e444d6c3bb4142ff39931589722882e09b9 data\oresmod\tags\worldgen\biome\frosite_cold.json
+2722ee0a519641904ae913aab308547c0a3142ab data\minecraft\tags\worldgen\biome\is_hill.json
+de782e65e2893d03f18134307818a87f224b3bc2 data\minecraft\tags\worldgen\biome\spawns_white_rabbits.json
+2b4e9f1796c44398ebd1e25435ef83a65697cac9 data\oresmod\tags\worldgen\biome\is_quarry_mountain.json
+72d61b0a82b18d36313c04605f07d8b5adb0b282 data\minecraft\tags\worldgen\biome\spawns_cold_variant_frogs.json
+9a4d55f86858b681746daacca86f2ab7a2868faa data\minecraft\tags\worldgen\biome\snow_golem_melts.json
+3fe1c0cec6fc31c893268b3bf2d1338b37388a0e data\minecraft\tags\worldgen\biome\has_structure\mineshaft.json
+72d61b0a82b18d36313c04605f07d8b5adb0b282 data\minecraft\tags\worldgen\biome\increased_fire_burnout.json
+9a4d55f86858b681746daacca86f2ab7a2868faa data\minecraft\tags\worldgen\biome\has_structure\ruined_portal_desert.json
+9a4d55f86858b681746daacca86f2ab7a2868faa data\minecraft\tags\worldgen\biome\spawns_warm_variant_frogs.json
+3fe1c0cec6fc31c893268b3bf2d1338b37388a0e data\minecraft\tags\worldgen\biome\is_overworld.json
+72d61b0a82b18d36313c04605f07d8b5adb0b282 data\minecraft\tags\worldgen\biome\spawns_snow_foxes.json
+c0205756f611d28417064ff17aec4ef9d4825495 data\oresmod\tags\worldgen\biome\has_frosite.json
+8b494ea04651b8b0f6a58ca5ecc5718ae447c81b data\oresmod\tags\worldgen\biome\is_quarry_flat.json
+d704ccfb8987f18db0107b857fd3b5332ac86ce8 data\oresmod\tags\worldgen\biome\is_quarry.json

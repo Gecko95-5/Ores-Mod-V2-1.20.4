@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:slowness_potion_tank_from_swiftness_potion_tank"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

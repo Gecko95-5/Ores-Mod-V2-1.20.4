@@ -19,5 +19,6 @@
   ],
   "result": {
     "item": "oresmod:platinum_shovel"
-  }
+  },
+  "show_notification": true
 }

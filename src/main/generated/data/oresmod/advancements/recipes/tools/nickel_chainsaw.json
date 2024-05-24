@@ -56,5 +56,6 @@
     "recipes": [
       "minecraft:nickel_chainsaw"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

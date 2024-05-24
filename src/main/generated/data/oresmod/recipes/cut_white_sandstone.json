@@ -13,5 +13,6 @@
   "result": {
     "count": 4,
     "item": "oresmod:cut_white_sandstone"
-  }
+  },
+  "show_notification": true
 }

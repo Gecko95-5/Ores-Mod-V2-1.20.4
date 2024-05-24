@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:terracotta_from_light_blue_terracotta"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

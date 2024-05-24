@@ -11,5 +11,6 @@
   ],
   "result": {
     "item": "oresmod:aluminum_pressure_plate"
-  }
+  },
+  "show_notification": true
 }

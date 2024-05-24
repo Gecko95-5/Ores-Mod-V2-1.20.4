@@ -56,5 +56,6 @@
     "recipes": [
       "minecraft:aluminum_drill"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

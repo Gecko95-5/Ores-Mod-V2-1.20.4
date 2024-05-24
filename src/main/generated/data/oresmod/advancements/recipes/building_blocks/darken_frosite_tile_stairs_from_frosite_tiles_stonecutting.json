@@ -30,5 +30,6 @@
     "recipes": [
       "minecraft:darken_frosite_tile_stairs_from_frosite_tiles_stonecutting"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

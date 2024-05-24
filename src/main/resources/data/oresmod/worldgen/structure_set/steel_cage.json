@@ -1,35 +1,31 @@
 {
   "structures": [
     {
-      "structure": "oresmod:steel_cage_puffer",
-      "weight": 1
-    },
-    {
-      "structure": "oresmod:steel_cage_drowned",
-      "weight": 3
+      "structure": "oresmod:steel_cage_underwater",
+      "weight": 4
     },
     {
       "structure": "oresmod:steel_cage_quarry",
-      "weight": 5
+      "weight": 2
     },
     {
-      "structure": "oresmod:steel_cage_spider",
-      "weight": 3
+      "structure": "oresmod:steel_cage_spiders",
+      "weight": 1
     },
     {
       "structure": "oresmod:steel_cage_zombie",
-      "weight": 5
-    },
-    {
-      "structure": "oresmod:steel_cage_cave_spiders",
-      "weight": 2
+      "weight": 4
     },
     {
       "structure": "oresmod:steel_cage_jungle_spider",
-      "weight": 2
+      "weight": 1
     },
     {
       "structure": "oresmod:steel_cage_husk",
+      "weight": 3
+    },
+    {
+      "structure": "oresmod:steel_cage_frostbiten",
       "weight": 3
     }
   ],

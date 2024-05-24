@@ -13,5 +13,6 @@
   ],
   "result": {
     "item": "oresmod:tungsten_block"
-  }
+  },
+  "show_notification": true
 }

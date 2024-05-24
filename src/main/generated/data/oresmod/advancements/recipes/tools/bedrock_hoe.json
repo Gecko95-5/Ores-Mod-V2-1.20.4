@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:bedrock_hoe"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

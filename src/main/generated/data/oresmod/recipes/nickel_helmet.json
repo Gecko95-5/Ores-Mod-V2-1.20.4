@@ -12,5 +12,6 @@
   ],
   "result": {
     "item": "oresmod:nickel_helmet"
-  }
+  },
+  "show_notification": true
 }

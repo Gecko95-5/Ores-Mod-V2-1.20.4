@@ -2,6 +2,7 @@ package net.gecko95.oresmod.entity.custom.golem;
 
 import net.gecko95.oresmod.effect.ModEffects;
 import net.gecko95.oresmod.entity.behavior.golems.FrositeGolemAttackGoal;
+import net.gecko95.oresmod.util.ModTags;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.*;
 import net.minecraft.entity.ai.goal.*;
@@ -145,7 +146,7 @@ public class FrositeGolemEntity extends HostileEntity {
             if (this.getWorld().getBiome(this.getBlockPos()).isIn(BiomeTags.SNOW_GOLEM_MELTS)) {
                 this.damage(this.getDamageSources().onFire(), 1.0f);
             }
-            if (this.getWorld().getBiome(this.getBlockPos()).isIn(BiomeTags.SPAWNS_COLD_VARIANT_FROGS)) {
+            if (this.getWorld().getBiome(this.getBlockPos()).isIn(ModTags.Biomes.FROSITE_COLD)) {
                 this.heal(1.0f);
             }
         }

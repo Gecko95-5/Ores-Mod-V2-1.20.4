@@ -19,7 +19,8 @@ import java.util.List;
 
 
 public class ModRecipeProvider extends FabricRecipeProvider {
-    private static final List<ItemConvertible> FROSITE_SMELTABLES = List.of(ModBlocks.FROSITE_ORE, ModBlocks.ICE_FROSITE_ORE);
+    private static final List<ItemConvertible> FROSITE_SMELTABLES = List.of(ModBlocks.FROSITE_ORE, ModBlocks.ICE_FROSITE_ORE,
+            ModBlocks.COBBLESTONE_FROSITE_ORE);
 
     private static final List<ItemConvertible> ALUMINUM_SMELTABLES = List.of(ModItems.RAW_ALUMINUM,ModBlocks.ALUMINUM_ORE,
             ModBlocks.DEEPSLATE_ALUMINUM_ORE,ModBlocks.COBBLESTONE_ALUMINUM_ORE);
@@ -5616,5 +5617,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModBlocks.END_ITE_BLOCK), conditionsFromItem(ModBlocks.END_ITE_BLOCK))
                 .criterion(hasItem(ModItems.HANDLED_POWER_DRIVE), conditionsFromItem(ModItems.HANDLED_POWER_DRIVE))
                 .offerTo(exporter, new Identifier("end_ite_chainsaw"));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, Items.LIGHT_GRAY_DYE)
+                .input(ModBlocks.SILVER_ROSE)
+                .criterion(hasItem(ModBlocks.SILVER_ROSE), conditionsFromItem(ModBlocks.SILVER_ROSE))
+                .offerTo(exporter, new Identifier("light_gray_dye_from_silver_rose"));
     }
 }

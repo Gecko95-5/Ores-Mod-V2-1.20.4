@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:darken_frosite_button"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

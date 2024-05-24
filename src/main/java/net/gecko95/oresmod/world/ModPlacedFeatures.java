@@ -8,15 +8,11 @@ import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.util.Identifier;
 import net.minecraft.world.gen.YOffset;
-import net.minecraft.world.gen.feature.ConfiguredFeature;
-import net.minecraft.world.gen.feature.PlacedFeature;
-import net.minecraft.world.gen.feature.PlacedFeatures;
-import net.minecraft.world.gen.feature.VegetationPlacedFeatures;
-import net.minecraft.world.gen.placementmodifier.HeightRangePlacementModifier;
-import net.minecraft.world.gen.placementmodifier.PlacementModifier;
+import net.minecraft.world.gen.feature.*;
+import net.minecraft.world.gen.placementmodifier.*;
 
 import java.util.List;
-
+//The flowers code come form the Many Flowers Mod Source Code
 public class ModPlacedFeatures {
     public static final RegistryKey<PlacedFeature> SALT_ORE_PLACED_KEY = registerKey("salt_ore_placed");
     public static final RegistryKey<PlacedFeature> FROSITE_ORE_PLACED_KEY = registerKey("frosite_ore_placed");
@@ -50,6 +46,7 @@ public class ModPlacedFeatures {
     public static final RegistryKey<PlacedFeature> COBBLESTONE_NICKEL_ORE_PLACED_KEY = registerKey("cobblestone_nickel_ore_placed");
     public static final RegistryKey<PlacedFeature> COBBLESTONE_TITANIUM_ORE_PLACED_KEY = registerKey("cobblestone_titanium_ore_placed");
     public static final RegistryKey<PlacedFeature> COBBLESTONE_QUARTZ_ORE_PLACED_KEY = registerKey("cobblestone_quartz_ore_placed");
+    public static final RegistryKey<PlacedFeature> COBBLESTONE_FROSITE_ORE_PLACED_KEY = registerKey("cobblestone_frosite_ore_placed");
     public static final RegistryKey<PlacedFeature> INFESTED_COBBLESTONE_PLACED_KEY = registerKey("infested_cobblestone_placed");
     public static final RegistryKey<PlacedFeature> QUARRY_MARBLE_ORE_PLACED_KEY = registerKey("quarry_marble_ore_placed");
     public static final RegistryKey<PlacedFeature> QUARRY_GRANITE_ORE_PLACED_KEY = registerKey("quarry_granite_ore_placed");
@@ -68,6 +65,9 @@ public class ModPlacedFeatures {
     public static final RegistryKey<PlacedFeature> BIG_LEAFITE_TREE_PLACED_KEY = registerKey("big_leafite_tree_placed");
     public static final RegistryKey<PlacedFeature> BIG_LEAFITE_ORE_TREE_PLACED_KEY = registerKey("big_leafite_ore_tree_placed");
 
+    public static final RegistryKey<PlacedFeature> ICY_CROCUS_FLOWER_PLACED_KEY = registerKey("icy_crocus_flower_placed");
+    public static final RegistryKey<PlacedFeature> SILVER_ROSE_FLOWER_PLACED_KEY = registerKey("silver_rose_flower_placed");
+
     public static void boostrap(Registerable<PlacedFeature> context){
         var configuredFeatureRegistryEntryLookup = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
 
@@ -77,11 +77,11 @@ public class ModPlacedFeatures {
 
         register(context, FROSITE_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.FROSITE_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(4,
-                        HeightRangePlacementModifier.trapezoid(YOffset.fixed(81), YOffset.fixed(223))));
+                        HeightRangePlacementModifier.trapezoid(YOffset.fixed(29), YOffset.fixed(223))));
 
         register(context, FROSITE_ORE_ICY_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.FROSITE_ORE_ICY_KEY),
                 ModOrePlacement.modifiersWithCount(8,
-                        HeightRangePlacementModifier.uniform(YOffset.fixed(29), YOffset.fixed(108))));
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(29), YOffset.fixed(223))));
 
         register(context, ALUMINUM_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.ALUMINUM_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(10,
@@ -153,83 +153,87 @@ public class ModPlacedFeatures {
 
         register(context, COBBLESTONE_COAL_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.COBBLESTONE_COAL_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(30,
-                        HeightRangePlacementModifier.uniform(YOffset.fixed(62), YOffset.fixed(174))));
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(62), YOffset.fixed(223))));
 
         register(context, COBBLESTONE_IRON_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.COBBLESTONE_IRON_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(10,
-                        HeightRangePlacementModifier.uniform(YOffset.fixed(62), YOffset.fixed(174))));
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(62), YOffset.fixed(223))));
 
         register(context, COBBLESTONE_COPPER_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.COBBLESTONE_COPPER_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(16,
-                        HeightRangePlacementModifier.uniform(YOffset.fixed(62), YOffset.fixed(174))));
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(62), YOffset.fixed(223))));
 
         register(context, COBBLESTONE_GOLD_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.COBBLESTONE_GOLD_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(4,
-                        HeightRangePlacementModifier.uniform(YOffset.fixed(62), YOffset.fixed(174))));
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(62), YOffset.fixed(223))));
 
         register(context, COBBLESTONE_REDSTONE_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.COBBLESTONE_REDSTONE_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(4,
-                        HeightRangePlacementModifier.uniform(YOffset.fixed(62), YOffset.fixed(174))));
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(62), YOffset.fixed(223))));
 
         register(context, COBBLESTONE_LAPIS_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.COBBLESTONE_LAPIS_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(4,
-                        HeightRangePlacementModifier.uniform(YOffset.fixed(62), YOffset.fixed(174))));
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(62), YOffset.fixed(223))));
 
         register(context, COBBLESTONE_DIAMOND_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.COBBLESTONE_DIAMOND_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(2,
-                        HeightRangePlacementModifier.uniform(YOffset.fixed(62), YOffset.fixed(174))));
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(62), YOffset.fixed(223))));
 
         register(context, COBBLESTONE_EMERALD_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.COBBLESTONE_EMERALD_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(2,
-                        HeightRangePlacementModifier.uniform(YOffset.fixed(62), YOffset.fixed(174))));
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(62), YOffset.fixed(223))));
 
         register(context, COBBLESTONE_ALUMINUM_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.COBBLESTONE_ALUMINUM_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(10,
-                        HeightRangePlacementModifier.uniform(YOffset.fixed(62), YOffset.fixed(174))));
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(62), YOffset.fixed(223))));
 
         register(context, COBBLESTONE_NICKEL_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.COBBLESTONE_NICKEL_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(10,
-                        HeightRangePlacementModifier.uniform(YOffset.fixed(62), YOffset.fixed(174))));
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(62), YOffset.fixed(223))));
 
         register(context, COBBLESTONE_TITANIUM_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.COBBLESTONE_TITANIUM_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(5,
-                        HeightRangePlacementModifier.uniform(YOffset.fixed(62), YOffset.fixed(174))));
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(62), YOffset.fixed(223))));
 
         register(context, COBBLESTONE_QUARTZ_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.COBBLESTONE_QUARTZ_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(16,
-                        HeightRangePlacementModifier.uniform(YOffset.fixed(62), YOffset.fixed(174))));
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(62), YOffset.fixed(223))));
+
+        register(context, COBBLESTONE_FROSITE_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.COBBLESTONE_FROSITE_ORE_KEY),
+                ModOrePlacement.modifiersWithCount(16,
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(62), YOffset.fixed(223))));
 
         register(context, INFESTED_COBBLESTONE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.INFESTED_COBBLESTONE_KEY),
                 ModOrePlacement.modifiersWithCount(12,
-                        HeightRangePlacementModifier.uniform(YOffset.fixed(0), YOffset.fixed(174))));
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(0), YOffset.fixed(223))));
 
         register(context, QUARRY_MARBLE_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.QUARRY_MARBLE_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(4,
-                        HeightRangePlacementModifier.uniform(YOffset.fixed(62), YOffset.fixed(174))));
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(62), YOffset.fixed(223))));
 
         register(context, QUARRY_GRANITE_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.QUARRY_GRANITE_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(2,
-                        HeightRangePlacementModifier.uniform(YOffset.fixed(62), YOffset.fixed(174))));
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(62), YOffset.fixed(223))));
 
         register(context, QUARRY_DIORITE_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.QUARRY_DIORITE_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(2,
-                        HeightRangePlacementModifier.uniform(YOffset.fixed(62), YOffset.fixed(174))));
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(62), YOffset.fixed(223))));
 
         register(context, QUARRY_ANDESITE_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.QUARRY_ANDESITE_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(2,
-                        HeightRangePlacementModifier.uniform(YOffset.fixed(62), YOffset.fixed(174))));
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(62), YOffset.fixed(223))));
 
         register(context, QUARRY_DIRT_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.QUARRY_DIRT_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(3,
-                        HeightRangePlacementModifier.uniform(YOffset.fixed(62), YOffset.fixed(174))));
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(62), YOffset.fixed(223))));
 
         register(context, QUARRY_GRAVEL_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.QUARRY_GRAVEL_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(3,
-                        HeightRangePlacementModifier.uniform(YOffset.fixed(62), YOffset.fixed(174))));
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(62), YOffset.fixed(223))));
 
         register(context, QUARRY_BLACKSTONE_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.QUARRY_BLACKSTONE_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(1,
-                        HeightRangePlacementModifier.uniform(YOffset.fixed(62), YOffset.fixed(174))));
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(62), YOffset.fixed(223))));
 
         register(context, PLATINUM_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.PLATINUM_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(8,
@@ -259,6 +263,12 @@ public class ModPlacedFeatures {
         register(context, BIG_LEAFITE_TREE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.BIG_LEAFITE_TREE_KEY),
                 VegetationPlacedFeatures.treeModifiersWithWouldSurvive(PlacedFeatures.createCountExtraModifier(1,0.1f,1),
                         ModBlocks.LEAFITE_SAPLING));
+
+        register(context, ICY_CROCUS_FLOWER_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.ICY_CROCUS_FLOWER_KEY),
+                VegetationPlacedFeatures.treeModifiersWithWouldSurvive(RarityFilterPlacementModifier.of(32), ModBlocks.ICY_CROCUS));
+
+        register(context, SILVER_ROSE_FLOWER_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.SILVER_ROSE_FLOWER_KEY),
+                VegetationPlacedFeatures.treeModifiersWithWouldSurvive(RarityFilterPlacementModifier.of(32), ModBlocks.SILVER_ROSE));
     }
 
 

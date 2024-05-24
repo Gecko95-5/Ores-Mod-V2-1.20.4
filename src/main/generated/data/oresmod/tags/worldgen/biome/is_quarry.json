@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#oresmod:is_quarry_flat",
+    "#oresmod:is_quarry_mountain"
+  ]
+}

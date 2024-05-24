@@ -2,7 +2,6 @@ package net.gecko95.oresmod.world.tree;
 
 import net.gecko95.oresmod.world.ModConfiguredFeatures;
 import net.minecraft.block.SaplingGenerator;
-
 import java.util.Optional;
 
 public class ModSaplingGenerators {

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:grove",
+    "minecraft:jagged_peaks",
+    "minecraft:frozen_peaks",
+    "minecraft:snowy_slopes",
+    "oresmod:snowy_quarry",
+    "oresmod:frozen_quarry_peaks"
+  ]
+}

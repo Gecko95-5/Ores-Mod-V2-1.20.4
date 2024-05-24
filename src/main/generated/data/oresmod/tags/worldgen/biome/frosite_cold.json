@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#oresmod:has_frosite",
+    "#oresmod:has_icy_frosite"
+  ]
+}

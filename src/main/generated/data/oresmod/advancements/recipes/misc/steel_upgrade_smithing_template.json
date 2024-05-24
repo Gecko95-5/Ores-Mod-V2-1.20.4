@@ -30,5 +30,6 @@
     "recipes": [
       "oresmod:steel_upgrade_smithing_template"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

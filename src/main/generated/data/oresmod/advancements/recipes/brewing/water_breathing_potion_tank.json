@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:water_breathing_potion_tank"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

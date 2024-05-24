@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:steel_compound_aluckel"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

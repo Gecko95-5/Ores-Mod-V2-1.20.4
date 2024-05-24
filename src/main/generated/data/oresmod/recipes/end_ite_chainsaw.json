@@ -18,5 +18,6 @@
   ],
   "result": {
     "item": "oresmod:end_ite_chainsaw"
-  }
+  },
+  "show_notification": true
 }

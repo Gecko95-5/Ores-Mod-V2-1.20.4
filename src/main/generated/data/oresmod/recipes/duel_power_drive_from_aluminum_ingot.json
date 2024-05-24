@@ -19,5 +19,6 @@
   ],
   "result": {
     "item": "oresmod:duel_power_drive"
-  }
+  },
+  "show_notification": true
 }

@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:black_terracotta_leggings"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:void_stone"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

@@ -30,5 +30,6 @@
     "recipes": [
       "minecraft:diamond_from_blasting_sculk_diamond_ore"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

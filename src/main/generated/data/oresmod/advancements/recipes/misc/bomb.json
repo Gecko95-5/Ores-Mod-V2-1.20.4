@@ -56,5 +56,6 @@
     "recipes": [
       "minecraft:bomb"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

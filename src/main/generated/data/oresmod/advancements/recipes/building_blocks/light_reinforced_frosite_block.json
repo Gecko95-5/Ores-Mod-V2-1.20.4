@@ -56,5 +56,6 @@
     "recipes": [
       "minecraft:light_reinforced_frosite_block"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

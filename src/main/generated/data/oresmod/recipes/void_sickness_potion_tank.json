@@ -16,5 +16,6 @@
   ],
   "result": {
     "item": "oresmod:void_sickness_potion_tank"
-  }
+  },
+  "show_notification": true
 }

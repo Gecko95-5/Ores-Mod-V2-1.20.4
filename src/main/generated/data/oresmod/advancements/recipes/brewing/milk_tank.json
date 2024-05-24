@@ -56,5 +56,6 @@
     "recipes": [
       "minecraft:milk_tank"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

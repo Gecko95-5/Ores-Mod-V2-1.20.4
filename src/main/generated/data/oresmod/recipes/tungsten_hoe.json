@@ -16,5 +16,6 @@
   ],
   "result": {
     "item": "oresmod:tungsten_hoe"
-  }
+  },
+  "show_notification": true
 }

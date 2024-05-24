@@ -56,5 +56,6 @@
     "recipes": [
       "minecraft:end_ite_drill"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

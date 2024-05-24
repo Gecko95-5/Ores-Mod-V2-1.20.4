@@ -15,5 +15,6 @@
   ],
   "result": {
     "item": "oresmod:flint_sword"
-  }
+  },
+  "show_notification": true
 }

@@ -30,5 +30,6 @@
     "recipes": [
       "minecraft:leafite_tiles_from_leafite_block_stonecutting"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:rusted_steel_door_from_steel_door"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

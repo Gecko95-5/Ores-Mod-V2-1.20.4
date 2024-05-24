@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#oresmod:is_quarry",
+    "oresmod:white_dunes",
+    "oresmod:black_sand_beach"
+  ]
+}

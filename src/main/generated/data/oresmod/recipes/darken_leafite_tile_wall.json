@@ -13,5 +13,6 @@
   "result": {
     "count": 6,
     "item": "oresmod:darken_leafite_tile_wall"
-  }
+  },
+  "show_notification": true
 }

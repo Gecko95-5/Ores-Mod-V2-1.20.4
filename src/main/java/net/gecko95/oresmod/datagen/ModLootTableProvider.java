@@ -243,6 +243,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.DARKEN_END_ITE_TILE_STAIRS);
         addDrop(ModBlocks.DARKEN_END_ITE_TILE_WALL);
         addDrop(ModBlocks.ICY_CROCUS);
+        addDrop(ModBlocks.SILVER_ROSE);
         addDrop(ModBlocks.ICE_BRICKS);
         addDrop(ModBlocks.ICE_PILLAR);
         addDrop(ModBlocks.ICE_BRICK_STAIRS);
@@ -326,6 +327,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.COBBLESTONE_ALUMINUM_ORE,oreDrops(ModBlocks.COBBLESTONE_ALUMINUM_ORE, ModItems.RAW_ALUMINUM));
         addDrop(ModBlocks.COBBLESTONE_NICKEL_ORE,oreDrops(ModBlocks.COBBLESTONE_NICKEL_ORE, ModItems.RAW_NICKEL));
         addDrop(ModBlocks.COBBLESTONE_TITANIUM_ORE,oreDrops(ModBlocks.COBBLESTONE_TITANIUM_ORE, ModItems.RAW_TITANIUM));
+        addDrop(ModBlocks.COBBLESTONE_FROSITE_ORE,oreDrops(ModBlocks.COBBLESTONE_FROSITE_ORE, ModItems.FROSITE));
 
         addDrop(ModBlocks.SCULK_DIAMOND_ORE,oreDrops(ModBlocks.SCULK_DIAMOND_ORE, Items.DIAMOND));
         addDrop(ModBlocks.CLAY_LAPIS_ORE,lapisOreDrops(ModBlocks.CLAY_LAPIS_ORE));
@@ -421,6 +423,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addPottedPlantDrops(ModBlocks.POTTED_DEEPBARK_SAPLING);
         addPottedPlantDrops(ModBlocks.POTTED_LEAFITE_SAPLING);
         addPottedPlantDrops(ModBlocks.POTTED_ICY_CROCUS);
+        addPottedPlantDrops(ModBlocks.POTTED_SILVER_ROSE);
     }
     public LootTable.Builder copperLikeOreDrops(Block drop, Item item) {
         return BlockLootTableGenerator.dropsWithSilkTouch(drop, (LootPoolEntry.Builder)this.applyExplosionDecay(drop,

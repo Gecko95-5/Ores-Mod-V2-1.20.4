@@ -30,5 +30,6 @@
     "recipes": [
       "minecraft:polished_bedrock_bricks_stairs_from_fake_bedrock_stonecutting"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

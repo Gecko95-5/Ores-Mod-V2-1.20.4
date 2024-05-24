@@ -16,5 +16,6 @@
   "result": {
     "count": 4,
     "item": "oresmod:void_stone"
-  }
+  },
+  "show_notification": true
 }

@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:mangrove_propagule_from_leafite"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

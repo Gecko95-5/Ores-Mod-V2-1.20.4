@@ -5,7 +5,7 @@
   "max_distance_from_center": 100,
   "biomes": "#oresmod:has_structure/void_stone_deposit",
   "step": "surface_structures",
-  "terrain_adaptation": "beard_box",
+  "terrain_adaptation": "none",
   "start_height": {
     "absolute": -3
   },

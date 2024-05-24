@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:light_leafite_block"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

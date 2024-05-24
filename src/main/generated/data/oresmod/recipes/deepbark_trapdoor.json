@@ -12,5 +12,6 @@
   ],
   "result": {
     "item": "oresmod:deepbark_trapdoor"
-  }
+  },
+  "show_notification": true
 }

@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:leafite_axe"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

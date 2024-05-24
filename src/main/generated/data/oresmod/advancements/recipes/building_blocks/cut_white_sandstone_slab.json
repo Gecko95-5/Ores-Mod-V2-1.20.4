@@ -30,5 +30,6 @@
     "recipes": [
       "oresmod:cut_white_sandstone_slab"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:glass_from_light_blue_stained_glass"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

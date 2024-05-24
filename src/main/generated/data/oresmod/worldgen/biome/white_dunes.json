@@ -11,11 +11,11 @@
     "fog_color": 2269670,
     "foliage_color": 11445290,
     "grass_color": 12564309,
-    "mood_sound": {
-      "block_search_extent": 8,
-      "offset": 2.0,
-      "sound": "minecraft:ambient.cave",
-      "tick_delay": 6000
+    "music": {
+      "max_delay": 24000,
+      "min_delay": 12000,
+      "replace_current_music": false,
+      "sound": "minecraft:music.overworld.desert"
     },
     "sky_color": 7254527,
     "water_color": 4159204,

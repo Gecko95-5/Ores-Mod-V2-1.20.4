@@ -30,5 +30,6 @@
     "recipes": [
       "oresmod:leafite_planks_slab"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

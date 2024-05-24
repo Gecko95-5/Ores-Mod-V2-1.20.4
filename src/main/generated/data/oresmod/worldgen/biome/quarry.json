@@ -105,13 +105,13 @@
         "type": "minecraft:silverfish",
         "maxCount": 5,
         "minCount": 2,
-        "weight": 95
+        "weight": 45
       },
       {
         "type": "oresmod:silverpede",
         "maxCount": 3,
         "minCount": 1,
-        "weight": 75
+        "weight": 35
       },
       {
         "type": "minecraft:spider",

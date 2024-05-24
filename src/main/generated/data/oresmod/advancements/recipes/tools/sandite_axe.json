@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:sandite_axe"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

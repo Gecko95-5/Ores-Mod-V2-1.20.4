@@ -30,5 +30,6 @@
     "recipes": [
       "minecraft:powered_salt_from_salt_ore"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

@@ -56,5 +56,6 @@
     "recipes": [
       "minecraft:netherite_drill"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

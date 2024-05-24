@@ -13,5 +13,6 @@
   ],
   "result": {
     "item": "oresmod:titanium_block"
-  }
+  },
+  "show_notification": true
 }

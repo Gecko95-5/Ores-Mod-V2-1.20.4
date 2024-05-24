@@ -56,5 +56,6 @@
     "recipes": [
       "minecraft:copper_drill"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

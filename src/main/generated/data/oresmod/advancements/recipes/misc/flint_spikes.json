@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:flint_spikes"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

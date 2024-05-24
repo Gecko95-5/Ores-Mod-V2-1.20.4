@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:platinum_ingot_from_platinum_scrap"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

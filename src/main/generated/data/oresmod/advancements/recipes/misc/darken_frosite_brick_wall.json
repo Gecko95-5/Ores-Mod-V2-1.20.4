@@ -30,5 +30,6 @@
     "recipes": [
       "oresmod:darken_frosite_brick_wall"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

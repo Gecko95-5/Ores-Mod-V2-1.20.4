@@ -11,5 +11,6 @@
   ],
   "result": {
     "item": "oresmod:leafite_planks_pressure_plate"
-  }
+  },
+  "show_notification": true
 }

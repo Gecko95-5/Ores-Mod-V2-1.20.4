@@ -19,5 +19,6 @@
   ],
   "result": {
     "item": "oresmod:lava_tank"
-  }
+  },
+  "show_notification": true
 }

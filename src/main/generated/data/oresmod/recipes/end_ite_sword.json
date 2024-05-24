@@ -16,5 +16,6 @@
   ],
   "result": {
     "item": "oresmod:end_ite_sword"
-  }
+  },
+  "show_notification": true
 }

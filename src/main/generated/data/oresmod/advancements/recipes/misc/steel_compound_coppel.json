@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:steel_compound_coppel"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

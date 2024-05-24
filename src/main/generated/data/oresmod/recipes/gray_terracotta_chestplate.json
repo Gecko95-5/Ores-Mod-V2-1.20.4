@@ -16,5 +16,6 @@
   ],
   "result": {
     "item": "oresmod:gray_terracotta_chestplate"
-  }
+  },
+  "show_notification": true
 }

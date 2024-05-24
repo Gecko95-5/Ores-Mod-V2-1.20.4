@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:copper_shovel"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

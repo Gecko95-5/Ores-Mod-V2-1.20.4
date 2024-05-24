@@ -21,12 +21,15 @@ public class ModOverworldRegion extends Region {
     }
 
     @Override
-    public void addBiomes(Registry<Biome> registry, Consumer<Pair<MultiNoiseUtil.NoiseHypercube,
-            RegistryKey<Biome>>> mapper) {
-        this.addModifiedVanillaOverworldBiomes(mapper, modifiedVanillaOverworldBuilder -> {
-            modifiedVanillaOverworldBuilder.replaceBiome(BiomeKeys.WINDSWEPT_HILLS, ModBiomes.QUARRY_BIOME);
-            modifiedVanillaOverworldBuilder.replaceBiome(BiomeKeys.DESERT, ModBiomes.WHITE_DUNES_BIOME);
-            modifiedVanillaOverworldBuilder.replaceBiome(BiomeKeys.STONY_SHORE, ModBiomes.BLACK_SAND_BEACH);
+    public void addBiomes(Registry<Biome> registry, Consumer<Pair<MultiNoiseUtil.NoiseHypercube, RegistryKey<Biome>>> mapper)     {
+        this.addModifiedVanillaOverworldBiomes(mapper, builder -> {
+            builder.replaceBiome(BiomeKeys.WINDSWEPT_HILLS, ModBiomes.QUARRY);
+            builder.replaceBiome(BiomeKeys.WINDSWEPT_FOREST, ModBiomes.WOODED_QUARRY);
+            builder.replaceBiome(BiomeKeys.STONY_PEAKS, ModBiomes.QUARRY_PEAKS);
+            builder.replaceBiome(BiomeKeys.SNOWY_SLOPES, ModBiomes.SNOWY_QUARRY);
+            builder.replaceBiome(BiomeKeys.FROZEN_PEAKS, ModBiomes.FROZEN_QUARRY_PEAKS);
+            builder.replaceBiome(BiomeKeys.DESERT, ModBiomes.WHITE_DUNES);
+            builder.replaceBiome(BiomeKeys.BEACH, ModBiomes.BLACK_SAND_BEACH);
         });
     }
 }

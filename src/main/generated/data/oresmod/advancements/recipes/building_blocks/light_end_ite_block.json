@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:light_end_ite_block"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

@@ -12,5 +12,6 @@
   ],
   "result": {
     "item": "oresmod:chiseled_polished_bedrock"
-  }
+  },
+  "show_notification": true
 }

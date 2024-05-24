@@ -30,5 +30,6 @@
     "recipes": [
       "minecraft:aluminum_nugget_from_aluminum_ingot"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

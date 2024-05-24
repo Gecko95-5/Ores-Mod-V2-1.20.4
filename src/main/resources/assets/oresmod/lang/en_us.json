@@ -622,6 +622,7 @@
   "block.oresmod.cobblestone_aluminum_ore": "Cobblestone Aluminum Ore",
   "block.oresmod.cobblestone_nickel_ore": "Cobblestone Nickel Ore",
   "block.oresmod.cobblestone_titanium_ore": "Cobblestone Titanium Ore",
+  "block.oresmod.cobblestone_frosite_ore": "Cobblestone Frosite Ore",
   "block.oresmod.cobblestone_quartz_ore": "Cobblestone Quartz Ore",
 
   "block.oresmod.marble": "Marble",
@@ -842,6 +843,7 @@
   "block.oresmod.ice_brick_wall": "Ice Brick Wall",
 
   "block.oresmod.icy_crocus": "Icy Crocus",
+  "block.oresmod.silver_rose": "Silver Rose",
 
   "block.oresmod.reinforced_frosite_block": "Reinforced Frosite Block",
   "block.oresmod.light_reinforced_frosite_block": "Light Reinforced Frosite Block",

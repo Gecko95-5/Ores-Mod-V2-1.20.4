@@ -15,5 +15,6 @@
   ],
   "result": {
     "item": "oresmod:sandite_boots"
-  }
+  },
+  "show_notification": true
 }

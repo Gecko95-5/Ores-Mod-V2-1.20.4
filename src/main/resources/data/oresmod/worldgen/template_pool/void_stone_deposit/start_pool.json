@@ -6,7 +6,7 @@
       "element": {
         "location": "oresmod:deposit/void_stone_deposit",
         "processors": "minecraft:empty",
-        "projection": "rigid",
+        "projection": "terrain_matching",
         "element_type": "minecraft:single_pool_element"
       }
     },
@@ -15,7 +15,7 @@
       "element": {
         "location": "oresmod:deposit/void_stone_deposit_2",
         "processors": "minecraft:empty",
-        "projection": "rigid",
+        "projection": "terrain_matching",
         "element_type": "minecraft:single_pool_element"
       }
     },
@@ -24,7 +24,7 @@
       "element": {
         "location": "oresmod:deposit/small_void_stone_deposit",
         "processors": "minecraft:empty",
-        "projection": "rigid",
+        "projection": "terrain_matching",
         "element_type": "minecraft:single_pool_element"
       }
     }

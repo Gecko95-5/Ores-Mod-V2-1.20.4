@@ -13,5 +13,6 @@
   "result": {
     "count": 16,
     "item": "oresmod:aluminum_bars"
-  }
+  },
+  "show_notification": true
 }

@@ -16,5 +16,6 @@
   ],
   "result": {
     "item": "oresmod:nickel_hoe"
-  }
+  },
+  "show_notification": true
 }

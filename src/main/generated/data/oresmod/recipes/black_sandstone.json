@@ -12,5 +12,6 @@
   ],
   "result": {
     "item": "oresmod:black_sandstone"
-  }
+  },
+  "show_notification": true
 }

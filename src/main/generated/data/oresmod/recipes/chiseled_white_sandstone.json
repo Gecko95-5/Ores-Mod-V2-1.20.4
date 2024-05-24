@@ -12,5 +12,6 @@
   ],
   "result": {
     "item": "oresmod:chiseled_white_sandstone"
-  }
+  },
+  "show_notification": true
 }

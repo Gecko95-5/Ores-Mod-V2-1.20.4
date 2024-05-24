@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "oresmod:quarry",
+    "oresmod:wooded_quarry",
+    "oresmod:snowy_quarry"
+  ]
+}

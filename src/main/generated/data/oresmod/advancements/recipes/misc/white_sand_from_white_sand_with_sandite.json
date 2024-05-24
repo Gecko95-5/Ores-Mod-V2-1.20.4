@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:white_sand_from_white_sand_with_sandite"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

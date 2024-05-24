@@ -16,5 +16,6 @@
   ],
   "result": {
     "item": "oresmod:yellow_terracotta_boots"
-  }
+  },
+  "show_notification": true
 }

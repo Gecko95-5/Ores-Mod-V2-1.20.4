@@ -30,5 +30,6 @@
     "recipes": [
       "minecraft:cobalt_ingot"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

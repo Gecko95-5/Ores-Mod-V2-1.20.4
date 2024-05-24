@@ -15,5 +15,6 @@
   ],
   "result": {
     "item": "oresmod:end_ite_boots"
-  }
+  },
+  "show_notification": true
 }
