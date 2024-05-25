@@ -43,6 +43,5 @@
     "recipes": [
       "minecraft:steel_apple_from_rusted_steel_apple"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

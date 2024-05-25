@@ -30,6 +30,5 @@
     "recipes": [
       "oresmod:darken_leafite_brick_wall"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

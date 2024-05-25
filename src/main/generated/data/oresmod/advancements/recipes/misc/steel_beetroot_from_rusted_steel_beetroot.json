@@ -43,6 +43,5 @@
     "recipes": [
       "minecraft:steel_beetroot_from_rusted_steel_beetroot"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

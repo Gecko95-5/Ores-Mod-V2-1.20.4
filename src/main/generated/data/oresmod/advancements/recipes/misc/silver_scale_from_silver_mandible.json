@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:silver_scale_from_silver_mandible"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

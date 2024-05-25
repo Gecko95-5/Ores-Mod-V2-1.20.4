@@ -43,6 +43,5 @@
     "recipes": [
       "minecraft:cyan_terracotta_boots"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

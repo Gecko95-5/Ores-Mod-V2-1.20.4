@@ -43,6 +43,5 @@
     "recipes": [
       "minecraft:red_sand_from_red_sandstone_with_sandite"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

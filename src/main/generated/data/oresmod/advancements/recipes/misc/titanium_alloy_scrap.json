@@ -43,6 +43,5 @@
     "recipes": [
       "minecraft:titanium_alloy_scrap"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

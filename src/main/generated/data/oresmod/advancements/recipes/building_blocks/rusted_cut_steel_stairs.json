@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:rusted_cut_steel_stairs"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

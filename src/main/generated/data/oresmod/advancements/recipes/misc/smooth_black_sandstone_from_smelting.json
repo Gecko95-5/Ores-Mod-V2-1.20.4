@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:smooth_black_sandstone_from_smelting"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

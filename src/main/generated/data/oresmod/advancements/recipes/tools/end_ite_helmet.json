@@ -43,6 +43,5 @@
     "recipes": [
       "minecraft:end_ite_helmet"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

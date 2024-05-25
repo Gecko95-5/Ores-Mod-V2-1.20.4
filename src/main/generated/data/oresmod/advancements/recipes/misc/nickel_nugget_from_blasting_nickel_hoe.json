@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:nickel_nugget_from_blasting_nickel_hoe"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

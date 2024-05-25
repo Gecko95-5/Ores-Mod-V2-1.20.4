@@ -43,6 +43,5 @@
     "recipes": [
       "minecraft:gray_terracotta_helmet"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

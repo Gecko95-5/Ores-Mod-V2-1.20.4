@@ -43,6 +43,5 @@
     "recipes": [
       "minecraft:cobalt_handle_from_aluminum_ingot"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:titanium_ingot_from_blasting_raw_titanium"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

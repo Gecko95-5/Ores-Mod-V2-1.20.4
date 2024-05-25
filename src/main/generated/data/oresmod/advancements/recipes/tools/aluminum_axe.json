@@ -43,6 +43,5 @@
     "recipes": [
       "minecraft:aluminum_axe"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

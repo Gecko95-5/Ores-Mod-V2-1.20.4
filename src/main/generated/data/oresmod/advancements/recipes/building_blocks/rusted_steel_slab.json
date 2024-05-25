@@ -30,6 +30,5 @@
     "recipes": [
       "oresmod:rusted_steel_slab"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

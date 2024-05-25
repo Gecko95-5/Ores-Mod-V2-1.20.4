@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:aluminum_nugget_from_smelting_aluminum_leggings"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

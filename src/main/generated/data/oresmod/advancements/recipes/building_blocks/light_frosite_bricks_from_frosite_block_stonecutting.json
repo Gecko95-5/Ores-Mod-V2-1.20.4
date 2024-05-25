@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:light_frosite_bricks_from_frosite_block_stonecutting"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

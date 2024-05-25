@@ -56,6 +56,5 @@
     "recipes": [
       "minecraft:cobalt_drill"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

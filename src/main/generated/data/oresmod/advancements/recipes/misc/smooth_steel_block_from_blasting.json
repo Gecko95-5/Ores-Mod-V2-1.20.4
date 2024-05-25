@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:smooth_steel_block_from_blasting"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

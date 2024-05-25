@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:platinum_ingot"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

@@ -43,6 +43,5 @@
     "recipes": [
       "minecraft:steel_apple"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

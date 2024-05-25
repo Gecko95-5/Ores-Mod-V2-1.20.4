@@ -56,6 +56,5 @@
     "recipes": [
       "minecraft:blast_furnace_from_aluminum_ingot"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

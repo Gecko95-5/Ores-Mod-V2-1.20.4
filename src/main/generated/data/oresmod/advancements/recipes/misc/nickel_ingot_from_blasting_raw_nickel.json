@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:nickel_ingot_from_blasting_raw_nickel"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:aluminum_ingot_from_smelting_cobblestone_aluminum_ore"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

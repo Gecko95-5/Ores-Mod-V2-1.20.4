@@ -43,6 +43,5 @@
     "recipes": [
       "minecraft:slowness_potion_tank_from_leaping_potion_tank"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

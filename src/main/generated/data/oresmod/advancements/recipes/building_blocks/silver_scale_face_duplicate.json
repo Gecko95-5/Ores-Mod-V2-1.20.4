@@ -56,6 +56,5 @@
     "recipes": [
       "minecraft:silver_scale_face_duplicate"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

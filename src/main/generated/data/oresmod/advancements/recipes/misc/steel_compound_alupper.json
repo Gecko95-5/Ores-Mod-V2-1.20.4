@@ -43,6 +43,5 @@
     "recipes": [
       "minecraft:steel_compound_alupper"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

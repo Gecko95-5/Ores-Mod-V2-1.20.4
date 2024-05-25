@@ -30,6 +30,5 @@
     "recipes": [
       "oresmod:darken_sandite_tile_slab"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

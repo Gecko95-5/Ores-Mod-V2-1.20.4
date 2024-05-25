@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:polished_bedrock_wall_from_polished_bedrock_stonecutting"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

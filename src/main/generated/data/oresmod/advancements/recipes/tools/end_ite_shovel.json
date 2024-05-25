@@ -43,6 +43,5 @@
     "recipes": [
       "minecraft:end_ite_shovel"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

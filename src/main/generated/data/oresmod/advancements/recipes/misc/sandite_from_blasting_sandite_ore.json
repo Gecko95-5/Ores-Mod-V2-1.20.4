@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:sandite_from_blasting_sandite_ore"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

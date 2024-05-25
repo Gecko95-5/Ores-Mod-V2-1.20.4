@@ -30,6 +30,5 @@
     "recipes": [
       "oresmod:chiseled_polished_bedrock"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

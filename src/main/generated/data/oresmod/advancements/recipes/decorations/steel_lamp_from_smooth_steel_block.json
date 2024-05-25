@@ -56,6 +56,5 @@
     "recipes": [
       "minecraft:steel_lamp_from_smooth_steel_block"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

@@ -43,6 +43,5 @@
     "recipes": [
       "minecraft:magenta_terracotta_chestplate"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

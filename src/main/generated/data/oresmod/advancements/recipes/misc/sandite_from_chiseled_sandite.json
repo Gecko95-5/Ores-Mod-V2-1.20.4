@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:sandite_from_chiseled_sandite"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

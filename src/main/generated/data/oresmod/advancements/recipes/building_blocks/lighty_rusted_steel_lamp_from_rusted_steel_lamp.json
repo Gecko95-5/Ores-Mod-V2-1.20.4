@@ -43,6 +43,5 @@
     "recipes": [
       "minecraft:lighty_rusted_steel_lamp_from_rusted_steel_lamp"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

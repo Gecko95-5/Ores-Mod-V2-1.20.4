@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:end_ite_tile_slab_from_end_ite_block_stonecutting"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:light_end_ite_brick_slab_from_light_end_ite_block_stonecutting"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

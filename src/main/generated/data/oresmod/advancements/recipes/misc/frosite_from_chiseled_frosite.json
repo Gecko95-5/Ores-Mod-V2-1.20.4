@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:frosite_from_chiseled_frosite"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

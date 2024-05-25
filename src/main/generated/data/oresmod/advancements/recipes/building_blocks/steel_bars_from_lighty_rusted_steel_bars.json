@@ -43,6 +43,5 @@
     "recipes": [
       "minecraft:steel_bars_from_lighty_rusted_steel_bars"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

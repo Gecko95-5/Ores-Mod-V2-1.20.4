@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:light_end_ite_tile_wall_from_end_ite_tiles_stonecutting"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

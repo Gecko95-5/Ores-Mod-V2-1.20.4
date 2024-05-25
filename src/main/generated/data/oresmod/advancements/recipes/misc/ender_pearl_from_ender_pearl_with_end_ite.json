@@ -43,6 +43,5 @@
     "recipes": [
       "minecraft:ender_pearl_from_ender_pearl_with_end_ite"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

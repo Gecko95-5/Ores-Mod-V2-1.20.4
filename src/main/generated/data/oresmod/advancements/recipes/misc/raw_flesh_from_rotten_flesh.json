@@ -43,6 +43,5 @@
     "recipes": [
       "minecraft:raw_flesh_from_rotten_flesh"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

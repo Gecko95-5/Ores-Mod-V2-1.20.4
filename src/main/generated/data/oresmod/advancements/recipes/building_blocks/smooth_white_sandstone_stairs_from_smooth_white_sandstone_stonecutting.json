@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:smooth_white_sandstone_stairs_from_smooth_white_sandstone_stonecutting"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

@@ -43,6 +43,5 @@
     "recipes": [
       "minecraft:steel_compound_nickoppinum"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

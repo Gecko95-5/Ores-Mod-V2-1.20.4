@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:platinum_scrap_from_smelting_platinum_cluster"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

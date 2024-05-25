@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:light_sandite_tiles_from_sandite_block_stonecutting"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

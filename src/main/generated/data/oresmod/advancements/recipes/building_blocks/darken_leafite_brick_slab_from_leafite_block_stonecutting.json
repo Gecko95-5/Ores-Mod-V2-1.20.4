@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:darken_leafite_brick_slab_from_leafite_block_stonecutting"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

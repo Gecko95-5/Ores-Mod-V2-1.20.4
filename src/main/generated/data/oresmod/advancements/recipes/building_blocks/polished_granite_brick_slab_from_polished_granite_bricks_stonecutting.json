@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:polished_granite_brick_slab_from_polished_granite_bricks_stonecutting"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

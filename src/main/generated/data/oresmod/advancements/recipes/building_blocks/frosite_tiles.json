@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:frosite_tiles"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:raw_titanium"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

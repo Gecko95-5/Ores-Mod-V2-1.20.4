@@ -43,6 +43,5 @@
     "recipes": [
       "minecraft:rusted_cut_steel_from_cut_steel"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

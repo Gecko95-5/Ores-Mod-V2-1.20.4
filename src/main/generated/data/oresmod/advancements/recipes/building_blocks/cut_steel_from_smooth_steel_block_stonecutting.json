@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:cut_steel_from_smooth_steel_block_stonecutting"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

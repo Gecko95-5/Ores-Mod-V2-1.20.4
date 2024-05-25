@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:stonebark_planks_from_stripped_stonebark_log"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

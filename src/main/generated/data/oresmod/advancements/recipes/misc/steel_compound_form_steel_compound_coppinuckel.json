@@ -43,6 +43,5 @@
     "recipes": [
       "minecraft:steel_compound_form_steel_compound_coppinuckel"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

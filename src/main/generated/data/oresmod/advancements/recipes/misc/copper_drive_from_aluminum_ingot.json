@@ -56,6 +56,5 @@
     "recipes": [
       "minecraft:copper_drive_from_aluminum_ingot"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:polished_diorite_bricks"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

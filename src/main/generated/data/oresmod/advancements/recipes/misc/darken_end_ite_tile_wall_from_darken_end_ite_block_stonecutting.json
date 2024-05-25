@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:darken_end_ite_tile_wall_from_darken_end_ite_block_stonecutting"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

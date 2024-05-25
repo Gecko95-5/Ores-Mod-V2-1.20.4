@@ -24,6 +24,5 @@
     "recipes": [
       "oresmod:leafite_boat"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:light_sandite_brick_slab_from_light_sandite_bricks_stonecutting"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

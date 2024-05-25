@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:steel_trapdoor_from_smooth_steel_block"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

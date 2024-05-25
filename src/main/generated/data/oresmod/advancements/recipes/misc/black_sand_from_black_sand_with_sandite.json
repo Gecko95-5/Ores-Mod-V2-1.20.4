@@ -43,6 +43,5 @@
     "recipes": [
       "minecraft:black_sand_from_black_sand_with_sandite"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

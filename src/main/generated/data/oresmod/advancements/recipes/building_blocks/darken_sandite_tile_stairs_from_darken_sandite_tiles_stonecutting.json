@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:darken_sandite_tile_stairs_from_darken_sandite_tiles_stonecutting"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }
