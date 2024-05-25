@@ -915,7 +915,11 @@
 
   "effect.oresmod.decrease_health": "Health Decrease",
 
-  "biome.oresmod.quarry": "The Quarry",
+  "biome.oresmod.quarry": "Quarry",
+  "biome.oresmod.wooded_quarry": "Wooded Quarry",
+  "biome.oresmod.snowy_quarry": "Snowy Quarry",
+  "biome.oresmod.quarry_peaks": "Quarry Peaks",
+  "biome.oresmod.frozen_quarry_peaks": "Frosted Quarry Peaks",
   "biome.oresmod.white_dunes": "White Sand Dunes",
   "biome.oresmod.black_sand_beach": "Black Sand Beach",
 
