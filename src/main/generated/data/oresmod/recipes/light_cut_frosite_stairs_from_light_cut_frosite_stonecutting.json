@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "oresmod:light_cut_frosite"
+  },
+  "result": "oresmod:light_cut_frosite_stairs"
+}

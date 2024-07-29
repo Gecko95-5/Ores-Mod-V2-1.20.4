@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "oresmod:block/nether_uniform_bricks",
+    "side": "oresmod:block/nether_uniform_bricks",
+    "top": "oresmod:block/nether_uniform_bricks"
+  }
+}

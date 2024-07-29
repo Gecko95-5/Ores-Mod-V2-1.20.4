@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "oresmod:frosite_tiles"
-  },
-  "result": "oresmod:darken_frosite_tile_stairs"
-}

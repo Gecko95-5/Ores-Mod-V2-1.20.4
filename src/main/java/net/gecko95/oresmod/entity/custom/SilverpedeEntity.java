@@ -126,6 +126,8 @@ public class SilverpedeEntity extends HostileEntity {
                     this.effect = StatusEffects.REGENERATION;
                 } else if (i == 4) {
                     this.effect = StatusEffects.RESISTANCE;
+                } else if (i == 5) {
+                    this.effect = StatusEffects.STRENGTH;
                 }
             }
         }

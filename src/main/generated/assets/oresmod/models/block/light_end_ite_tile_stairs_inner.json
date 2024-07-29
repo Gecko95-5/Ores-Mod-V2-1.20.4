@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/inner_stairs",
-  "textures": {
-    "bottom": "oresmod:block/light_end_ite_tiles",
-    "side": "oresmod:block/light_end_ite_tiles",
-    "top": "oresmod:block/light_end_ite_tiles"
-  }
-}

@@ -37,6 +37,10 @@ public class ModEntities {
             new Identifier(OresMod.MOD_ID,"frosite_golem"),
             FabricEntityTypeBuilder.create(SpawnGroup.MONSTER, FrositeGolemEntity::new)
                     .dimensions(EntityDimensions.fixed(1.0f, 1.6f)).build());
+    public static final EntityType<FrostedStrayEntity> FROSTED_STRAY = Registry.register(Registries.ENTITY_TYPE,
+            new Identifier(OresMod.MOD_ID,"frosted_stray"),
+            FabricEntityTypeBuilder.create(SpawnGroup.MONSTER, FrostedStrayEntity::new)
+                    .fireImmune().dimensions(EntityDimensions.fixed(0.6f, 1.99f)).build());
     public static final EntityType<IceProjectileEntity> ICE_PROJECTILE = Registry.register(Registries.ENTITY_TYPE,
             new Identifier(OresMod.MOD_ID,"ice_projectile"),FabricEntityTypeBuilder.
                     <IceProjectileEntity>create(SpawnGroup.MISC,IceProjectileEntity::new)

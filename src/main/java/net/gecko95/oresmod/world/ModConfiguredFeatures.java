@@ -15,12 +15,14 @@ import net.minecraft.structure.rule.TagMatchRuleTest;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.collection.DataPool;
 import net.minecraft.util.math.intprovider.ConstantIntProvider;
+import net.minecraft.util.math.noise.DoublePerlinNoiseSampler;
 import net.minecraft.world.gen.feature.*;
 import net.minecraft.world.gen.feature.size.TwoLayersFeatureSize;
 import net.minecraft.world.gen.foliage.AcaciaFoliagePlacer;
 import net.minecraft.world.gen.foliage.BlobFoliagePlacer;
 import net.minecraft.world.gen.foliage.JungleFoliagePlacer;
 import net.minecraft.world.gen.stateprovider.BlockStateProvider;
+import net.minecraft.world.gen.stateprovider.NoiseThresholdBlockStateProvider;
 import net.minecraft.world.gen.stateprovider.WeightedBlockStateProvider;
 import net.minecraft.world.gen.treedecorator.LeavesVineTreeDecorator;
 import net.minecraft.world.gen.treedecorator.TrunkVineTreeDecorator;
@@ -74,6 +76,7 @@ public class ModConfiguredFeatures {
     public static final RegistryKey<ConfiguredFeature<?, ?>> END_ITE_ORE_KEY = registerKey("end_ite_ore");
 
     public static final  RegistryKey<ConfiguredFeature<?, ?>> STONEBARK_KEY = registerKey("stonebark");
+    public static final  RegistryKey<ConfiguredFeature<?, ?>> WOODED_STONEBARK_KEY = registerKey("wooded_stonebark");
     public static final  RegistryKey<ConfiguredFeature<?, ?>> DEEPBARK_KEY = registerKey("deepbark");
     public static final  RegistryKey<ConfiguredFeature<?, ?>> LEAFITE_ORE_TREE_KEY = registerKey("leafite_ore_tree");
     public static final  RegistryKey<ConfiguredFeature<?, ?>> LEAFITE_TREE_KEY = registerKey("leafite_tree");
@@ -81,7 +84,9 @@ public class ModConfiguredFeatures {
     public static final  RegistryKey<ConfiguredFeature<?, ?>> BIG_LEAFITE_ORE_TREE_KEY = registerKey("big_leafite_ore_tree");
 
     public static final  RegistryKey<ConfiguredFeature<?, ?>> ICY_CROCUS_FLOWER_KEY = registerKey("icy_crocus_flower");
-    public static final  RegistryKey<ConfiguredFeature<?, ?>> SILVER_ROSE_FLOWER_KEY = registerKey("silver_rose_flower");
+    public static final  RegistryKey<ConfiguredFeature<?, ?>> FLOWER_QUARRY_KEY = registerKey("flower_quarry");
+    public static final  RegistryKey<ConfiguredFeature<?, ?>> FLOWER_WINDSWEPT_KEY = registerKey("flower_windswept");
+    public static final  RegistryKey<ConfiguredFeature<?, ?>> PATCH_SILVER_GRASS = registerKey("silver_grass_patch");
 
     public static void boostrap(Registerable<ConfiguredFeature<?,?>> context){
         RuleTest stoneReplacebles = new TagMatchRuleTest(BlockTags.STONE_ORE_REPLACEABLES);
@@ -319,9 +324,18 @@ public class ModConfiguredFeatures {
 
         register(context, STONEBARK_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
                 BlockStateProvider.of(ModBlocks.STONEBARK_LOG),
-                new StraightTrunkPlacer(3,2,1),
+                new StraightTrunkPlacer(4,2,1),
                 BlockStateProvider.of(ModBlocks.STONEBARK_LEAVES),
-                new AcaciaFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(1)),
+                new AcaciaFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(0)),
+
+                new TwoLayersFeatureSize(1, 0, 2))
+                .dirtProvider(BlockStateProvider.of(Blocks.COBBLESTONE)).forceDirt().build());
+
+        register(context, WOODED_STONEBARK_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
+                BlockStateProvider.of(ModBlocks.STONEBARK_LOG),
+                new LargeOakTrunkPlacer(8, 1, 1),
+                BlockStateProvider.of(ModBlocks.STONEBARK_LEAVES),
+                new AcaciaFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(2)),
 
                 new TwoLayersFeatureSize(1, 0, 2))
                 .dirtProvider(BlockStateProvider.of(Blocks.COBBLESTONE)).forceDirt().build());
@@ -385,10 +399,25 @@ public class ModConfiguredFeatures {
                 PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
                 new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.ICY_CROCUS)))));
 
-        register(context, SILVER_ROSE_FLOWER_KEY, Feature.FLOWER,
+        register(context, FLOWER_QUARRY_KEY, Feature.FLOWER,
                 new RandomPatchFeatureConfig(64, 6, 2,
                 PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
                 new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.SILVER_ROSE)))));
+
+        register(context, FLOWER_WINDSWEPT_KEY, Feature.FLOWER,
+                new RandomPatchFeatureConfig(64, 6, 2,
+                        PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
+                        new SimpleBlockFeatureConfig(new NoiseThresholdBlockStateProvider
+                        (2345L, new DoublePerlinNoiseSampler.NoiseParameters
+                        (0, 1.0), 0.005f, -0.8f, 0.33333334f,
+                        ModBlocks.ALPINE_SPEEDWELL.getDefaultState(),
+                                List.of(Blocks.OXEYE_DAISY.getDefaultState(), ModBlocks.SUBALPINE_DAISY.getDefaultState()),
+                                List.of(ModBlocks.SUBALPINE_DAISY.getDefaultState(), Blocks.OXEYE_DAISY.getDefaultState()))))));
+
+        register(context, PATCH_SILVER_GRASS, Feature.RANDOM_PATCH,
+                new RandomPatchFeatureConfig(32, 10, 2,
+                PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
+                        new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.SILVER_GRASS)))));
     }
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {

@@ -1,10 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "misc",
+  "category": "equipment",
   "ingredients": [
-    {
-      "item": "oresmod:silver_scale"
-    },
     {
       "item": "oresmod:silver_scale"
     },

@@ -11,6 +11,10 @@
     "oresmod:polished_bedrock_bricks_stairs",
     "oresmod:polished_bedrock_bricks_slab",
     "oresmod:polished_bedrock_bricks_wall",
-    "oresmod:chiseled_polished_bedrock"
+    "oresmod:chiseled_polished_bedrock",
+    "oresmod:polished_bedrock_masonry_bricks",
+    "oresmod:polished_bedrock_masonry_brick_stairs",
+    "oresmod:polished_bedrock_masonry_brick_slab",
+    "oresmod:polished_bedrock_masonry_brick_wall"
   ]
 }

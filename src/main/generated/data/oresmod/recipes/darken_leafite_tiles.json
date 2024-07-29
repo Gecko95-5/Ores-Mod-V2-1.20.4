@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "B": {
-      "item": "oresmod:darken_leafite_block"
+      "item": "oresmod:dark_leafite_block"
     }
   },
   "pattern": [
@@ -12,6 +12,6 @@
   ],
   "result": {
     "count": 4,
-    "item": "oresmod:darken_leafite_tiles"
+    "item": "oresmod:dark_cut_leafite"
   }
 }

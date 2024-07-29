@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "oresmod:block/deepslate_masonry_bricks",
+    "side": "oresmod:block/deepslate_masonry_bricks",
+    "top": "oresmod:block/deepslate_masonry_bricks"
+  }
+}

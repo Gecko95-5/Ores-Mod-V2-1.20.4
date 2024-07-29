@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:uniform_brick_stairs_from_uniform_bricks_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_uniform_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:uniform_bricks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_uniform_bricks"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:uniform_brick_stairs_from_uniform_bricks_stonecutting"
+    ]
+  }
+}

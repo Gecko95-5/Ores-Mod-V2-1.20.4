@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "oresmod:block/dark_frosite_bricks",
+    "side": "oresmod:block/dark_frosite_bricks",
+    "top": "oresmod:block/dark_frosite_bricks"
+  }
+}

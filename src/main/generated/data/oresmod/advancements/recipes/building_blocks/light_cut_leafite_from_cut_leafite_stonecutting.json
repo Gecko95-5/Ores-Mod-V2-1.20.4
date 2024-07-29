@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cut_leafite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:cut_leafite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:light_cut_leafite_from_cut_leafite_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cut_leafite"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:light_cut_leafite_from_cut_leafite_stonecutting"
+    ]
+  }
+}

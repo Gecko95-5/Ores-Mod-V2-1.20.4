@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "oresmod:block/prismarine_masonry_bricks",
+    "side": "oresmod:block/prismarine_masonry_bricks",
+    "top": "oresmod:block/prismarine_masonry_bricks"
+  }
+}

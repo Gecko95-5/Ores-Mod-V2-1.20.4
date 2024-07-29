@@ -1,0 +1,17 @@
+{
+  "type": "oresmod:carving",
+  "ingredients": [
+    {
+      "item": "oresmod:deepslate_masonry_bricks"
+    },
+    {
+      "item": "oresmod:uniform_blueprint"
+    },
+    {
+      "tag": "oresmod:carving_tools"
+    }
+  ],
+  "output": {
+    "item": "minecraft:deepslate_bricks"
+  }
+}

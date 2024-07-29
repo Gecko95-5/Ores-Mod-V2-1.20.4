@@ -29,6 +29,7 @@ public class SilverCrownBlock extends HorizontalFacingBlock {
     private BlockPattern silverwyrmPattern;
     private static final Predicate<BlockState> IS_SILVER_CROWN_PREDICATE = state -> state != null && (state.isOf(ModBlocks.SILVER_CROWN));
     public static final MapCodec<SilverCrownBlock> CODEC = SilverCrownBlock.createCodec(SilverCrownBlock::new);
+
     private static final VoxelShape SHAPE = Block.createCuboidShape(4, 0, 4, 12, 4, 12);
     public SilverCrownBlock(Settings settings) {
         super(settings);

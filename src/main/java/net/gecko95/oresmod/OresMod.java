@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRe
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import net.gecko95.oresmod.block.ModBlocks;
+import net.gecko95.oresmod.block.entity.ModBlockEntities;
 import net.gecko95.oresmod.entity.ModBoats;
 import net.gecko95.oresmod.entity.ModEntities;
 import net.gecko95.oresmod.entity.custom.*;
@@ -13,7 +14,9 @@ import net.gecko95.oresmod.entity.custom.golem.FrositeGolemEntity;
 import net.gecko95.oresmod.item.ModItemGroups;
 import net.gecko95.oresmod.item.ModItems;
 import net.gecko95.oresmod.potion.ModPotions;
+import net.gecko95.oresmod.recipe.ModRecipes;
 import net.gecko95.oresmod.registry.RegisterModEffects;
+import net.gecko95.oresmod.screen.ModScreenHandlers;
 import net.gecko95.oresmod.util.ModCustomTrades;
 import net.gecko95.oresmod.util.ModLootTableModifiers;
 import net.gecko95.oresmod.world.gen.ModWorldGeneration;
@@ -35,6 +38,9 @@ public class OresMod implements ModInitializer {
 		ModCustomTrades.registerCustomTrades();
 		RegisterModEffects.registerEffects();
 		ModPotions.registerPotions();
+		ModBlockEntities.registerBlockEntities();
+		ModScreenHandlers.registerScreenHandlers();
+		ModRecipes.registerRecipes();
 
 		StrippableBlockRegistry.register(ModBlocks.STONEBARK_LOG, ModBlocks.STRIPPED_STONEBARK_LOG);
 		StrippableBlockRegistry.register(ModBlocks.STONEBARK_WOOD, ModBlocks.STRIPPED_STONEBARK_WOOD);
@@ -68,6 +74,7 @@ public class OresMod implements ModInitializer {
 		FabricDefaultAttributeRegistry.register(ModEntities.FROSTBITEN, FrostbitenEntity.createFrostbitenAttributes());
 		FabricDefaultAttributeRegistry.register(ModEntities.FROSITE_GOLEM, FrositeGolemEntity.createFrositeGolemAttributes());
 		FabricDefaultAttributeRegistry.register(ModEntities.ICE_CUBE, IceCubeEntity.createIceCubeAttributes());
+		FabricDefaultAttributeRegistry.register(ModEntities.FROSTED_STRAY, FrostedStrayEntity.createFrostedStrayAttributes());
 
 		ModBoats.registerBoats();
 

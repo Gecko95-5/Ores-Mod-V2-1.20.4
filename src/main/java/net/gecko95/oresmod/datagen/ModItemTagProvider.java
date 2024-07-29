@@ -19,6 +19,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup arg) {
         getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
                 .add(ModItems.FROSITE_HELMET, ModItems.FROSITE_CHESTPLATE, ModItems.FROSITE_LEGGINGS, ModItems.FROSITE_BOOTS)
+                .add(ModItems.FROSITE_HELMET_VISOR)
                 .add(ModItems.ALUMINUM_HELMET, ModItems.ALUMINUM_CHESTPLATE, ModItems.ALUMINUM_LEGGINGS, ModItems.ALUMINUM_BOOTS)
                 .add(ModItems.NICKEL_HELMET, ModItems.NICKEL_CHESTPLATE, ModItems.NICKEL_LEGGINGS, ModItems.NICKEL_BOOTS)
                 .add(ModItems.COPPER_HELMET, ModItems.COPPER_CHESTPLATE, ModItems.COPPER_LEGGINGS, ModItems.COPPER_BOOTS)
@@ -51,6 +52,9 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.WHITE_TERRACOTTA_HELMET, ModItems.WHITE_TERRACOTTA_CHESTPLATE, ModItems.WHITE_TERRACOTTA_LEGGINGS, ModItems.WHITE_TERRACOTTA_BOOTS)
                 .add(ModItems.YELLOW_TERRACOTTA_HELMET, ModItems.YELLOW_TERRACOTTA_CHESTPLATE, ModItems.YELLOW_TERRACOTTA_LEGGINGS, ModItems.YELLOW_TERRACOTTA_BOOTS);
 
+
+        getOrCreateTagBuilder(ItemTags.STONE_TOOL_MATERIALS)
+                .add(ModBlocks.MARBLE.asItem());
 
         getOrCreateTagBuilder(ItemTags.PLANKS)
                 .add(ModBlocks.STONEBARK_PLANKS.asItem())
@@ -142,5 +146,24 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModBlocks.DEEPSLATE_LEAVES.asItem())
                 .add(ModBlocks.LEAFITE_LEAVES.asItem())
                 .add(ModBlocks.LEAFITE_LEAVES_ORE.asItem());
+
+        getOrCreateTagBuilder(ModTags.Items.BLUEPRINTS)
+                .add(ModItems.MASONRY_BLUEPRINT)
+                .add(ModItems.UNIFORM_BLUEPRINT);
+
+        getOrCreateTagBuilder(ModTags.Items.CARVING_TOOLS)
+                .add(ModItems.NICKEL_CARVER)
+                .add(ModItems.SILVER_CARVER)
+                .add(ModItems.TITANIUM_CARVER)
+                .add(ModItems.TITANIUM_ALLOY_CARVER);
+
+        getOrCreateTagBuilder(ItemTags.BEACON_PAYMENT_ITEMS)
+                .add(ModItems.ALUMINUM_INGOT)
+                .add(ModItems.STEEL_INGOT)
+                .add(ModItems.TITANIUM_INGOT)
+                .add(ModItems.TUNGSTEN_INGOT)
+                .add(ModItems.TITANIUM_ALLOY_INGOT)
+                .add(ModItems.COBALT_INGOT)
+                .add(ModItems.PLATINUM_INGOT);
     }
 }

@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "oresmod:void_stone_masonry_brick_slab"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_void_stone_masonry_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:void_stone_masonry_bricks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_void_stone_masonry_bricks"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "oresmod:void_stone_masonry_brick_slab"
+    ]
+  }
+}

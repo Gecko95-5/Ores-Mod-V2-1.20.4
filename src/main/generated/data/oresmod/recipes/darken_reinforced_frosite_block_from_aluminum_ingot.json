@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "F": {
-      "item": "oresmod:darken_frosite_block"
+      "item": "oresmod:dark_frosite_block"
     },
     "I": {
       "item": "oresmod:aluminum_ingot"
@@ -18,6 +18,6 @@
     "TIT"
   ],
   "result": {
-    "item": "oresmod:darken_reinforced_frosite_block"
+    "item": "oresmod:dark_reinforced_frosite_block"
   }
 }

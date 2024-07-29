@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "oresmod:red_nether_uniform_bricks"
+  },
+  "result": "oresmod:red_nether_uniform_brick_slab"
+}

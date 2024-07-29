@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "oresmod:quartz_masonry_bricks"
+  },
+  "result": "oresmod:quartz_masonry_brick_stairs"
+}

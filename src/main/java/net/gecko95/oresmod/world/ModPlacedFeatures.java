@@ -12,7 +12,8 @@ import net.minecraft.world.gen.feature.*;
 import net.minecraft.world.gen.placementmodifier.*;
 
 import java.util.List;
-//The flowers code come form the Many Flowers Mod Source Code
+// Done with the help:
+// https://github.com/GalievDev/many-flowers/tree/1.20/src/main (MIT License)
 public class ModPlacedFeatures {
     public static final RegistryKey<PlacedFeature> SALT_ORE_PLACED_KEY = registerKey("salt_ore_placed");
     public static final RegistryKey<PlacedFeature> FROSITE_ORE_PLACED_KEY = registerKey("frosite_ore_placed");
@@ -59,6 +60,7 @@ public class ModPlacedFeatures {
     public static final RegistryKey<PlacedFeature> END_ITE_ORE_PLACED_KEY = registerKey("end_ite_ore_placed");
 
     public static final RegistryKey<PlacedFeature> STONEBARK_PLACED_KEY = registerKey("stonebark_placed");
+    public static final RegistryKey<PlacedFeature> WOODED_STONEBARK_PLACED_KEY = registerKey("wooded_stonebark_placed");
 
     public static final RegistryKey<PlacedFeature> LEAFITE_ORE_TREE_PLACED_KEY = registerKey("leafite_ore_tree_placed");
     public static final RegistryKey<PlacedFeature> LEAFITE_TREE_PLACED_KEY = registerKey("leafite_tree_placed");
@@ -66,7 +68,9 @@ public class ModPlacedFeatures {
     public static final RegistryKey<PlacedFeature> BIG_LEAFITE_ORE_TREE_PLACED_KEY = registerKey("big_leafite_ore_tree_placed");
 
     public static final RegistryKey<PlacedFeature> ICY_CROCUS_FLOWER_PLACED_KEY = registerKey("icy_crocus_flower_placed");
-    public static final RegistryKey<PlacedFeature> SILVER_ROSE_FLOWER_PLACED_KEY = registerKey("silver_rose_flower_placed");
+    public static final RegistryKey<PlacedFeature> FLOWER_QUARRY_PLACED_KEY = registerKey("flower_quarry_placed");
+    public static final RegistryKey<PlacedFeature> FLOWER_WINDSWEPT_PLACED_KEY = registerKey("flower_windswept_placed");
+    public static final RegistryKey<PlacedFeature> PATCH_SILVER_GRASS_PLACED_KEY = registerKey("silver_grass_patch_placed");
 
     public static void boostrap(Registerable<PlacedFeature> context){
         var configuredFeatureRegistryEntryLookup = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
@@ -248,6 +252,10 @@ public class ModPlacedFeatures {
                 VegetationPlacedFeatures.treeModifiersWithWouldSurvive(PlacedFeatures.createCountExtraModifier(2,0.1f,2),
                         ModBlocks.STONEBARK_SAPLING));
 
+        register(context, WOODED_STONEBARK_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.WOODED_STONEBARK_KEY),
+                VegetationPlacedFeatures.treeModifiersWithWouldSurvive(PlacedFeatures.createCountExtraModifier(1,0.1f,1),
+                        ModBlocks.STONEBARK_SAPLING));
+
         register(context, LEAFITE_ORE_TREE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.LEAFITE_ORE_TREE_KEY),
                 VegetationPlacedFeatures.treeModifiersWithWouldSurvive(PlacedFeatures.createCountExtraModifier(1,0.1f,1),
                         ModBlocks.LEAFITE_SAPLING));
@@ -267,8 +275,14 @@ public class ModPlacedFeatures {
         register(context, ICY_CROCUS_FLOWER_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.ICY_CROCUS_FLOWER_KEY),
                 VegetationPlacedFeatures.treeModifiersWithWouldSurvive(RarityFilterPlacementModifier.of(32), ModBlocks.ICY_CROCUS));
 
-        register(context, SILVER_ROSE_FLOWER_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.SILVER_ROSE_FLOWER_KEY),
+        register(context, FLOWER_QUARRY_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.FLOWER_QUARRY_KEY),
                 VegetationPlacedFeatures.treeModifiersWithWouldSurvive(RarityFilterPlacementModifier.of(32), ModBlocks.SILVER_ROSE));
+
+        register(context, PATCH_SILVER_GRASS_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.PATCH_SILVER_GRASS),
+                VegetationPlacedFeatures.treeModifiersWithWouldSurvive(NoiseBasedCountPlacementModifier.of(10,5,-0.8), ModBlocks.SILVER_GRASS));
+
+        register(context, FLOWER_WINDSWEPT_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.FLOWER_WINDSWEPT_KEY),
+                VegetationPlacedFeatures.treeModifiersWithWouldSurvive(RarityFilterPlacementModifier.of(32), ModBlocks.ALPINE_SPEEDWELL));
     }
 
 

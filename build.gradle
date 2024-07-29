@@ -17,6 +17,7 @@ repositories {
 		url = 'https://maven.terraformersmc.com/'
 	}
 	maven { url = 'https://maven.minecraftforge.net/' }
+	maven { url "https://maven.shedaniel.me" }
 }
 
 loom {
@@ -53,15 +54,19 @@ dependencies {
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
+	modCompileOnly "me.shedaniel:RoughlyEnoughItems-api-fabric:14.0.687"
+	modRuntimeOnly "me.shedaniel:RoughlyEnoughItems-fabric:14.0.687"
+
+	modApi("me.shedaniel.cloth:cloth-config-fabric:13.0.114") {
+		exclude(group: "net.fabricmc.fabric-api")
+	}
+
+	modApi "dev.architectury:architectury-fabric:11.0.8"
+
 	modImplementation "com.terraformersmc.terraform-api:terraform-wood-api-v1:9.0.0-beta.2"
 	include "com.terraformersmc.terraform-api:terraform-wood-api-v1:9.0.0-beta.2"
 
 	modImplementation 'com.github.glitchfiend:TerraBlender-fabric:1.20.4-3.3.0.3'
-	
-	// Uncomment the following line to enable the deprecated Fabric API modules. 
-	// These are included in the Fabric API production distribution and allow you to update your mod to the latest modules at a later more convenient time.
-
-	// modImplementation "net.fabricmc.fabric-api:fabric-api-deprecated:${project.fabric_version}"
 }
 
 processResources {

@@ -31,7 +31,7 @@ public enum ModToolMaterial implements ToolMaterial {
             () -> Ingredient.ofItems(Items.FLINT)),
     SANDITE(2, 156, 7.7f, 3.3f, 12,
             () -> Ingredient.ofItems(ModItems.SANDITE)),
-    LEAFITE(2, 156, 9.9f, 1.1f, 12,
+    LEAFITE(2, 156, 9.9f, 1.2f, 12,
             () -> Ingredient.ofItems(ModItems.LEAFITE)),
     END_ITE(2, 156, 6.6f, 4.4f, 12,
             () -> Ingredient.ofItems(ModItems.END_ITE)),

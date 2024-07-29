@@ -1,0 +1,17 @@
+{
+  "type": "oresmod:carving",
+  "ingredients": [
+    {
+      "item": "oresmod:marble"
+    },
+    {
+      "item": "oresmod:masonry_blueprint"
+    },
+    {
+      "tag": "oresmod:carving_tools"
+    }
+  ],
+  "output": {
+    "item": "oresmod:marble_masonry_bricks"
+  }
+}

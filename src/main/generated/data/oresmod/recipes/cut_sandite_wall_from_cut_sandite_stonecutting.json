@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "oresmod:cut_sandite"
+  },
+  "result": "oresmod:cut_sandite_wall"
+}

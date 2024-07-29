@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "oresmod:nickel_carver",
+    "oresmod:silver_carver",
+    "oresmod:titanium_carver",
+    "oresmod:titanium_alloy_carver"
+  ]
+}

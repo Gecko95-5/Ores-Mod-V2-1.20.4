@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "oresmod:block/darken_end_ite_bricks"
-  }
-}

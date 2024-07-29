@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "oresmod:aluminum_block",
+    "oresmod:steel_block",
+    "oresmod:titanium_block",
+    "oresmod:tungsten_block",
+    "oresmod:titanium_alloy_block",
+    "oresmod:cobalt_block",
+    "oresmod:platinum_block"
+  ]
+}

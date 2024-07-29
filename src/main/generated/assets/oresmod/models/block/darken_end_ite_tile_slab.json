@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "oresmod:block/darken_end_ite_tiles",
-    "side": "oresmod:block/darken_end_ite_tiles",
-    "top": "oresmod:block/darken_end_ite_tiles"
-  }
-}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "oresmod:block/cut_sandite",
+    "side": "oresmod:block/cut_sandite",
+    "top": "oresmod:block/cut_sandite"
+  }
+}

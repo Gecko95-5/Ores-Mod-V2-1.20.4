@@ -6,5 +6,5 @@
   "ingredient": {
     "item": "oresmod:frozen_flesh"
   },
-  "result": "minecraft:rotten_flesh"
+  "result": "oresmod:cooked_flesh"
 }

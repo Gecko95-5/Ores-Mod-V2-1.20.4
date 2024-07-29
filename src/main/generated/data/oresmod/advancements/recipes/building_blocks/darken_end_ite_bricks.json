@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_darken_end_ite_block": {
+    "has_dark_end_ite_block": {
       "conditions": {
         "items": [
           {
             "items": [
-              "oresmod:darken_end_ite_block"
+              "oresmod:dark_end_ite_block"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_darken_end_ite_block",
+      "has_dark_end_ite_block",
       "has_end_ite"
     ]
   ],

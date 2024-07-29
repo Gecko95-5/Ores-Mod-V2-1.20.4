@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:deepslate_bricks"
+    },
+    "L": {
+      "item": "minecraft:loom"
+    },
+    "N": {
+      "item": "oresmod:nickel_ingot"
+    },
+    "R": {
+      "item": "oresmod:copper_drive"
+    },
+    "S": {
+      "item": "minecraft:smooth_stone"
+    }
+  },
+  "pattern": [
+    "SNS",
+    "SLS",
+    "DRD"
+  ],
+  "result": {
+    "item": "oresmod:carving_station"
+  }
+}

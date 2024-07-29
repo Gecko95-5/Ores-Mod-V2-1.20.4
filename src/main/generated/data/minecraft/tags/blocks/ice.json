@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "oresmod:ice_frosite_ore",
+    "oresmod:ice_bricks",
+    "oresmod:ice_pillar"
+  ]
+}

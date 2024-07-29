@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "oresmod:dark_cut_frosite"
+  },
+  "result": "oresmod:dark_cut_frosite_wall"
+}

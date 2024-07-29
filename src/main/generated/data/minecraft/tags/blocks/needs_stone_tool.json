@@ -23,6 +23,7 @@
     "oresmod:cobblestone_lapis_ore",
     "oresmod:cobblestone_aluminum_ore",
     "oresmod:cobblestone_nickel_ore",
-    "oresmod:clay_lapis_ore"
+    "oresmod:clay_lapis_ore",
+    "oresmod:carving_station"
   ]
 }

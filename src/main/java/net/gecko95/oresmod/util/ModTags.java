@@ -30,6 +30,9 @@ public class ModTags {
         public static final TagKey<Block> ITE_BLOCKS =
                 createTag("ite_blocks");
 
+        public static final TagKey<Block> CARVED_BLOCKS =
+                createTag("carved_blocks");
+
         private static TagKey<Block> createTag(String name){
             return TagKey.of(RegistryKeys.BLOCK, new Identifier(OresMod.MOD_ID, name));
         }
@@ -44,6 +47,11 @@ public class ModTags {
                 createTag("terracotta_leggings");
         public static final TagKey<Item> TERRACOTTA_BOOTS =
                 createTag("terracotta_boots");
+        public static final TagKey<Item> BLUEPRINTS =
+                createTag("blueprints");
+        public static final TagKey<Item> CARVING_TOOLS =
+                createTag("carving_tools");
+
         private static TagKey<Item> createTag(String name) {
             return TagKey.of(RegistryKeys.ITEM, new Identifier(OresMod.MOD_ID, name));
         }

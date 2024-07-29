@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "oresmod:block/ender_dragon_trophy",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "oresmod:block/ender_dragon_trophy"
+    },
+    "facing=south": {
+      "model": "oresmod:block/ender_dragon_trophy",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "oresmod:block/ender_dragon_trophy",
+      "y": 270
+    }
+  }
+}

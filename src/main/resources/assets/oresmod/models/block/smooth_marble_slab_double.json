@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "oresmod:block/smooth_marble",
+    "side": "oresmod:block/smooth_marble_slab_side"
+  }
+}

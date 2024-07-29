@@ -25,7 +25,9 @@ public class ModEntityTypeTagProvider extends FabricTagProvider.EntityTypeTagPro
         getOrCreateTagBuilder(EntityTypeTags.FREEZE_IMMUNE_ENTITY_TYPES)
                 .add(ModEntities.FROSITE_GOLEM)
                 .add(ModEntities.FROSTBITEN)
-                .add(ModEntities.ICE_CUBE);
+                .add(ModEntities.ICE_CUBE)
+                .add(ModEntities.FROSTED_STRAY);
+
 
         getOrCreateTagBuilder(EntityTypeTags.IMPACT_PROJECTILES)
                 .add(ModEntities.ICE_PROJECTILE)
@@ -33,6 +35,9 @@ public class ModEntityTypeTagProvider extends FabricTagProvider.EntityTypeTagPro
                 .add(ModEntities.ICE_BOMB_PROJECTILE);
 
         getOrCreateTagBuilder(EntityTypeTags.FALL_DAMAGE_IMMUNE)
+                .add(ModEntities.FROSITE_GOLEM);
+
+        getOrCreateTagBuilder(EntityTypeTags.SKELETONS)
                 .add(ModEntities.FROSITE_GOLEM);
     }
 }

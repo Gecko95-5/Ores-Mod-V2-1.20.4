@@ -58,6 +58,10 @@ public class ModBiomeTagProvider extends VanillaBiomeTagProvider {
                 .add(ModBiomes.SNOWY_QUARRY)
                 .add(ModBiomes.FROZEN_QUARRY_PEAKS);
 
+        getOrCreateTagBuilder(BiomeTags.PILLAGER_OUTPOST_HAS_STRUCTURE)
+                .addTag(ModTags.Biomes.IS_QUARRY)
+                .add(ModBiomes.WHITE_DUNES);
+
         getOrCreateTagBuilder(BiomeTags.WITHOUT_WANDERING_TRADER_SPAWNS)
                 .addTag(ModTags.Biomes.IS_QUARRY);
 
@@ -67,7 +71,6 @@ public class ModBiomeTagProvider extends VanillaBiomeTagProvider {
                 .add(ModBiomes.BLACK_SAND_BEACH);
 
         getOrCreateTagBuilder(BiomeTags.MINESHAFT_HAS_STRUCTURE)
-                .addTag(ModTags.Biomes.IS_QUARRY)
                 .add(ModBiomes.WHITE_DUNES)
                 .add(ModBiomes.BLACK_SAND_BEACH);
 

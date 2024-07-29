@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "oresmod:dark_sandite_block"
+  },
+  "result": "oresmod:dark_sandite_brick_stairs"
+}

@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/inner_stairs",
-  "textures": {
-    "bottom": "oresmod:block/sandite_tiles",
-    "side": "oresmod:block/sandite_tiles",
-    "top": "oresmod:block/sandite_tiles"
-  }
-}

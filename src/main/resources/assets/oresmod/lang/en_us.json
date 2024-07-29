@@ -74,6 +74,8 @@
   "item.oresmod.frosite_leggings": "Frosite Leggings",
   "item.oresmod.frosite_boots": "Frosite Boots",
 
+  "item.oresmod.frosite_helmet_visor": "Frosite Helmet",
+
   "item.oresmod.aluminum_helmet": "Aluminum Helmet",
   "item.oresmod.aluminum_chestplate": "Aluminum Chestplate",
   "item.oresmod.aluminum_leggings": "Aluminum Leggings",
@@ -377,6 +379,9 @@
   "item.oresmod.frozen_flesh": "Frozen Flesh",
   "item.oresmod.icy_dagger": "Icy Dagger",
   "item.oresmod.silver_carver": "Silver Carver",
+  "item.oresmod.nickel_carver": "Nickel Carver",
+  "item.oresmod.titanium_carver": "Titanium Carver",
+  "item.oresmod.titanium_alloy_carver": "Titanium Alloy Carver",
 
   "item.oresmod.silverpede_spawn_egg": "Silverpede Spawn Egg",
   "item.oresmod.jungle_spider_spawn_egg": "Jungle Spider Spawn Egg",
@@ -384,6 +389,7 @@
   "item.oresmod.frosite_golem_spawn_egg": "Frosite Golem Spawn Egg",
   "item.oresmod.frostbiten_spawn_egg": "Frostbiten Spawn Egg",
   "item.oresmod.ice_cube_spawn_egg": "Ice Cube Spawn Egg",
+  "item.oresmod.frosted_stray_spawn_egg": "Frosted Stray Spawn Egg",
 
   "block.oresmod.salt_ore": "Salt Ore",
   "block.oresmod.salt_block": "Block of Salt",
@@ -395,10 +401,10 @@
   "block.oresmod.frosite_brick_stairs": "Frosite Brick Stairs",
   "block.oresmod.frosite_brick_slab": "Frosite Brick Slab",
   "block.oresmod.frosite_brick_wall": "Frosite Brick Wall",
-  "block.oresmod.frosite_tiles": "Frosite Tiles",
-  "block.oresmod.frosite_tile_stairs": "Frosite Tile Stairs",
-  "block.oresmod.frosite_tile_slab": "Frosite Tile Slab",
-  "block.oresmod.frosite_tile_wall": "Frosite Tile Wall",
+  "block.oresmod.cut_frosite": "Cut Frosite",
+  "block.oresmod.cut_frosite_stairs": "Cut Frosite Stairs",
+  "block.oresmod.cut_frosite_slab": "Cut Frosite Slab",
+  "block.oresmod.cut_frosite_wall": "Cut Frosite Wall",
   "block.oresmod.chiseled_frosite": "Chiseled Frosite",
 
   "block.oresmod.frosite_button": "Frosite Button",
@@ -593,15 +599,15 @@
   "block.oresmod.red_sandstone_sandite_ore": "Red Sandstone Sandite Ore",
 
   "block.oresmod.sandite_bricks": "Sandite Bricks",
-  "block.oresmod.sandite_tiles": "Sandite Tiles",
+  "block.oresmod.cut_sandite": "Cut Sandite",
   "block.oresmod.chiseled_sandite": "Chiseled Sandite",
 
   "block.oresmod.sandite_brick_stairs": "Sandite Brick Stairs",
   "block.oresmod.sandite_brick_slab": "Sandite Brick Slab",
   "block.oresmod.sandite_brick_wall": "Sandite Brick Wall",
-  "block.oresmod.sandite_tile_stairs": "Sandite Tile Stairs",
-  "block.oresmod.sandite_tile_slab": "Sandite Tile Slab",
-  "block.oresmod.sandite_tile_wall": "Sandite Tile Wall",
+  "block.oresmod.cut_sandite_stairs": "Cut Sandite Stairs",
+  "block.oresmod.cut_sandite_slab": "Cut Sandite Slab",
+  "block.oresmod.cut_sandite_wall": "Cut Sandite Wall",
 
   "block.oresmod.suspicious_white_sand": "Suspicious White Sand",
   "block.oresmod.terracotta_gold_ore": "Terracotta Gold Ore",
@@ -637,6 +643,9 @@
 
   "block.oresmod.gilded_marble": "Gilded Marble",
   "block.oresmod.gilded_marble_bricks": "Gilded Marble Bricks",
+
+  "block.oresmod.smooth_marble": "Smooth Marble",
+  "block.oresmod.smooth_marble_slab": "Smooth Marble Slab",
 
   "block.oresmod.chiseled_marble": "Chiseled Marble",
 
@@ -684,15 +693,15 @@
   "block.oresmod.leafite_block": "Block of Leafite",
 
   "block.oresmod.leafite_bricks": "Leafite Bricks",
-  "block.oresmod.leafite_tiles": "Leafite Tiles",
+  "block.oresmod.cut_leafite": "Cut Leafite",
   "block.oresmod.chiseled_leafite": "Chiseled Leafite",
 
   "block.oresmod.leafite_brick_stairs": "Leafite Brick Stairs",
   "block.oresmod.leafite_brick_slab": "Leafite Brick Slab",
   "block.oresmod.leafite_brick_wall": "Leafite Brick Wall",
-  "block.oresmod.leafite_tile_stairs": "Leafite Tile Stairs",
-  "block.oresmod.leafite_tile_slab": "Leafite Tile Slab",
-  "block.oresmod.leafite_tile_wall": "Leafite Tile Wall",
+  "block.oresmod.cut_leafite_stairs": "Cut Leafite Stairs",
+  "block.oresmod.cut_leafite_slab": "Cut Leafite Slab",
+  "block.oresmod.cut_leafite_wall": "Cut Leafite Wall",
 
   "block.oresmod.leafite_log": "Leafite Log",
   "block.oresmod.leafite_wood": "Leafite Wood",
@@ -730,110 +739,110 @@
   "block.oresmod.end_ite_ore": "End-Ite Ore",
 
   "block.oresmod.end_ite_bricks": "End-Ite Bricks",
-  "block.oresmod.end_ite_tiles": "End-Ite Tiles",
+  "block.oresmod.cut_end_ite": "Cut End-Ite",
   "block.oresmod.chiseled_end_ite": "Chiseled End-Ite",
 
   "block.oresmod.end_ite_brick_stairs": "End-Ite Brick Stairs",
   "block.oresmod.end_ite_brick_slab": "End-Ite Brick Slab",
   "block.oresmod.end_ite_brick_wall": "End-Ite Brick Wall",
-  "block.oresmod.end_ite_tile_stairs": "End-Ite Tile Stairs",
-  "block.oresmod.end_ite_tile_slab": "End-Ite Tile Slab",
-  "block.oresmod.end_ite_tile_wall": "End-Ite Tile Wall",
+  "block.oresmod.cut_end_ite_stairs": "Cut End-Ite Stairs",
+  "block.oresmod.cut_end_ite_slab": "Cut End-Ite Slab",
+  "block.oresmod.cut_end_ite_wall": "Cut End-Ite Wall",
 
   "block.oresmod.light_frosite_block": "Light Frosite Block",
-  "block.oresmod.darken_frosite_block": "Dark Frosite Block",
+  "block.oresmod.dark_frosite_block": "Dark Frosite Block",
   "block.oresmod.light_sandite_block": "Light Sandite Block",
-  "block.oresmod.darken_sandite_block": "Dark Sandite Block",
+  "block.oresmod.dark_sandite_block": "Dark Sandite Block",
   "block.oresmod.light_leafite_block": "Light Leafite Block",
-  "block.oresmod.darken_leafite_block": "Dark Leafite Block",
+  "block.oresmod.dark_leafite_block": "Dark Leafite Block",
   "block.oresmod.light_end_ite_block": "Light End-Ite Block",
-  "block.oresmod.darken_end_ite_block": "Dark End-Ite Block",
+  "block.oresmod.dark_end_ite_block": "Dark End-Ite Block",
 
   "block.oresmod.light_frosite_bricks": "Light Frosite Bricks",
-  "block.oresmod.light_frosite_tiles": "Light Frosite Tiles",
+  "block.oresmod.light_cut_frosite": "Light Cut Frosite",
 
   "block.oresmod.light_frosite_brick_stairs": "Light Frosite Brick Stairs",
   "block.oresmod.light_frosite_brick_slab": "Light Frosite Brick Slab",
   "block.oresmod.light_frosite_brick_wall": "Light Frosite Brick Wall",
-  "block.oresmod.light_frosite_tile_stairs": "Light Frosite Tile Stairs",
-  "block.oresmod.light_frosite_tile_slab": "Light Frosite Tile Slab",
-  "block.oresmod.light_frosite_tile_wall": "Light Frosite Tile Wall",
+  "block.oresmod.light_cut_frosite_stairs": "Light Cut Frosite Stairs",
+  "block.oresmod.light_cut_frosite_slab": "Light Cut Frosite Slab",
+  "block.oresmod.light_cut_frosite_wall": "Light Cut Frosite Wall",
 
   "block.oresmod.light_frosite_button": "Light Frosite Button",
   "block.oresmod.light_frosite_pressure_plate": "Light Frosite Pressure Plate",
 
-  "block.oresmod.darken_frosite_bricks": "Dark Frosite Bricks",
-  "block.oresmod.darken_frosite_tiles": "Dark Frosite Tiles",
+  "block.oresmod.dark_frosite_bricks": "Dark Frosite Bricks",
+  "block.oresmod.dark_cut_frosite": "Dark Cut Frosite",
 
-  "block.oresmod.darken_frosite_brick_stairs": "Dark Frosite Brick Stairs",
-  "block.oresmod.darken_frosite_brick_slab": "Dark Frosite Brick Slab",
-  "block.oresmod.darken_frosite_brick_wall": "Dark Frosite Brick Wall",
-  "block.oresmod.darken_frosite_tile_stairs": "Dark Frosite Tile Stairs",
-  "block.oresmod.darken_frosite_tile_slab": "Dark Frosite Tile Slab",
-  "block.oresmod.darken_frosite_tile_wall": "Dark Frosite Tile Wall",
+  "block.oresmod.dark_frosite_brick_stairs": "Dark Frosite Brick Stairs",
+  "block.oresmod.dark_frosite_brick_slab": "Dark Frosite Brick Slab",
+  "block.oresmod.dark_frosite_brick_wall": "Dark Frosite Brick Wall",
+  "block.oresmod.dark_cut_frosite_stairs": "Dark Cut Frosite Stairs",
+  "block.oresmod.dark_cut_frosite_slab": "Dark Cut Frosite Slab",
+  "block.oresmod.dark_cut_frosite_wall": "Dark Cut Frosite Wall",
 
-  "block.oresmod.darken_frosite_button": "Dark Frosite Button",
-  "block.oresmod.darken_frosite_pressure_plate": "Dark Frosite Pressure Plate",
+  "block.oresmod.dark_frosite_button": "Dark Frosite Button",
+  "block.oresmod.dark_frosite_pressure_plate": "Dark Frosite Pressure Plate",
 
   "block.oresmod.light_sandite_bricks": "Light Sandite Bricks",
-  "block.oresmod.light_sandite_tiles": "Light Sandite Tiles",
+  "block.oresmod.light_cut_sandite": "Light Cut Sandite",
 
   "block.oresmod.light_sandite_brick_stairs": "Light Sandite Brick Stairs",
   "block.oresmod.light_sandite_brick_slab": "Light Sandite Brick Slab",
   "block.oresmod.light_sandite_brick_wall": "Light Sandite Brick Wall",
-  "block.oresmod.light_sandite_tile_stairs": "Light Sandite Tile Stairs",
-  "block.oresmod.light_sandite_tile_slab": "Light Sandite Tile Slab",
-  "block.oresmod.light_sandite_tile_wall": "Light Sandite Tile Wall",
+  "block.oresmod.light_cut_sandite_stairs": "Light Cut Sandite Stairs",
+  "block.oresmod.light_cut_sandite_slab": "Light Cut Sandite Slab",
+  "block.oresmod.light_cut_sandite_wall": "Light Cut Sandite Wall",
 
-  "block.oresmod.darken_sandite_bricks": "Dark Sandite Bricks",
-  "block.oresmod.darken_sandite_tiles": "Dark Sandite Tiles",
+  "block.oresmod.dark_sandite_bricks": "Dark Sandite Bricks",
+  "block.oresmod.dark_cut_sandite": "Dark Cut Sandite",
 
-  "block.oresmod.darken_sandite_brick_stairs": "Dark Sandite Brick Stairs",
-  "block.oresmod.darken_sandite_brick_slab": "Dark Sandite Brick Slab",
-  "block.oresmod.darken_sandite_brick_wall": "Dark Sandite Brick Wall",
-  "block.oresmod.darken_sandite_tile_stairs": "Dark Sandite Tile Stairs",
-  "block.oresmod.darken_sandite_tile_slab": "Dark Sandite Tile Slab",
-  "block.oresmod.darken_sandite_tile_wall": "Dark Sandite Tile Wall",
+  "block.oresmod.dark_sandite_brick_stairs": "Dark Sandite Brick Stairs",
+  "block.oresmod.dark_sandite_brick_slab": "Dark Sandite Brick Slab",
+  "block.oresmod.dark_sandite_brick_wall": "Dark Sandite Brick Wall",
+  "block.oresmod.dark_cut_sandite_stairs": "Dark Cut Sandite Stairs",
+  "block.oresmod.dark_cut_sandite_slab": "Dark Cut Sandite Slab",
+  "block.oresmod.dark_cut_sandite_wall": "Dark Cut Sandite Wall",
 
   "block.oresmod.light_leafite_bricks": "Light Leafite Bricks",
-  "block.oresmod.light_leafite_tiles": "Light Leafite Tiles",
+  "block.oresmod.light_cut_leafite": "Light Cut Leafite",
 
   "block.oresmod.light_leafite_brick_stairs": "Light Leafite Brick Stairs",
   "block.oresmod.light_leafite_brick_slab": "Light Leafite Brick Slab",
   "block.oresmod.light_leafite_brick_wall": "Light Leafite Brick Wall",
-  "block.oresmod.light_leafite_tile_stairs": "Light Leafite Tile Stairs",
-  "block.oresmod.light_leafite_tile_slab": "Light Leafite Tile Slab",
-  "block.oresmod.light_leafite_tile_wall": "Light Leafite Tile Wall",
+  "block.oresmod.light_cut_leafite_stairs": "Light Cut Leafite Stairs",
+  "block.oresmod.light_cut_leafite_slab": "Light Cut Leafite Slab",
+  "block.oresmod.light_cut_leafite_wall": "Light Cut Leafite Wall",
 
-  "block.oresmod.darken_leafite_bricks": "Dark Leafite Bricks",
-  "block.oresmod.darken_leafite_tiles": "Dark Leafite Tiles",
+  "block.oresmod.dark_leafite_bricks": "Dark Leafite Bricks",
+  "block.oresmod.dark_cut_leafite": "Dark Cut Leafite",
 
-  "block.oresmod.darken_leafite_brick_stairs": "Dark Leafite Brick Stairs",
-  "block.oresmod.darken_leafite_brick_slab": "Dark Leafite Brick Slab",
-  "block.oresmod.darken_leafite_brick_wall": "Dark Leafite Brick Wall",
-  "block.oresmod.darken_leafite_tile_stairs": "Dark Leafite Tile Stairs",
-  "block.oresmod.darken_leafite_tile_slab": "Dark Leafite Tile Slab",
-  "block.oresmod.darken_leafite_tile_wall": "Dark Leafite Tile Wall",
+  "block.oresmod.dark_leafite_brick_stairs": "Dark Leafite Brick Stairs",
+  "block.oresmod.dark_leafite_brick_slab": "Dark Leafite Brick Slab",
+  "block.oresmod.dark_leafite_brick_wall": "Dark Leafite Brick Wall",
+  "block.oresmod.dark_cut_leafite_stairs": "Dark Cut Leafite Stairs",
+  "block.oresmod.dark_cut_leafite_slab": "Dark Cut Leafite Slab",
+  "block.oresmod.dark_cut_leafite_wall": "Dark Cut Leafite Wall",
 
   "block.oresmod.light_end_ite_bricks": "Light End-Ite Bricks",
-  "block.oresmod.light_end_ite_tiles": "Light End-Ite Tiles",
+  "block.oresmod.light_cut_end_ite": "Light Cut End-Ite",
 
   "block.oresmod.light_end_ite_brick_stairs": "Light End-Ite Brick Stairs",
   "block.oresmod.light_end_ite_brick_slab": "Light End-Ite Brick Slab",
   "block.oresmod.light_end_ite_brick_wall": "Light End-Ite Brick Wall",
-  "block.oresmod.light_end_ite_tile_stairs": "Light End-Ite Tile Stairs",
-  "block.oresmod.light_end_ite_tile_slab": "Light End-Ite Tile Slab",
-  "block.oresmod.light_end_ite_tile_wall": "Light End-Ite Tile Wall",
+  "block.oresmod.light_cut_end_ite_stairs": "Light Cut End-Ite Stairs",
+  "block.oresmod.light_cut_end_ite_slab": "Light Cut End-Ite Slab",
+  "block.oresmod.light_cut_end_ite_wall": "Light Cut End-Ite Wall",
 
-  "block.oresmod.darken_end_ite_bricks": "Dark End-Ite Bricks",
-  "block.oresmod.darken_end_ite_tiles": "Dark End-Ite Tiles",
+  "block.oresmod.dark_end_ite_bricks": "Dark End-Ite Bricks",
+  "block.oresmod.dark_cut_end_ite": "Dark Cut End-Ite",
 
-  "block.oresmod.darken_end_ite_brick_stairs": "Dark End-Ite Brick Stairs",
-  "block.oresmod.darken_end_ite_brick_slab": "Dark End-Ite Brick Slab",
-  "block.oresmod.darken_end_ite_brick_wall": "Dark End-Ite Brick Wall",
-  "block.oresmod.darken_end_ite_tile_stairs": "Dark End-Ite Tile Stairs",
-  "block.oresmod.darken_end_ite_tile_slab": "Dark End-Ite Tile Slab",
-  "block.oresmod.darken_end_ite_tile_wall": "Dark End-Ite Tile Wall",
+  "block.oresmod.dark_end_ite_brick_stairs": "Dark End-Ite Brick Stairs",
+  "block.oresmod.dark_end_ite_brick_slab": "Dark End-Ite Brick Slab",
+  "block.oresmod.dark_end_ite_brick_wall": "Dark End-Ite Brick Wall",
+  "block.oresmod.dark_cut_end_ite_stairs": "Dark Cut End-Ite Stairs",
+  "block.oresmod.dark_cut_end_ite_slab": "Dark Cut End-Ite Slab",
+  "block.oresmod.dark_cut_end_ite_wall": "Dark Cut End-Ite Wall",
 
   "block.oresmod.ice_bricks": "Ice Bricks",
   "block.oresmod.ice_pillar": "Ice Pillar",
@@ -844,16 +853,143 @@
 
   "block.oresmod.icy_crocus": "Icy Crocus",
   "block.oresmod.silver_rose": "Silver Rose",
+  "block.oresmod.subalpine_daisy": "Subalpine Daisy",
+  "block.oresmod.alpine_speedwell": "Alpine Speedwell",
+
+  "block.oresmod.silver_grass": "Silver Grass",
 
   "block.oresmod.reinforced_frosite_block": "Reinforced Frosite Block",
   "block.oresmod.light_reinforced_frosite_block": "Light Reinforced Frosite Block",
-  "block.oresmod.darken_reinforced_frosite_block": "Dark Reinforced Frosite Block",
+  "block.oresmod.dark_reinforced_frosite_block": "Dark Reinforced Frosite Block",
+
+  "block.oresmod.carving_station": "Carving Station",
+
+  "item.oresmod.masonry_blueprint": "Carving Blueprint",
+  "item.oresmod.uniform_blueprint": "Carving Blueprint",
+  "item.minecraft.blueprint.masonry.style": "Masonry Style",
+  "item.minecraft.blueprint.uniform.style": "Uniform Style",
+
+  "block.oresmod.stone_masonry_bricks": "Stone Bricks",
+  "block.oresmod.stone_masonry_brick_stairs": "Stone Brick Stairs",
+  "block.oresmod.stone_masonry_brick_slab": "Stone Brick Slab",
+  "block.oresmod.stone_masonry_brick_wall": "Stone Brick Wall",
+
+  "block.oresmod.nether_masonry_bricks": "Nether Bricks",
+  "block.oresmod.nether_masonry_brick_stairs": "Nether Brick Stairs",
+  "block.oresmod.nether_masonry_brick_slab": "Nether Brick Slab",
+  "block.oresmod.nether_masonry_brick_wall": "Nether Brick Wall",
+
+  "block.oresmod.prismarine_masonry_bricks": "Prismarine Bricks",
+  "block.oresmod.prismarine_masonry_brick_stairs": "Prismarine Brick Stairs",
+  "block.oresmod.prismarine_masonry_brick_slab": "Prismarine Brick Slab",
+  "block.oresmod.prismarine_masonry_brick_wall": "Prismarine Brick Wall",
+
+  "block.oresmod.end_stone_masonry_bricks": "End Stone Bricks",
+  "block.oresmod.end_stone_masonry_brick_stairs": "End Stone Brick Stairs",
+  "block.oresmod.end_stone_masonry_brick_slab": "End Stone Brick Slab",
+  "block.oresmod.end_stone_masonry_brick_wall": "End Stone Brick Wall",
+
+  "block.oresmod.red_nether_masonry_bricks": "Red Nether Bricks",
+  "block.oresmod.red_nether_masonry_brick_stairs": "Red Nether Brick Stairs",
+  "block.oresmod.red_nether_masonry_brick_slab": "Red Nether Brick Slab",
+  "block.oresmod.red_nether_masonry_brick_wall": "Red Nether Brick Wall",
+
+  "block.oresmod.polished_blackstone_masonry_bricks": "Polished Blackstone Bricks",
+  "block.oresmod.polished_blackstone_masonry_brick_stairs": "Polished Blackstone Brick Stairs",
+  "block.oresmod.polished_blackstone_masonry_brick_slab": "Polished Blackstone Brick Slab",
+  "block.oresmod.polished_blackstone_masonry_brick_wall": "Polished Blackstone Brick Wall",
+
+  "block.oresmod.quartz_masonry_bricks": "Quartz Bricks",
+  "block.oresmod.quartz_masonry_brick_stairs": "Quartz Brick Stairs",
+  "block.oresmod.quartz_masonry_brick_slab": "Quartz Brick Slab",
+  "block.oresmod.quartz_masonry_brick_wall": "Quartz Brick Wall",
+
+  "block.oresmod.deepslate_masonry_bricks": "Deepslate Bricks",
+  "block.oresmod.deepslate_masonry_brick_stairs": "Deepslate Brick Stairs",
+  "block.oresmod.deepslate_masonry_brick_slab": "Deepslate Brick Slab",
+  "block.oresmod.deepslate_masonry_brick_wall": "Deepslate Brick Wall",
+
+  "block.oresmod.mud_masonry_bricks": "Mud Bricks",
+  "block.oresmod.mud_masonry_brick_stairs": "Mud Brick Stairs",
+  "block.oresmod.mud_masonry_brick_slab": "Mud Brick Slab",
+  "block.oresmod.mud_masonry_brick_wall": "Mud Brick Wall",
+
+  "block.oresmod.marble_masonry_bricks": "Marble Bricks",
+  "block.oresmod.marble_masonry_brick_stairs": "Marble Brick Stairs",
+  "block.oresmod.marble_masonry_brick_slab": "Marble Brick Slab",
+  "block.oresmod.marble_masonry_brick_wall": "Marble Brick Wall",
+
+  "block.oresmod.polished_andesite_masonry_bricks": "Polished Andesite Bricks",
+  "block.oresmod.polished_andesite_masonry_brick_stairs": "Polished Andesite Brick Stairs",
+  "block.oresmod.polished_andesite_masonry_brick_slab": "Polished Andesite Brick Slab",
+  "block.oresmod.polished_andesite_masonry_brick_wall": "Polished Andesite Brick Wall",
+
+  "block.oresmod.polished_diorite_masonry_bricks": "Polished Diorite Bricks",
+  "block.oresmod.polished_diorite_masonry_brick_stairs": "Polished Diorite Brick Stairs",
+  "block.oresmod.polished_diorite_masonry_brick_slab": "Polished Diorite Brick Slab",
+  "block.oresmod.polished_diorite_masonry_brick_wall": "Polished Diorite Brick Wall",
+
+  "block.oresmod.polished_granite_masonry_bricks": "Polished Granite Bricks",
+  "block.oresmod.polished_granite_masonry_brick_stairs": "Polished Granite Brick Stairs",
+  "block.oresmod.polished_granite_masonry_brick_slab": "Polished Granite Brick Slab",
+  "block.oresmod.polished_granite_masonry_brick_wall": "Polished Granite Brick Wall",
+
+  "block.oresmod.polished_bedrock_masonry_bricks": "Polished Bedrock Bricks",
+  "block.oresmod.polished_bedrock_masonry_brick_stairs": "Polished Bedrock Brick Stairs",
+  "block.oresmod.polished_bedrock_masonry_brick_slab": "Polished Bedrock Brick Slab",
+  "block.oresmod.polished_bedrock_masonry_brick_wall": "Polished Bedrock Brick Wall",
+
+  "block.oresmod.void_stone_masonry_bricks": "Void Stone Bricks",
+  "block.oresmod.void_stone_masonry_brick_stairs": "Void Stone Brick Stairs",
+  "block.oresmod.void_stone_masonry_brick_slab": "Void Stone Brick Slab",
+  "block.oresmod.void_stone_masonry_brick_wall": "Void Stone Brick Wall",
+
+  "block.oresmod.uniform_bricks": "Bricks",
+  "block.oresmod.uniform_brick_stairs": "Brick Stairs",
+  "block.oresmod.uniform_brick_slab": "Brick Slab",
+  "block.oresmod.uniform_brick_wall": "Brick Wall",
+
+  "block.oresmod.mud_uniform_bricks": "Mud Bricks",
+  "block.oresmod.mud_uniform_brick_stairs": "Mud Brick Stairs",
+  "block.oresmod.mud_uniform_brick_slab": "Mud Brick Slab",
+  "block.oresmod.mud_uniform_brick_wall": "Mud Brick Wall",
+
+  "block.oresmod.nether_uniform_bricks": "Nether Bricks",
+  "block.oresmod.nether_uniform_brick_stairs": "Nether Brick Stairs",
+  "block.oresmod.nether_uniform_brick_slab": "Nether Brick Slab",
+  "block.oresmod.nether_uniform_brick_wall": "Nether Brick Wall",
+
+  "block.oresmod.prismarine_uniform_bricks": "Prismarine Bricks",
+  "block.oresmod.prismarine_uniform_brick_stairs": "Prismarine Brick Stairs",
+  "block.oresmod.prismarine_uniform_brick_slab": "Prismarine Brick Slab",
+  "block.oresmod.prismarine_uniform_brick_wall": "Prismarine Brick Wall",
+
+  "block.oresmod.end_stone_uniform_bricks": "End Stone Bricks",
+  "block.oresmod.end_stone_uniform_brick_stairs": "End Stone Brick Stairs",
+  "block.oresmod.end_stone_uniform_brick_slab": "End Stone Brick Slab",
+  "block.oresmod.end_stone_uniform_brick_wall": "End Stone Brick Wall",
+
+  "block.oresmod.red_nether_uniform_bricks": "Red Nether Bricks",
+  "block.oresmod.red_nether_uniform_brick_stairs": "Red Nether Brick Stairs",
+  "block.oresmod.red_nether_uniform_brick_slab": "Red Nether Brick Slab",
+  "block.oresmod.red_nether_uniform_brick_wall": "Red Nether Brick Wall",
+
+  "block.oresmod.quartz_uniform_bricks": "Quartz Bricks",
+  "block.oresmod.quartz_uniform_brick_stairs": "Quartz Brick Stairs",
+  "block.oresmod.quartz_uniform_brick_slab": "Quartz Brick Slab",
+  "block.oresmod.quartz_uniform_brick_wall": "Quartz Brick Wall",
+
+  "block.oresmod.void_stone_uniform_bricks": "Void Stone Bricks",
+  "block.oresmod.void_stone_uniform_brick_stairs": "Void Stone Brick Stairs",
+  "block.oresmod.void_stone_uniform_brick_slab": "Void Stone Brick Slab",
+  "block.oresmod.void_stone_uniform_brick_wall": "Void Stone Brick Wall",
 
   "entity.oresmod.silverpede": "Silverpede",
   "entity.oresmod.silverwyrm": "Silverwyrm",
   "entity.oresmod.jungle_spider": "Jungle Spider",
   "entity.oresmod.ender_spider": "Enderspider",
   "entity.oresmod.frosite_golem": "Frosite Golem",
+  "entity.oresmod.frosted_stray": "Frosted Stray",
   "entity.oresmod.frostbiten": "Frostbiten",
   "entity.oresmod.ice_cube": "Ice Cube",
 
@@ -866,10 +1002,6 @@
   "item.minecraft.splash_potion.effect.long_frostbite_potion": "Splash Potion of Subzero",
   "item.minecraft.lingering_potion.effect.long_frostbite_potion": "Lingering Potion of Subzero",
   "item.minecraft.tipped_arrow.effect.long_frostbite_potion": "Arrow of Subzero",
-  "item.minecraft.potion.effect.strong_frostbite_potion": "Potion of Subzero",
-  "item.minecraft.splash_potion.effect.strong_frostbite_potion": "Splash Potion of Subzero",
-  "item.minecraft.lingering_potion.effect.strong_frostbite_potion": "Lingering Potion of Subzero",
-  "item.minecraft.tipped_arrow.effect.strong_frostbite_potion": "Arrow of Subzero",
 
   "effect.oresmod.heat_stroke": "Heat Stroke",
   "item.minecraft.potion.effect.heat_stroke_potion": "Potion of Boiling",
@@ -880,10 +1012,6 @@
   "item.minecraft.splash_potion.effect.long_heat_stroke_potion": "Splash Potion of Boiling",
   "item.minecraft.lingering_potion.effect.long_heat_stroke_potion": "Lingering Potion of Boiling",
   "item.minecraft.tipped_arrow.effect.long_heat_stroke_potion": "Arrow of Boiling",
-  "item.minecraft.potion.effect.strong_heat_stroke_potion": "Potion of Boiling",
-  "item.minecraft.splash_potion.effect.strong_heat_stroke_potion": "Splash Potion of Boiling",
-  "item.minecraft.lingering_potion.effect.strong_heat_stroke_potion": "Lingering Potion of Boiling",
-  "item.minecraft.tipped_arrow.effect.strong_heat_stroke_potion": "Arrow of Boiling",
 
   "effect.oresmod.fatal_poison": "Fatal Poison",
   "item.minecraft.potion.effect.fatal_poison_potion": "Potion of Fatal Poison",
@@ -894,10 +1022,6 @@
   "item.minecraft.splash_potion.effect.long_fatal_poison_potion": "Splash Potion of Fatal Poison",
   "item.minecraft.lingering_potion.effect.long_fatal_poison_potion": "Lingering Potion of Fatal Poison",
   "item.minecraft.tipped_arrow.effect.long_fatal_poison_potion": "Arrow of Fatal Poison",
-  "item.minecraft.potion.effect.strong_fatal_poison_potion": "Potion of Fatal Poison",
-  "item.minecraft.splash_potion.effect.strong_fatal_poison_potion": "Splash Potion of Fatal Poison",
-  "item.minecraft.lingering_potion.effect.strong_fatal_poison_potion": "Lingering Potion of Fatal Poison",
-  "item.minecraft.tipped_arrow.effect.strong_fatal_poison_potion": "Arrow of Fatal Poison",
 
   "effect.oresmod.void_sickness": "Void Sickness",
   "item.minecraft.potion.effect.void_sickness_potion": "Potion of Void Sickness",
@@ -908,10 +1032,6 @@
   "item.minecraft.splash_potion.effect.long_void_sickness_potion": "Splash Potion of Void Sickness",
   "item.minecraft.lingering_potion.effect.long_void_sickness_potion": "Lingering Potion of Void Sickness",
   "item.minecraft.tipped_arrow.effect.long_void_sickness_potion": "Arrow of Void Sickness",
-  "item.minecraft.potion.effect.strong_void_sickness_potion": "Potion of Void Sickness",
-  "item.minecraft.splash_potion.effect.strong_void_sickness_potion": "Splash Potion of Void Sickness",
-  "item.minecraft.lingering_potion.effect.strong_void_sickness_potion": "Lingering Potion of Void Sickness",
-  "item.minecraft.tipped_arrow.effect.strong_void_sickness_potion": "Arrow of Void Sickness",
 
   "effect.oresmod.decrease_health": "Health Decrease",
 
@@ -928,6 +1048,7 @@
   "itemgroup.ores_mod_other_blocks": "OOM Other Blocks",
   "itemgroup.ores_mod_other": "OOM Other Stuff",
   "itemgroup.ores_mod_mobs": "OOM Mobs & Trophies",
+  "itemgroup.ores_mod_carving": "OOM Carving Stuff",
 
   "tooltip.oresmod.modded_upgrade_smithing_template_1": "Ingredients:",
   "tooltip.oresmod.modded_upgrade_smithing_template_2": "Applies to:",
@@ -938,5 +1059,7 @@
 
   "tooltip.oresmod.titanium_alloy_upgrade_smithing_template_1": "Titanium Alloy Upgrade",
   "tooltip.oresmod.titanium_alloy_upgrade_smithing_template_2": "Titanium Equipment & Tungsten Equipment",
-  "tooltip.oresmod.titanium_alloy_upgrade_smithing_template_3": "Titanium Alloy Ingot"
+  "tooltip.oresmod.titanium_alloy_upgrade_smithing_template_3": "Titanium Alloy Ingot",
+
+  "container.carving": "Carving Station:"
 }

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "oresmod:block/carving_station",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "oresmod:block/carving_station"
+    },
+    "facing=south": {
+      "model": "oresmod:block/carving_station",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "oresmod:block/carving_station",
+      "y": 270
+    }
+  }
+}

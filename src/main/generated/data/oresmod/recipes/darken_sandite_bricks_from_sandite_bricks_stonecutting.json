@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "oresmod:sandite_bricks"
-  },
-  "result": "oresmod:darken_sandite_bricks"
-}

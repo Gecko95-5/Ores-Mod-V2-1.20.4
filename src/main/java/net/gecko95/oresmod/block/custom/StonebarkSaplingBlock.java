@@ -4,7 +4,6 @@ import net.gecko95.oresmod.util.ModTags;
 import net.minecraft.block.*;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.BlockView;
-
 public class StonebarkSaplingBlock extends SaplingBlock {
 
 

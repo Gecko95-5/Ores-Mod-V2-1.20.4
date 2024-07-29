@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_darken_frosite_block": {
+    "has_dark_frosite_block": {
       "conditions": {
         "items": [
           {
             "items": [
-              "oresmod:darken_frosite_block"
+              "oresmod:dark_frosite_block"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_darken_frosite_block",
+      "has_dark_frosite_block",
       "has_frosite"
     ]
   ],

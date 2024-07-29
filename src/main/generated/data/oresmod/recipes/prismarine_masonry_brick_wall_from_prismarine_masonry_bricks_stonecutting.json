@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "oresmod:prismarine_masonry_bricks"
+  },
+  "result": "oresmod:prismarine_masonry_brick_wall"
+}

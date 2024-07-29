@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "oresmod:mud_uniform_bricks"
+  },
+  "result": "oresmod:mud_uniform_brick_slab"
+}

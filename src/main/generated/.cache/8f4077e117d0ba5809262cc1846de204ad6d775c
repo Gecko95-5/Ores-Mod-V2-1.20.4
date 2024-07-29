@@ -1,12 +1,13 @@
-// 1.20.4	2024-05-25T00:02:29.2114405	Overwhelming Ores Mod/Tags for minecraft:worldgen/biome
+// 1.20.4	2024-07-29T13:55:53.8877301	Overwhelming Ores Mod/Tags for minecraft:worldgen/biome
 c0205756f611d28417064ff17aec4ef9d4825495 data\oresmod\tags\worldgen\biome\has_frosite.json
 48093d453145b5b1d29e6c5a66817796a8cc2f74 data\oresmod\tags\worldgen\biome\is_end_islands.json
+6572e244195b41317fc27f8885c10e8e8346e199 data\minecraft\tags\worldgen\biome\has_structure\pillager_outpost.json
 fe9c51bae52e9041d35dc264f68110329a79123e data\oresmod\tags\worldgen\biome\stonebark_safe.json
 9a4d55f86858b681746daacca86f2ab7a2868faa data\minecraft\tags\worldgen\biome\spawns_warm_variant_frogs.json
 d704ccfb8987f18db0107b857fd3b5332ac86ce8 data\oresmod\tags\worldgen\biome\is_quarry.json
 615d3e444d6c3bb4142ff39931589722882e09b9 data\oresmod\tags\worldgen\biome\frosite_cold.json
+08027d42789b54fa240605596db26d3f23d5ca9f data\minecraft\tags\worldgen\biome\has_structure\mineshaft.json
 72d61b0a82b18d36313c04605f07d8b5adb0b282 data\minecraft\tags\worldgen\biome\spawns_snow_foxes.json
-3fe1c0cec6fc31c893268b3bf2d1338b37388a0e data\minecraft\tags\worldgen\biome\has_structure\mineshaft.json
 3fe1c0cec6fc31c893268b3bf2d1338b37388a0e data\minecraft\tags\worldgen\biome\is_overworld.json
 9a4d55f86858b681746daacca86f2ab7a2868faa data\minecraft\tags\worldgen\biome\has_structure\nether_fossil.json
 9a4d55f86858b681746daacca86f2ab7a2868faa data\minecraft\tags\worldgen\biome\has_structure\ruined_portal_desert.json
@@ -16,8 +17,8 @@ d704ccfb8987f18db0107b857fd3b5332ac86ce8 data\oresmod\tags\worldgen\biome\is_qua
 72d61b0a82b18d36313c04605f07d8b5adb0b282 data\minecraft\tags\worldgen\biome\spawns_cold_variant_frogs.json
 9564cfb3eb75f53b7a2d68c0ee3368344f7a17e8 data\minecraft\tags\worldgen\biome\is_beach.json
 8b494ea04651b8b0f6a58ca5ecc5718ae447c81b data\oresmod\tags\worldgen\biome\is_quarry_flat.json
-bdb1d6dba4109bb21201c0ae72faa423d0cbd839 data\minecraft\tags\worldgen\biome\without_wandering_trader_spawns.json
 72d61b0a82b18d36313c04605f07d8b5adb0b282 data\minecraft\tags\worldgen\biome\has_structure\igloo.json
+bdb1d6dba4109bb21201c0ae72faa423d0cbd839 data\minecraft\tags\worldgen\biome\without_wandering_trader_spawns.json
 72d61b0a82b18d36313c04605f07d8b5adb0b282 data\minecraft\tags\worldgen\biome\increased_fire_burnout.json
 9a4d55f86858b681746daacca86f2ab7a2868faa data\minecraft\tags\worldgen\biome\snow_golem_melts.json
 2b4e9f1796c44398ebd1e25435ef83a65697cac9 data\minecraft\tags\worldgen\biome\is_mountain.json

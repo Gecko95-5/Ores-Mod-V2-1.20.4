@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "oresmod:polished_blackstone_masonry_bricks"
+  },
+  "result": "oresmod:polished_blackstone_masonry_brick_slab"
+}

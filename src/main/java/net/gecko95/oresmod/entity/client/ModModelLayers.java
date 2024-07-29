@@ -2,6 +2,7 @@ package net.gecko95.oresmod.entity.client;
 
 import net.gecko95.oresmod.OresMod;
 import net.minecraft.client.render.entity.model.EntityModelLayer;
+import net.minecraft.client.render.entity.model.EntityModelLayers;
 import net.minecraft.util.Identifier;
 
 public class ModModelLayers {

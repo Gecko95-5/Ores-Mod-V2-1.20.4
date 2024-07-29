@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "B": {
-      "item": "oresmod:darken_frosite_block"
+      "item": "oresmod:dark_frosite_block"
     },
     "I": {
       "item": "oresmod:frosite"
@@ -15,6 +15,6 @@
   ],
   "result": {
     "count": 4,
-    "item": "oresmod:darken_frosite_bricks"
+    "item": "oresmod:dark_frosite_bricks"
   }
 }

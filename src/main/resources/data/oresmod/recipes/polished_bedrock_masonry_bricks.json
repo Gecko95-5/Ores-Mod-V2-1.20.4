@@ -1,0 +1,17 @@
+{
+  "type": "oresmod:carving",
+  "ingredients": [
+    {
+      "item": "oresmod:polished_bedrock"
+    },
+    {
+      "item": "oresmod:masonry_blueprint"
+    },
+    {
+      "item": "oresmod:titanium_alloy_carver"
+    }
+  ],
+  "output": {
+    "item": "oresmod:polished_bedrock_masonry_bricks"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "oresmod:carving",
+  "ingredients": [
+    {
+      "item": "oresmod:prismarine_masonry_bricks"
+    },
+    {
+      "item": "oresmod:uniform_blueprint"
+    },
+    {
+      "tag": "oresmod:carving_tools"
+    }
+  ],
+  "output": {
+    "item": "oresmod:prismarine_uniform_bricks"
+  }
+}

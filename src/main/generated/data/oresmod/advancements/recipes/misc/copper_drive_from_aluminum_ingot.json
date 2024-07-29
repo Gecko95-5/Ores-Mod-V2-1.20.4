@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_aluminum_ingot": {
+    "has_aluminum_nugget": {
       "conditions": {
         "items": [
           {
             "items": [
-              "oresmod:aluminum_ingot"
+              "oresmod:aluminum_nugget"
             ]
           }
         ]
@@ -48,7 +48,7 @@
     [
       "has_the_recipe",
       "has_copper_ingot",
-      "has_aluminum_ingot",
+      "has_aluminum_nugget",
       "has_redstone"
     ]
   ],

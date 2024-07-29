@@ -13,6 +13,9 @@ public class ModTreeGeneration {
         BiomeModifications.addFeature(BiomeSelectors.tag(ModTags.Biomes.STONEBARK_SAFE),
                 GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.STONEBARK_PLACED_KEY);
 
+        BiomeModifications.addFeature(BiomeSelectors.includeByKey(ModBiomes.WOODED_QUARRY, BiomeKeys.FOREST),
+                GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.WOODED_STONEBARK_PLACED_KEY);
+
         BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.JUNGLE, BiomeKeys.BAMBOO_JUNGLE),
                 GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.LEAFITE_ORE_TREE_PLACED_KEY);
         BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.JUNGLE, BiomeKeys.BAMBOO_JUNGLE),

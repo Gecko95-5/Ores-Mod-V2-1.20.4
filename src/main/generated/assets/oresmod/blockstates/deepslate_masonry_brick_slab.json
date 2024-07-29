@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "oresmod:block/deepslate_masonry_brick_slab"
+    },
+    "type=double": {
+      "model": "oresmod:block/deepslate_masonry_bricks"
+    },
+    "type=top": {
+      "model": "oresmod:block/deepslate_masonry_brick_slab_top"
+    }
+  }
+}

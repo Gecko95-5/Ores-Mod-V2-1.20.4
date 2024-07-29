@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "oresmod:void_stone_masonry_bricks"
+  },
+  "result": "oresmod:void_stone_masonry_brick_wall"
+}

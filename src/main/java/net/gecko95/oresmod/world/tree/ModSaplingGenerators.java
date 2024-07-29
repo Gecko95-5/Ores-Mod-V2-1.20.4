@@ -2,14 +2,15 @@ package net.gecko95.oresmod.world.tree;
 
 import net.gecko95.oresmod.world.ModConfiguredFeatures;
 import net.minecraft.block.SaplingGenerator;
+
 import java.util.Optional;
 
 public class ModSaplingGenerators {
     public static final SaplingGenerator STONEBARK =
-            new SaplingGenerator("stonebark", 0f, Optional.empty(),
+            new SaplingGenerator("stonebark", 10f, Optional.empty(),
                     Optional.empty(),
                     Optional.of(ModConfiguredFeatures.STONEBARK_KEY),
-                    Optional.empty(),
+                    Optional.of(ModConfiguredFeatures.WOODED_STONEBARK_KEY),
                     Optional.empty(),
                     Optional.empty());
 

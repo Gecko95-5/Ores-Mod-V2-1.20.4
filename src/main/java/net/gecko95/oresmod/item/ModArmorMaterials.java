@@ -13,6 +13,8 @@ import java.util.function.Supplier;
 public enum ModArmorMaterials implements ArmorMaterial {
     FROSITE("frosite", 12, new int[] { 2, 4, 3, 2}, 12,
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0f, 0f, () -> Ingredient.ofItems(ModItems.FROSITE)),
+    FROSITE_VIS("frosite_vis", 12, new int[] { 2, 4, 3, 2}, 12,
+            SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0f, 0f, () -> Ingredient.ofItems(ModItems.FROSITE)),
     SANDITE("sandite", 12, new int[] { 2, 3, 4, 2}, 12,
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0f, 0f, () -> Ingredient.ofItems(ModItems.SANDITE)),
     LEAFITE("leafite", 12, new int[] { 3, 2, 3, 3}, 12,

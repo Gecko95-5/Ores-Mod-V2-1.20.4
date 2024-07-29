@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "oresmod:darken_end_ite_block"
-  },
-  "result": "oresmod:darken_end_ite_tile_stairs"
-}

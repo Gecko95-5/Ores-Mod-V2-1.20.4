@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "oresmod:aluminum_ingot",
+    "oresmod:steel_ingot",
+    "oresmod:titanium_ingot",
+    "oresmod:tungsten_ingot",
+    "oresmod:titanium_alloy_ingot",
+    "oresmod:cobalt_ingot",
+    "oresmod:platinum_ingot"
+  ]
+}

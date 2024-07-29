@@ -29,7 +29,7 @@ public class ModItems {
     public static final Item FROSITE_SWORD = registerItem("frosite_sword",
             new FrositeSwordItem(ModToolMaterial.FROSITE, 3, -2.4f, new FabricItemSettings()));
     public static final Item FROSITE_AXE = registerItem("frosite_axe",
-            new AxeItem(ModToolMaterial.FROSITE, 6.0f, -3.1f, new FabricItemSettings()));
+            new FrositeAxeItem(ModToolMaterial.FROSITE, 2.0f, -3.1f, new FabricItemSettings()));
     public static final Item FROSITE_SHOVEL = registerItem("frosite_shovel",
             new ShovelItem(ModToolMaterial.FROSITE, 1.5f, -3.0f, new FabricItemSettings()));
     public static final Item FROSITE_HOE = registerItem("frosite_hoe",
@@ -43,6 +43,9 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.FROSITE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item FROSITE_BOOTS = registerItem("frosite_boots",
             new ArmorItem(ModArmorMaterials.FROSITE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
+    public static final Item FROSITE_HELMET_VISOR = registerItem("frosite_helmet_visor",
+            new ArmorItem(ModArmorMaterials.FROSITE_VIS, ArmorItem.Type.HELMET, new FabricItemSettings()));
 
     public static final Item ALUMINUM_INGOT = registerItem("aluminum_ingot", new Item(new FabricItemSettings()));
     public static final Item RAW_ALUMINUM = registerItem("raw_aluminum", new Item(new FabricItemSettings()));
@@ -486,7 +489,7 @@ public class ModItems {
     public static final Item SANDITE_SWORD = registerItem("sandite_sword",
             new SanditeSwordItem(ModToolMaterial.SANDITE, 3, -2.4f, new FabricItemSettings()));
     public static final Item SANDITE_AXE = registerItem("sandite_axe",
-            new AxeItem(ModToolMaterial.SANDITE, 6.0f, -3.1f, new FabricItemSettings()));
+            new SanditeAxeItem(ModToolMaterial.SANDITE, 2.0f, -3.1f, new FabricItemSettings()));
     public static final Item SANDITE_SHOVEL = registerItem("sandite_shovel",
             new ShovelItem(ModToolMaterial.SANDITE, 1.5f, -3.0f, new FabricItemSettings()));
     public static final Item SANDITE_HOE = registerItem("sandite_hoe",
@@ -507,7 +510,7 @@ public class ModItems {
     public static final Item LEAFITE_SWORD = registerItem("leafite_sword",
             new LeafiteSwordItem(ModToolMaterial.LEAFITE, 3, -2.4f, new FabricItemSettings()));
     public static final Item LEAFITE_AXE = registerItem("leafite_axe",
-            new AxeItem(ModToolMaterial.LEAFITE, 6.0f, -3.1f, new FabricItemSettings()));
+            new LeafiteAxeItem(ModToolMaterial.LEAFITE, 2.0f, -3.1f, new FabricItemSettings()));
     public static final Item LEAFITE_SHOVEL = registerItem("leafite_shovel",
             new ShovelItem(ModToolMaterial.LEAFITE, 1.5f, -3.0f, new FabricItemSettings()));
     public static final Item LEAFITE_HOE = registerItem("leafite_hoe",
@@ -529,7 +532,7 @@ public class ModItems {
     public static final Item END_ITE_SWORD = registerItem("end_ite_sword",
             new EndIteSwordItem(ModToolMaterial.END_ITE, 3, -2.4f, new FabricItemSettings()));
     public static final Item END_ITE_AXE = registerItem("end_ite_axe",
-            new AxeItem(ModToolMaterial.END_ITE, 6.0f, -3.1f, new FabricItemSettings()));
+            new EndIteAxeItem(ModToolMaterial.END_ITE, 2.0f, -3.1f, new FabricItemSettings()));
     public static final Item END_ITE_SHOVEL = registerItem("end_ite_shovel",
             new ShovelItem(ModToolMaterial.END_ITE, 1.5f, -3.0f, new FabricItemSettings()));
     public static final Item END_ITE_HOE = registerItem("end_ite_hoe",
@@ -552,8 +555,15 @@ public class ModItems {
             new Item(new FabricItemSettings().maxCount(2).rarity(Rarity.UNCOMMON)));
     public static final Item MANDIBLE_HATCHET = registerItem("mandible_hatchet",
             new MandibleAxeItem(ModToolMaterial.MANDIBLE_HATCHET, 0, -2.2f, new FabricItemSettings().rarity(Rarity.RARE)));
+
+    public static final Item NICKEL_CARVER = registerItem("nickel_carver",
+            new CarverItem(ModToolMaterial.NICKEL, 0, -1.8f, new FabricItemSettings()));
     public static final Item SILVER_CARVER = registerItem("silver_carver",
             new CarverItem(ModToolMaterial.SILVER_DAGGER, 0, -1.8f, new FabricItemSettings()));
+    public static final Item TITANIUM_CARVER = registerItem("titanium_carver",
+            new CarverItem(ModToolMaterial.TITANIUM, 0, -1.8f, new FabricItemSettings()));
+    public static final Item TITANIUM_ALLOY_CARVER = registerItem("titanium_alloy_carver",
+            new CarverItem(ModToolMaterial.TITANIUM_ALLOY, 0, -1.8f, new FabricItemSettings()));
     public static final Item ICY_DAGGER = registerItem("icy_dagger",
             new IcyDaggerItem(ModToolMaterial.ICY_DAGGER, 0, -1.8f, new FabricItemSettings().rarity(Rarity.RARE)));
 
@@ -603,6 +613,10 @@ public class ModItems {
             new SpawnEggItem(ModEntities.FROSTBITEN, 0x2d6849,0x839dc9, new FabricItemSettings()));
     public static final Item ICE_CUBE_SPAWN_EGG = registerItem("ice_cube_spawn_egg",
             new SpawnEggItem(ModEntities.ICE_CUBE, 0x6ca3fd,0x5682ca, new FabricItemSettings()));
+    public static final Item FROSTED_STRAY_SPAWN_EGG = registerItem("frosted_stray_spawn_egg",
+            new SpawnEggItem(ModEntities.FROSTED_STRAY, 0x5b6f70,0xc0d0f7, new FabricItemSettings()));
+    public static final Item MASONRY_BLUEPRINT = registerItem("masonry_blueprint", BlueprintItem.createMasonryBlueprint());
+    public static final Item UNIFORM_BLUEPRINT = registerItem("uniform_blueprint", BlueprintItem.createUniformBlueprint());
 
     public static final Item COPPER_HANDLE = registerItem("copper_handle", new Item(new FabricItemSettings()));
     public static final Item COBALT_HANDLE = registerItem("cobalt_handle", new Item(new FabricItemSettings()));

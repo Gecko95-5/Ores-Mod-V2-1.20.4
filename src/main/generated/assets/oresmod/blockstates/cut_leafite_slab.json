@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "oresmod:block/cut_leafite_slab"
+    },
+    "type=double": {
+      "model": "oresmod:block/cut_leafite"
+    },
+    "type=top": {
+      "model": "oresmod:block/cut_leafite_slab_top"
+    }
+  }
+}

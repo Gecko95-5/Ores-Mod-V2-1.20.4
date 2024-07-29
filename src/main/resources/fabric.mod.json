@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/Gecko95-5/Ores-Mod-V2-1.20.4"
+		"sources": "https://github.com/Gecko95-5/Ores-Mod-1.20.2"
 	},
 	"license": "MIT",
 	"icon": "assets/oresmod/icon/oom_icon.png",
@@ -26,14 +26,17 @@
 		],
 		"terrablender": [
 			"net.gecko95.oresmod.world.biome.ModTerrablenderAPI"
+		],
+		"rei_client": [
+			"net.gecko95.oresmod.compat.OresModREIClientPlugin"
 		]
 	},
 	"mixins": [
 		"oresmod.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.15.2",
-		"minecraft": "~1.20.4",
+		"fabricloader": ">=0.14.24",
+		"minecraft": "~1.20.2",
 		"java": ">=17",
 		"fabric-api": "*"
 	},

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "oresmod:block/dark_frosite_block"
+  }
+}

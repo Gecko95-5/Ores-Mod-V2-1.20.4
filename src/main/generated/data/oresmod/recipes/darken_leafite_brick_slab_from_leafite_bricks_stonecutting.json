@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "oresmod:leafite_bricks"
-  },
-  "result": "oresmod:darken_leafite_brick_slab"
-}

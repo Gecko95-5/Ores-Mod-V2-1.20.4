@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "oresmod:block/dark_sandite_bricks",
+    "side": "oresmod:block/dark_sandite_bricks",
+    "top": "oresmod:block/dark_sandite_bricks"
+  }
+}

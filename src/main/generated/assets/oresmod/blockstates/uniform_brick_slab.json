@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "oresmod:block/uniform_brick_slab"
+    },
+    "type=double": {
+      "model": "oresmod:block/uniform_bricks"
+    },
+    "type=top": {
+      "model": "oresmod:block/uniform_brick_slab_top"
+    }
+  }
+}

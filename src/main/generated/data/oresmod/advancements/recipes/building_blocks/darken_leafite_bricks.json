@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_darken_leafite_block": {
+    "has_dark_leafite_block": {
       "conditions": {
         "items": [
           {
             "items": [
-              "oresmod:darken_leafite_block"
+              "oresmod:dark_leafite_block"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_darken_leafite_block",
+      "has_dark_leafite_block",
       "has_leafite"
     ]
   ],

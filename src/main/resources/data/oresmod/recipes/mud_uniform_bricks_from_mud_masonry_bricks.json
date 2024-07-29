@@ -1,0 +1,17 @@
+{
+  "type": "oresmod:carving",
+  "ingredients": [
+    {
+      "item": "oresmod:mud_masonry_bricks"
+    },
+    {
+      "item": "oresmod:uniform_blueprint"
+    },
+    {
+      "tag": "oresmod:carving_tools"
+    }
+  ],
+  "output": {
+    "item": "oresmod:mud_uniform_bricks"
+  }
+}

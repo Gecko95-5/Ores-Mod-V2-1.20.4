@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "oresmod:block/cut_frosite",
+    "side": "oresmod:block/cut_frosite",
+    "top": "oresmod:block/cut_frosite"
+  }
+}

@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_darken_sandite_block": {
+    "has_dark_sandite_block": {
       "conditions": {
         "items": [
           {
             "items": [
-              "oresmod:darken_sandite_block"
+              "oresmod:dark_sandite_block"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_darken_sandite_block",
+      "has_dark_sandite_block",
       "has_sandite"
     ]
   ],

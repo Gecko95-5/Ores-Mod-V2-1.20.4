@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "oresmod:block/smooth_marble",
+    "side": "oresmod:block/smooth_marble_slab_side",
+    "top": "oresmod:block/smooth_marble"
+  }
+}

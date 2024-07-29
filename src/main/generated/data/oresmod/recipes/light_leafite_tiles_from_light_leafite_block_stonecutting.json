@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 1,
-  "ingredient": {
-    "item": "oresmod:light_leafite_block"
-  },
-  "result": "oresmod:light_leafite_tiles"
-}
