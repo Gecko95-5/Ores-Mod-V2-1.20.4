@@ -16,5 +16,6 @@
   ],
   "result": {
     "item": "oresmod:cobalt_sword"
-  }
+  },
+  "show_notification": true
 }

@@ -56,5 +56,6 @@
     "recipes": [
       "minecraft:platinum_pickaxe"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

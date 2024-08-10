@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:silver_crown"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

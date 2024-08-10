@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:harming_potion_tank_from_healing_potion_tank"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

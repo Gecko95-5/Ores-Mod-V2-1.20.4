@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_shelled_cobblenut": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oresmod:shelled_cobblenut"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:cobblenut"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_shelled_cobblenut"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:cobblenut"
+    ]
+  },
+  "sends_telemetry_event": false
+}

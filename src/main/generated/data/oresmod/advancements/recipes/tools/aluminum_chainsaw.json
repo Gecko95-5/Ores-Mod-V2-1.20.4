@@ -56,5 +56,6 @@
     "recipes": [
       "minecraft:aluminum_chainsaw"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

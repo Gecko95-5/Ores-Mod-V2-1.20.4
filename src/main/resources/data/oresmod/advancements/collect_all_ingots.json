@@ -104,7 +104,7 @@
     "frame": "challenge",
     "hidden": false,
     "icon": {
-      "item": "oresmod:netherite_drill"
+      "item": "oresmod:steel_drill"
     },
     "show_toast": true,
     "title": "Mineral Collector"

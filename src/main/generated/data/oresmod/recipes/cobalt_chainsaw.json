@@ -18,5 +18,6 @@
   ],
   "result": {
     "item": "oresmod:cobalt_chainsaw"
-  }
+  },
+  "show_notification": true
 }

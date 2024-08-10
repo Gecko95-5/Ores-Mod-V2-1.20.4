@@ -12,5 +12,6 @@
   ],
   "result": {
     "item": "oresmod:leafite_trapdoor"
-  }
+  },
+  "show_notification": true
 }

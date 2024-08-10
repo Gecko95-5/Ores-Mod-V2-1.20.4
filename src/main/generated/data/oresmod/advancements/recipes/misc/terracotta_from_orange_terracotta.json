@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:terracotta_from_orange_terracotta"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

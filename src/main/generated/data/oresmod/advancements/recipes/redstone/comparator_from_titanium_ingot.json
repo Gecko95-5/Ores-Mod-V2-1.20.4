@@ -56,5 +56,6 @@
     "recipes": [
       "minecraft:comparator_from_titanium_ingot"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

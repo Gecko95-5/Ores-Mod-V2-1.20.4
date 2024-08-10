@@ -30,5 +30,6 @@
     "recipes": [
       "minecraft:lighty_rusted_cut_steel"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

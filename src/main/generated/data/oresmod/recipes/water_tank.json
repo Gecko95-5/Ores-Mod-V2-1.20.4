@@ -19,5 +19,6 @@
   ],
   "result": {
     "item": "oresmod:water_tank"
-  }
+  },
+  "show_notification": true
 }

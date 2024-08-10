@@ -30,5 +30,6 @@
     "recipes": [
       "oresmod:end_ite_brick_wall"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

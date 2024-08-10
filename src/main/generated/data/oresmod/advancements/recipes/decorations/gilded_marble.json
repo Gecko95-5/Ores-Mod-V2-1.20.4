@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:gilded_marble"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

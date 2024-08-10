@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:darken_leafite_bricks"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

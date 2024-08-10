@@ -67,8 +67,9 @@ public class ModBiomes {
         DefaultBiomeFeatures.addInfestedStone(biomeBuilder);
 
         DefaultBiomeFeatures.addPlainsFeatures(biomeBuilder);
-        DefaultBiomeFeatures.addDefaultMushrooms(biomeBuilder);
+        biomeBuilder.feature(GenerationStep.Feature.VEGETAL_DECORATION, VegetationPlacedFeatures.BROWN_MUSHROOM_NETHER);
         DefaultBiomeFeatures.addDefaultVegetation(biomeBuilder);
+
 
         return new Biome.Builder()
                 .precipitation(true)
@@ -103,7 +104,7 @@ public class ModBiomes {
         DefaultBiomeFeatures.addInfestedStone(biomeBuilder);
 
         biomeBuilder.feature(GenerationStep.Feature.VEGETAL_DECORATION, VegetationPlacedFeatures.TREES_BIRCH_AND_OAK);
-        DefaultBiomeFeatures.addDefaultMushrooms(biomeBuilder);
+        biomeBuilder.feature(GenerationStep.Feature.VEGETAL_DECORATION, VegetationPlacedFeatures.BROWN_MUSHROOM_NETHER);
         DefaultBiomeFeatures.addDefaultVegetation(biomeBuilder);
 
         return new Biome.Builder()
@@ -142,7 +143,7 @@ public class ModBiomes {
         biomeBuilder.feature(GenerationStep.Feature.SURFACE_STRUCTURES, MiscPlacedFeatures.ICE_PATCH);
 
         biomeBuilder.feature(GenerationStep.Feature.VEGETAL_DECORATION, VegetationPlacedFeatures.TREES_PLAINS);
-        DefaultBiomeFeatures.addDefaultMushrooms(biomeBuilder);
+        biomeBuilder.feature(GenerationStep.Feature.VEGETAL_DECORATION, VegetationPlacedFeatures.BROWN_MUSHROOM_NETHER);
         DefaultBiomeFeatures.addDefaultVegetation(biomeBuilder);
 
         return new Biome.Builder()
@@ -178,7 +179,7 @@ public class ModBiomes {
         DefaultBiomeFeatures.addInfestedStone(biomeBuilder);
 
         biomeBuilder.feature(GenerationStep.Feature.VEGETAL_DECORATION, VegetationPlacedFeatures.TREES_PLAINS);
-        DefaultBiomeFeatures.addDefaultMushrooms(biomeBuilder);
+        biomeBuilder.feature(GenerationStep.Feature.VEGETAL_DECORATION, VegetationPlacedFeatures.BROWN_MUSHROOM_NETHER);
         DefaultBiomeFeatures.addDefaultVegetation(biomeBuilder);
 
         return new Biome.Builder()
@@ -218,7 +219,7 @@ public class ModBiomes {
 
 
         biomeBuilder.feature(GenerationStep.Feature.VEGETAL_DECORATION, VegetationPlacedFeatures.TREES_PLAINS);
-        DefaultBiomeFeatures.addDefaultMushrooms(biomeBuilder);
+        biomeBuilder.feature(GenerationStep.Feature.VEGETAL_DECORATION, VegetationPlacedFeatures.BROWN_MUSHROOM_NETHER);
         DefaultBiomeFeatures.addDefaultVegetation(biomeBuilder);
 
         return new Biome.Builder()

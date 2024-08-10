@@ -6,6 +6,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.text.Text;
 import net.minecraft.util.Formatting;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Rarity;
 import net.minecraft.util.Util;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
@@ -18,7 +19,7 @@ public class BlueprintItem extends Item {
     private static final Text MASONRY_STYLE_TEXT = Text.translatable(Util.createTranslationKey("item", new Identifier("blueprint.masonry.style"))).formatted(DESCRIPTION_FORMATTING);
     private static final Text UNIFORM_STYLE_TEXT = Text.translatable(Util.createTranslationKey("item", new Identifier("blueprint.uniform.style"))).formatted(DESCRIPTION_FORMATTING);
     public BlueprintItem(Text styleText) {
-        super(new Item.Settings().maxCount(1));
+        super(new Item.Settings().maxCount(1).rarity(Rarity.UNCOMMON));
         this.styleText = styleText;
     }
     public static BlueprintItem createMasonryBlueprint() {

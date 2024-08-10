@@ -30,5 +30,6 @@
     "recipes": [
       "minecraft:blue_dye_from_alpine_speedwell"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

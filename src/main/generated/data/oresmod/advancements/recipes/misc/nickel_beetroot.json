@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:nickel_beetroot"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

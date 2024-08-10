@@ -7,6 +7,7 @@ import net.gecko95.oresmod.block.ModBlocks;
 import net.gecko95.oresmod.entity.ModBoats;
 import net.gecko95.oresmod.entity.ModEntities;
 import net.gecko95.oresmod.item.custom.*;
+import net.minecraft.block.Blocks;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -21,6 +22,7 @@ public class ModItems {
             new Item(new FabricItemSettings().food(ModFoodComponents.RAW_FLESH)));
     public static final Item COOKED_FLESH = registerItem("cooked_flesh",
             new Item(new FabricItemSettings().food(ModFoodComponents.COOKED_FLESH)));
+
 
     public static final Item FROSITE = registerItem("frosite", new Item(new FabricItemSettings()));
 
@@ -45,7 +47,7 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.FROSITE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
     public static final Item FROSITE_HELMET_VISOR = registerItem("frosite_helmet_visor",
-            new ArmorItem(ModArmorMaterials.FROSITE_VIS, ArmorItem.Type.HELMET, new FabricItemSettings()));
+            new ArmorItem(ModArmorMaterials.FROSITE_VIS, ArmorItem.Type.HELMET, new FabricItemSettings().rarity(Rarity.UNCOMMON)));
 
     public static final Item ALUMINUM_INGOT = registerItem("aluminum_ingot", new Item(new FabricItemSettings()));
     public static final Item RAW_ALUMINUM = registerItem("raw_aluminum", new Item(new FabricItemSettings()));
@@ -546,8 +548,10 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.END_ITE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item END_ITE_BOOTS = registerItem("end_ite_boots",
             new ArmorItem(ModArmorMaterials.END_ITE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
-    public static final Item SILVER_SCALE = registerItem("silver_scale", new Item(new FabricItemSettings()));
 
+    public static final Item SILVER_SCALE = registerItem("silver_scale", new Item(new FabricItemSettings()));
+    public static final Item SILVER_STEW = registerItem("silver_stew",
+            new StewItem(new FabricItemSettings().food(ModFoodComponents.SILVER_STEW).maxCount(1)));
     public static final Item SPIKED_CLUB = registerItem("spiked_club",
             new ClubItem(ModToolMaterial.CLUB, 0, -3.6f, new FabricItemSettings()));
 
@@ -566,6 +570,12 @@ public class ModItems {
             new CarverItem(ModToolMaterial.TITANIUM_ALLOY, 0, -1.8f, new FabricItemSettings()));
     public static final Item ICY_DAGGER = registerItem("icy_dagger",
             new IcyDaggerItem(ModToolMaterial.ICY_DAGGER, 0, -1.8f, new FabricItemSettings().rarity(Rarity.RARE)));
+
+    public static final Item SHELLED_COBBLENUT = registerItem("shelled_cobblenut", new Item(new FabricItemSettings().maxCount(16)));
+    public static final Item COBBLENUT = registerItem("cobblenut",
+            new Item(new FabricItemSettings().food(ModFoodComponents.COBBLENUT)));
+    public static final Item STUFFED_COBBLENUT = registerItem("stuffed_cobblenut",
+            new Item(new FabricItemSettings().food(ModFoodComponents.STUFFED_COBBLENUT).maxCount(16)));
 
     public static final Item PLATINUM_CLUSTER = registerItem("platinum_cluster", new Item(new FabricItemSettings()));
     public static final Item PLATINUM_SCRAP = registerItem("platinum_scrap", new Item(new FabricItemSettings()));
@@ -709,6 +719,17 @@ public class ModItems {
 
     public static final Item LEAFITE_BOAT = TerraformBoatItemHelper.registerBoatItem(ModBoats.LEAFITE_BOAT_ID, ModBoats.LEAFITE_BOAT_KEY,false);
     public static final Item LEAFITE_CHEST_BOAT = TerraformBoatItemHelper.registerBoatItem(ModBoats.LEAFITE_CHEST_BOAT_ID, ModBoats.LEAFITE_BOAT_KEY,true);
+
+    public static final Item ENDER_DRAGON_TROPHY = registerItem("ender_dragon_trophy",
+            new BlockItem(ModBlocks.ENDER_DRAGON_TROPHY, new Item.Settings().rarity(Rarity.EPIC)));
+    public static final Item WITHER_TROPHY = registerItem("wither_trophy",
+            new BlockItem(ModBlocks.WITHER_TROPHY, new Item.Settings().rarity(Rarity.RARE)));
+    public static final Item ELDER_GUARDIAN_TROPHY = registerItem("elder_guardian_trophy",
+            new BlockItem(ModBlocks.WITHER_TROPHY, new Item.Settings().rarity(Rarity.UNCOMMON)));
+    public static final Item WARDEN_TROPHY = registerItem("warden_trophy",
+            new BlockItem(ModBlocks.WARDEN_TROPHY, new Item.Settings().rarity(Rarity.EPIC)));
+    public static final Item SILVERWYRM_TROPHY = registerItem("silverwyrm_trophy",
+            new BlockItem(ModBlocks.SILVERWYRM_TROPHY, new Item.Settings().rarity(Rarity.RARE)));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, new Identifier(OresMod.MOD_ID, name),item);

@@ -17,5 +17,6 @@
   "result": {
     "count": 8,
     "item": "minecraft:blue_ice"
-  }
+  },
+  "show_notification": true
 }

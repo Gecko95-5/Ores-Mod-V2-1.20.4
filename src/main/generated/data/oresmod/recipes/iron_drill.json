@@ -19,5 +19,6 @@
   ],
   "result": {
     "item": "oresmod:iron_drill"
-  }
+  },
+  "show_notification": true
 }

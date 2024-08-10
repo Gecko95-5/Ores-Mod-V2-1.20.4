@@ -13,5 +13,6 @@
   "result": {
     "count": 6,
     "item": "oresmod:void_stone_brick_wall"
-  }
+  },
+  "show_notification": true
 }

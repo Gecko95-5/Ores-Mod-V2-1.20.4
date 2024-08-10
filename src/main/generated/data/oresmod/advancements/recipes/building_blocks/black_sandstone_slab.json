@@ -30,5 +30,6 @@
     "recipes": [
       "oresmod:black_sandstone_slab"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

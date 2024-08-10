@@ -25,5 +25,6 @@
   ],
   "result": {
     "item": "oresmod:carving_station"
-  }
+  },
+  "show_notification": true
 }

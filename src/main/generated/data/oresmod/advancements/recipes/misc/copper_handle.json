@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:copper_handle"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

@@ -15,5 +15,6 @@
   ],
   "result": {
     "item": "oresmod:flint_pickaxe"
-  }
+  },
+  "show_notification": true
 }

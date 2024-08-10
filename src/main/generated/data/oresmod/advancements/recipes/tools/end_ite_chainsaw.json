@@ -56,5 +56,6 @@
     "recipes": [
       "minecraft:end_ite_chainsaw"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

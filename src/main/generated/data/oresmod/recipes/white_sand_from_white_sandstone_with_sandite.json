@@ -17,5 +17,6 @@
   "result": {
     "count": 32,
     "item": "oresmod:white_sand"
-  }
+  },
+  "show_notification": true
 }

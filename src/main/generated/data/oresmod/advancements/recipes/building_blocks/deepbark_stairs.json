@@ -30,5 +30,6 @@
     "recipes": [
       "minecraft:deepbark_stairs"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

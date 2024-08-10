@@ -16,5 +16,6 @@
   ],
   "result": {
     "item": "oresmod:invisibility_potion_tank"
-  }
+  },
+  "show_notification": true
 }

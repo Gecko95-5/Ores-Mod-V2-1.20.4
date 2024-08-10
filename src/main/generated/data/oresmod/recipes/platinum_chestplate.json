@@ -13,5 +13,6 @@
   ],
   "result": {
     "item": "oresmod:platinum_chestplate"
-  }
+  },
+  "show_notification": true
 }

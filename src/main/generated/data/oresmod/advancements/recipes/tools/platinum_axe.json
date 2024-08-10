@@ -56,5 +56,6 @@
     "recipes": [
       "minecraft:platinum_axe"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

@@ -16,5 +16,6 @@
   ],
   "result": {
     "item": "oresmod:leafite_axe"
-  }
+  },
+  "show_notification": true
 }

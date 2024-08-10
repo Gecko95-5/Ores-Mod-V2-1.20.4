@@ -30,5 +30,6 @@
     "recipes": [
       "oresmod:dark_cut_frosite_slab"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

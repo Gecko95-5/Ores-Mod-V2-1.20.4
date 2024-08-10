@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:strength_potion_tank"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

@@ -19,5 +19,6 @@
   ],
   "result": {
     "item": "oresmod:platinum_axe"
-  }
+  },
+  "show_notification": true
 }

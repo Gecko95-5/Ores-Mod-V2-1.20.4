@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:cobalt_handle"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

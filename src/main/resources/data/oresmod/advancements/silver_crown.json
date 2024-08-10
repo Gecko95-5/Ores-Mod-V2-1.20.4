@@ -1,5 +1,5 @@
 {
-  "parent": "oresmod:silver_wyrm_fossil",
+  "parent": "oresmod:kill_a_silverpede",
   "criteria": {
     "steel": {
       "conditions": {

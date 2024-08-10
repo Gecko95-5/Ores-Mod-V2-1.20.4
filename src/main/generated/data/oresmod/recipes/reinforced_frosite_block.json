@@ -19,5 +19,6 @@
   ],
   "result": {
     "item": "oresmod:reinforced_frosite_block"
-  }
+  },
+  "show_notification": true
 }

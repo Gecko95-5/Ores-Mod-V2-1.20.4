@@ -56,5 +56,6 @@
     "recipes": [
       "minecraft:steel_chainsaw"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

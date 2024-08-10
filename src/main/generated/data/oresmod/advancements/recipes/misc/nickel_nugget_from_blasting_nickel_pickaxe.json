@@ -30,5 +30,6 @@
     "recipes": [
       "minecraft:nickel_nugget_from_blasting_nickel_pickaxe"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

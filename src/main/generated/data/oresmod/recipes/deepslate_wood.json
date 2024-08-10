@@ -12,5 +12,6 @@
   ],
   "result": {
     "item": "oresmod:deepslate_wood"
-  }
+  },
+  "show_notification": true
 }

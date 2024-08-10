@@ -15,8 +15,8 @@ import net.minecraft.world.BlockView;
 // Done with the help:
 // https://github.com/NemoNotFound/NemosWoodcutter/tree/master/src/main (MIT License)
 public class TrophyBlock extends HorizontalFacingBlock {
-    public static final DirectionProperty FACING = HorizontalFacingBlock.FACING;
     public static final MapCodec<TrophyBlock> CODEC = TrophyBlock.createCodec(TrophyBlock::new);
+    public static final DirectionProperty FACING = HorizontalFacingBlock.FACING;
     private static final VoxelShape SHAPE = Block.createCuboidShape(0, 0, 0, 16, 16, 16);
     public TrophyBlock(Settings settings) {
         super(settings);

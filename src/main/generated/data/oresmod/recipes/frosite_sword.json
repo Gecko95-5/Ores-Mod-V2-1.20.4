@@ -16,5 +16,6 @@
   ],
   "result": {
     "item": "oresmod:frosite_sword"
-  }
+  },
+  "show_notification": true
 }

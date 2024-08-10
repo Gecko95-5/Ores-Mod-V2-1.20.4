@@ -25,5 +25,6 @@
   ],
   "result": {
     "item": "oresmod:platinum_multi_tool"
-  }
+  },
+  "show_notification": true
 }

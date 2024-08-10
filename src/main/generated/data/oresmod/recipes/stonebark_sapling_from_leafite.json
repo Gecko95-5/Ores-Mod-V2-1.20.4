@@ -17,5 +17,6 @@
   "result": {
     "count": 4,
     "item": "oresmod:stonebark_sapling"
-  }
+  },
+  "show_notification": true
 }

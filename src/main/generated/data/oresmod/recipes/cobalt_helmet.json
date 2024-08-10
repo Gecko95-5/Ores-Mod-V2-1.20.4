@@ -12,5 +12,6 @@
   ],
   "result": {
     "item": "oresmod:cobalt_helmet"
-  }
+  },
+  "show_notification": true
 }

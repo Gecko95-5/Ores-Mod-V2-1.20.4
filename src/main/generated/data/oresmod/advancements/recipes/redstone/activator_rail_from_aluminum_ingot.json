@@ -56,5 +56,6 @@
     "recipes": [
       "minecraft:activator_rail_from_aluminum_ingot"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

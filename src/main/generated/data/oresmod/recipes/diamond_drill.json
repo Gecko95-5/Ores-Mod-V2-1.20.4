@@ -19,5 +19,6 @@
   ],
   "result": {
     "item": "oresmod:diamond_drill"
-  }
+  },
+  "show_notification": true
 }

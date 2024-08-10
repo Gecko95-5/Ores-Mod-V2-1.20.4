@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:blue_ice_from_ice_with_frosite"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

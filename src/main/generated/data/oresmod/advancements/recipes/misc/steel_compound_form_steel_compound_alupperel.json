@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:steel_compound_form_steel_compound_alupperel"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

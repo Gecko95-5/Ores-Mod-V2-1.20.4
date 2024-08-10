@@ -56,5 +56,6 @@
     "recipes": [
       "minecraft:tungsten_chainsaw"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

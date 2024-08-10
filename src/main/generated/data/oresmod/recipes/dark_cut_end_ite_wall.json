@@ -13,5 +13,6 @@
   "result": {
     "count": 6,
     "item": "oresmod:dark_cut_end_ite_wall"
-  }
+  },
+  "show_notification": true
 }

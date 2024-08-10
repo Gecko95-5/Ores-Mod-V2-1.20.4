@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:nickel_apple"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

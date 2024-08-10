@@ -77,6 +77,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.TITANIUM_ALLOY_BLOCK)
                 .add(ModBlocks.NETHER_COBALT_ORE)
                 .add(ModBlocks.COBALT_BLOCK)
+                .add(ModBlocks.FLINT_BLOCK)
                 .add(ModBlocks.WHITE_SANDSTONE)
                 .add(ModBlocks.WHITE_SANDSTONE_STAIRS)
                 .add(ModBlocks.WHITE_SANDSTONE_SLAB)

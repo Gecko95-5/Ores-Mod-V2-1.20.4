@@ -9,12 +9,15 @@ import net.minecraft.data.server.loottable.BlockLootTableGenerator;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.item.Item;
 import net.minecraft.item.Items;
+import net.minecraft.loot.LootPool;
 import net.minecraft.loot.LootTable;
+import net.minecraft.loot.condition.TableBonusLootCondition;
 import net.minecraft.loot.entry.ItemEntry;
 import net.minecraft.loot.entry.LeafEntry;
 import net.minecraft.loot.entry.LootPoolEntry;
 import net.minecraft.loot.function.ApplyBonusLootFunction;
 import net.minecraft.loot.function.SetCountLootFunction;
+import net.minecraft.loot.provider.number.ConstantLootNumberProvider;
 import net.minecraft.loot.provider.number.UniformLootNumberProvider;
 
 public class ModLootTableProvider extends FabricBlockLootTableProvider {
@@ -326,6 +329,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.QUARTZ_UNIFORM_BRICKS);
         addDrop(ModBlocks.QUARTZ_UNIFORM_BRICK_STAIRS);
         addDrop(ModBlocks.QUARTZ_UNIFORM_BRICK_WALL);
+        addDrop(ModBlocks.FLINT_BLOCK);
 
         addDrop(ModBlocks.SALT_ORE,copperLikeOreDrops(ModBlocks.SALT_ORE, ModItems.RAW_SALT));
 
@@ -512,7 +516,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.DEEPBARK_DOOR, doorDrops(ModBlocks.DEEPBARK_DOOR));
         addDrop(ModBlocks.LEAFITE_DOOR, doorDrops(ModBlocks.DEEPBARK_DOOR));
 
-        addDrop(ModBlocks.STONEBARK_LEAVES, leavesDrops(ModBlocks.STONEBARK_LEAVES, ModBlocks.STONEBARK_SAPLING, 0.025f));
+        addDrop(ModBlocks.STONEBARK_LEAVES, cobbleLeavesDrops(ModBlocks.STONEBARK_LEAVES, ModBlocks.STONEBARK_SAPLING, 0.025f));
         addDrop(ModBlocks.DEEPSLATE_LEAVES, leavesDrops(ModBlocks.DEEPSLATE_LEAVES, ModBlocks.DEEPBARK_SAPLING, 0.025f));
 
         addDrop(ModBlocks.LEAFITE_LEAVES, leavesDrops(ModBlocks.LEAFITE_LEAVES, ModBlocks.LEAFITE_SAPLING, 0.025f));
@@ -579,5 +583,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
                         .apply(ApplyBonusLootFunction.oreDrops(Enchantments.FORTUNE))));
 
 
+    }
+    public LootTable.Builder cobbleLeavesDrops(Block leaves, Block drop, float ... chance) {
+        return this.leavesDrops(leaves, drop, chance).pool(LootPool.builder().rolls(ConstantLootNumberProvider.create(1.0f)).conditionally(WITHOUT_SILK_TOUCH_NOR_SHEARS).with((LootPoolEntry.Builder<?>)((LeafEntry.Builder)this.addSurvivesExplosionCondition(leaves, ItemEntry.builder(ModItems.SHELLED_COBBLENUT))).conditionally(TableBonusLootCondition.builder(Enchantments.FORTUNE, 0.005f, 0.0055555557f, 0.00625f, 0.008333334f, 0.025f))));
     }
 }

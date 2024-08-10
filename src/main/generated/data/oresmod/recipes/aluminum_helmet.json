@@ -12,5 +12,6 @@
   ],
   "result": {
     "item": "oresmod:aluminum_helmet"
-  }
+  },
+  "show_notification": true
 }

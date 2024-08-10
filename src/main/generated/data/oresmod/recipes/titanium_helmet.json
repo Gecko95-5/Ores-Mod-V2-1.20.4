@@ -12,5 +12,6 @@
   ],
   "result": {
     "item": "oresmod:titanium_helmet"
-  }
+  },
+  "show_notification": true
 }

@@ -82,5 +82,6 @@
     "recipes": [
       "minecraft:platinum_multi_tool"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

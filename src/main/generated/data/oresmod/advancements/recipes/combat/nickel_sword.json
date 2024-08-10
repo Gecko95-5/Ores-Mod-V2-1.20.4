@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:nickel_sword"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

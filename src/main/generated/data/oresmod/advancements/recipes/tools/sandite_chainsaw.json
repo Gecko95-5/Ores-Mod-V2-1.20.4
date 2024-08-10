@@ -56,5 +56,6 @@
     "recipes": [
       "minecraft:sandite_chainsaw"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

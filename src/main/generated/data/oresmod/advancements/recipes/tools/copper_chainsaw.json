@@ -56,5 +56,6 @@
     "recipes": [
       "minecraft:copper_chainsaw"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

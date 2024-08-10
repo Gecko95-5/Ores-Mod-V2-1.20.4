@@ -13,5 +13,6 @@
   "result": {
     "count": 6,
     "item": "oresmod:cut_leafite_wall"
-  }
+  },
+  "show_notification": true
 }

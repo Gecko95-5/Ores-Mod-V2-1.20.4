@@ -16,5 +16,6 @@
   ],
   "result": {
     "item": "oresmod:magenta_terracotta_leggings"
-  }
+  },
+  "show_notification": true
 }

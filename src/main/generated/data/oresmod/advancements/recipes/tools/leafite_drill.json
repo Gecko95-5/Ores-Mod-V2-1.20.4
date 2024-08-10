@@ -56,5 +56,6 @@
     "recipes": [
       "minecraft:leafite_drill"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

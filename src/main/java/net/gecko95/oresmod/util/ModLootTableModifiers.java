@@ -80,6 +80,8 @@ public class ModLootTableModifiers {
             new Identifier("minecraft","chests/village/village_toolsmith");
     private static final Identifier VILLAGE_WEAPONSMITH_ID =
             new Identifier("minecraft","chests/village/village_weaponsmith");
+    private static final Identifier VILLAGE_MASON_ID =
+            new Identifier("minecraft","chests/village/village_mason");
     private static final Identifier STRAY_ID =
             new Identifier("minecraft","entities/stray");
     private static final Identifier HUSK_ID =
@@ -828,6 +830,24 @@ public class ModLootTableModifiers {
                         .conditionally(RandomChanceLootCondition.builder(0.162f))
                         .with(ItemEntry.builder(ModItems.TITANIUM_INGOT))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 3.0f)).build());
+
+                tableBuilder.pool(poolBuilder.build());
+            }
+            if (VILLAGE_MASON_ID.equals(id)) {
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.337f))
+                        .with(ItemEntry.builder(ModBlocks.STONE_MASONRY_BRICKS))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
+
+                tableBuilder.pool(poolBuilder.build());
+            }
+            if (VILLAGE_MASON_ID.equals(id)) {
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.208f))
+                        .with(ItemEntry.builder(ModItems.NICKEL_CARVER))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());
             }

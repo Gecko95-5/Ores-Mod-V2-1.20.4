@@ -14,5 +14,6 @@
   "result": {
     "count": 4,
     "item": "oresmod:mud_masonry_brick_stairs"
-  }
+  },
+  "show_notification": true
 }

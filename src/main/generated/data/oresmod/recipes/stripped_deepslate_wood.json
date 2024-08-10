@@ -12,5 +12,6 @@
   ],
   "result": {
     "item": "oresmod:stripped_deepslate_wood"
-  }
+  },
+  "show_notification": true
 }

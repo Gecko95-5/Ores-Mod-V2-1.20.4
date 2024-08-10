@@ -30,5 +30,6 @@
     "recipes": [
       "minecraft:light_cut_frosite_stairs_from_cut_frosite_stonecutting"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

@@ -82,5 +82,6 @@
     "recipes": [
       "minecraft:carving_station"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

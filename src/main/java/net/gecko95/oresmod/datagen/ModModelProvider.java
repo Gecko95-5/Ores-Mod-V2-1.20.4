@@ -86,6 +86,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLACK_SAND);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.FAKE_BEDROCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CRACKED_BEDROCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.FLINT_BLOCK);
         BlockStateModelGenerator.BlockTexturePool polibedrockPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.POLISHED_BEDROCK);
         BlockStateModelGenerator.BlockTexturePool brickbedrockPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.POLISHED_BEDROCK_BRICKS);
         blockStateModelGenerator.registerSingleton(ModBlocks.CHISELED_POLISHED_BEDROCK, TexturedModel.CUBE_BOTTOM_TOP);
@@ -895,6 +896,12 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerator.register(ModItems.MASONRY_BLUEPRINT, Models.GENERATED);
         itemModelGenerator.register(ModItems.UNIFORM_BLUEPRINT, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.SILVER_STEW, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.SHELLED_COBBLENUT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COBBLENUT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.STUFFED_COBBLENUT, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.SILVERPEDE_SPAWN_EGG,
                 new Model(Optional.of(new Identifier("item/template_spawn_egg")),Optional.empty()));

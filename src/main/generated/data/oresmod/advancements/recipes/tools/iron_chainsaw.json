@@ -56,5 +56,6 @@
     "recipes": [
       "minecraft:iron_chainsaw"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

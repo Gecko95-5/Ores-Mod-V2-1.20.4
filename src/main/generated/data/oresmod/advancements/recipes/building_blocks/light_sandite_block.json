@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:light_sandite_block"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

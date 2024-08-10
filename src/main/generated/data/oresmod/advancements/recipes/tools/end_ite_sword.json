@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:end_ite_sword"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

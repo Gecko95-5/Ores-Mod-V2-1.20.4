@@ -30,5 +30,6 @@
     "recipes": [
       "oresmod:polished_bedrock_slab"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

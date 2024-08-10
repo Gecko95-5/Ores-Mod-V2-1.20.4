@@ -15,5 +15,6 @@
   ],
   "result": {
     "item": "oresmod:iron_spikes"
-  }
+  },
+  "show_notification": true
 }

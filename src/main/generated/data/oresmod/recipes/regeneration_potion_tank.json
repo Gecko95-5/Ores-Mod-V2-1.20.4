@@ -16,5 +16,6 @@
   ],
   "result": {
     "item": "oresmod:regeneration_potion_tank"
-  }
+  },
+  "show_notification": true
 }

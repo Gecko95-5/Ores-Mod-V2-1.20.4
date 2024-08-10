@@ -10,8 +10,8 @@ import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 
 public class SteelSpikeBlock extends HorizontalFacingBlock {
-    private static final VoxelShape SHAPE = Block.createCuboidShape(0,0,0,16,7,16);
     public static final MapCodec<SteelSpikeBlock> CODEC = SteelSpikeBlock.createCodec(SteelSpikeBlock::new);
+    private static final VoxelShape SHAPE = Block.createCuboidShape(0,0,0,16,7,16);
     public SteelSpikeBlock(Settings settings) {
         super(settings);
     }

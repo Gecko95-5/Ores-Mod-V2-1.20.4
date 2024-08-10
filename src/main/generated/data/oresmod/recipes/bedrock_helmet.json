@@ -12,5 +12,6 @@
   ],
   "result": {
     "item": "oresmod:bedrock_helmet"
-  }
+  },
+  "show_notification": true
 }

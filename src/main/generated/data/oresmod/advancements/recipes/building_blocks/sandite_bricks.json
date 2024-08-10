@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:sandite_bricks"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

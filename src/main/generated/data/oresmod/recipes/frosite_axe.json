@@ -16,5 +16,6 @@
   ],
   "result": {
     "item": "oresmod:frosite_axe"
-  }
+  },
+  "show_notification": true
 }

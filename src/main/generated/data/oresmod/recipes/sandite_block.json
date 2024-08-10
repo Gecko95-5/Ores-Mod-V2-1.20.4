@@ -13,5 +13,6 @@
   ],
   "result": {
     "item": "oresmod:sandite_block"
-  }
+  },
+  "show_notification": true
 }

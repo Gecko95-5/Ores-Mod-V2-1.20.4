@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:copper_sword"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

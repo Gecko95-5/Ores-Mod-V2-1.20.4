@@ -13,5 +13,6 @@
   "result": {
     "count": 4,
     "item": "oresmod:ice_bricks"
-  }
+  },
+  "show_notification": true
 }

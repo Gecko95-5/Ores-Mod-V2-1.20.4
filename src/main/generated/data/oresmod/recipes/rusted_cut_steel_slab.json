@@ -12,5 +12,6 @@
   "result": {
     "count": 6,
     "item": "oresmod:rusted_cut_steel_slab"
-  }
+  },
+  "show_notification": true
 }

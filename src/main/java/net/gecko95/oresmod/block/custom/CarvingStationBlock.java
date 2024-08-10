@@ -28,6 +28,7 @@ import org.jetbrains.annotations.Nullable;
 //This code come form the Kaupenjoe Modding Tutorial
 public class CarvingStationBlock extends BlockWithEntity implements BlockEntityProvider {
     public static final MapCodec<CarvingStationBlock> CODEC = CarvingStationBlock.createCodec(CarvingStationBlock::new);
+
     public static final DirectionProperty FACING = HorizontalFacingBlock.FACING;
 
     public CarvingStationBlock(Settings settings) {

@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:awkward_water_tank"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

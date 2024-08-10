@@ -4,6 +4,7 @@ import net.gecko95.oresmod.effect.ModEffects;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.FoodComponent;
+import net.minecraft.item.FoodComponents;
 
 public class ModFoodComponents {
     public static final FoodComponent RAW_FLESH = new FoodComponent.Builder().hunger(4).saturationModifier(0.4f)
@@ -29,4 +30,14 @@ public class ModFoodComponents {
             .statusEffect(new StatusEffectInstance(StatusEffects.POISON, 600, 0), 1.0f).build();
     public static final FoodComponent FROZEN_FLESH = new FoodComponent.Builder().hunger(4).saturationModifier(0.4f)
             .statusEffect(new StatusEffectInstance(ModEffects.FROSTBITE, 600, 0), 0.8f).meat().build();
+    public static final FoodComponent SILVER_STEW = ModFoodComponents.createStew(4)
+            .statusEffect(new StatusEffectInstance(StatusEffects.WEAKNESS, 600, 0), 1.0f).build();
+
+    public static final FoodComponent COBBLENUT = new FoodComponent.Builder().hunger(2).saturationModifier(0.1f).snack().build();
+
+    public static final FoodComponent STUFFED_COBBLENUT = new FoodComponent.Builder().hunger(10).saturationModifier(1.3f).build();
+
+    private static FoodComponent.Builder createStew(int hunger) {
+        return new FoodComponent.Builder().hunger(hunger).saturationModifier(0.6f);
+    }
 }

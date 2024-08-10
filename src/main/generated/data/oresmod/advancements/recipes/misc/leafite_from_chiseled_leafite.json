@@ -30,5 +30,6 @@
     "recipes": [
       "minecraft:leafite_from_chiseled_leafite"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

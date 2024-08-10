@@ -19,5 +19,6 @@
   ],
   "result": {
     "item": "oresmod:copper_drive"
-  }
+  },
+  "show_notification": true
 }

@@ -142,6 +142,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.END_ITE_BLOCK);
                         entries.add(Items.FLINT);
                         entries.add(Items.GRAVEL);
+                        entries.add(ModBlocks.FLINT_BLOCK);
                         entries.add(Items.CLAY_BALL);
                         entries.add(Items.CLAY);
                         entries.add(ModItems.RAW_SALT);
@@ -457,6 +458,10 @@ public class ModItemGroups {
                         entries.add(ModItems.STEEL_BEETROOT);
                         entries.add(ModItems.RUSTED_STEEL_APPLE);
                         entries.add(ModItems.RUSTED_STEEL_BEETROOT);
+                        entries.add(ModItems.SHELLED_COBBLENUT);
+                        entries.add(ModItems.COBBLENUT);
+                        entries.add(ModItems.STUFFED_COBBLENUT);
+                        entries.add(ModItems.SILVER_STEW);
                         entries.add(ModItems.COPPER_HANDLE);
                         entries.add(ModItems.COBALT_HANDLE);
                         entries.add(ModItems.COPPER_DRIVE);
@@ -482,6 +487,15 @@ public class ModItemGroups {
                         entries.add(ModItems.STEEL_COMPOUND_COPPELUNUM);
                         entries.add(ModItems.STEEL_UPGRADE_SMITHING_TEMPLATE);
                         entries.add(ModItems.TITANIUM_ALLOY_UPGRADE_SMITHING_TEMPLATE);
+                        entries.add(ModItems.MASONRY_BLUEPRINT);
+                        entries.add(ModItems.UNIFORM_BLUEPRINT);
+                        entries.add(ModItems.SILVERPEDE_SPAWN_EGG);
+                        entries.add(ModItems.FROSTBITEN_SPAWN_EGG);
+                        entries.add(ModItems.ICE_CUBE_SPAWN_EGG);
+                        entries.add(ModItems.FROSTED_STRAY_SPAWN_EGG);
+                        entries.add(ModItems.JUNGLE_SPIDER_SPAWN_EGG);
+                        entries.add(ModItems.ENDER_SPIDER_SPAWN_EGG);
+                        entries.add(ModItems.FROSITE_GOLEM_SPAWN_EGG);
                         entries.add(ModItems.LEAFITE_BOAT);
                         entries.add(ModItems.LEAFITE_CHEST_BOAT);
                     }).build());
@@ -619,6 +633,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SMOOTH_BLACK_SANDSTONE_STAIRS);
                         entries.add(ModBlocks.SMOOTH_BLACK_SANDSTONE_SLAB);
                         entries.add(ModBlocks.CHISELED_BLACK_SANDSTONE);
+                        entries.add(ModBlocks.CARVING_STATION);
                         entries.add(ModBlocks.STONE_MASONRY_BRICKS);
                         entries.add(ModBlocks.STONE_MASONRY_BRICK_STAIRS);
                         entries.add(ModBlocks.STONE_MASONRY_BRICK_SLAB);
@@ -882,88 +897,11 @@ public class ModItemGroups {
                         entries.add(ModBlocks.IRON_SPIKES);
                         entries.add(ModBlocks.ALUMINUM_SPIKES);
                         entries.add(ModBlocks.STEEL_SPIKES);
-                    }).build());
-    public static final ItemGroup ORES_MOD_MOBS_GROUP = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(OresMod.MOD_ID, "ores_mod_mobs"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.ores_mod_mobs"))
-                    .icon(() -> new ItemStack(ModItems.SILVERPEDE_SPAWN_EGG)).entries((displayContext, entries) -> {
-                        entries.add(ModItems.SILVERPEDE_SPAWN_EGG);
-                        entries.add(ModItems.FROSTBITEN_SPAWN_EGG);
-                        entries.add(ModItems.ICE_CUBE_SPAWN_EGG);
-                        entries.add(ModItems.FROSTED_STRAY_SPAWN_EGG);
-                        entries.add(ModItems.JUNGLE_SPIDER_SPAWN_EGG);
-                        entries.add(ModItems.ENDER_SPIDER_SPAWN_EGG);
-                        entries.add(ModItems.FROSITE_GOLEM_SPAWN_EGG);
-                        entries.add(ModBlocks.ENDER_DRAGON_TROPHY);
-                        entries.add(ModBlocks.WITHER_TROPHY);
-                        entries.add(ModBlocks.ELDER_GUARDIAN_TROPHY);
-                        entries.add(ModBlocks.WARDEN_TROPHY);
-                        entries.add(ModBlocks.SILVERWYRM_TROPHY);
-                    }).build());
-
-    public static final ItemGroup ORES_MOD_CARVING_GROUP = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(OresMod.MOD_ID, "ores_mod_carving"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.ores_mod_carving"))
-                    .icon(() -> new ItemStack(ModBlocks.CARVING_STATION)).entries((displayContext, entries) -> {
-                        entries.add(ModItems.NICKEL_CARVER);
-                        entries.add(ModItems.SILVER_CARVER);
-                        entries.add(ModItems.TITANIUM_CARVER);
-                        entries.add(ModItems.TITANIUM_ALLOY_CARVER);
-                        entries.add(ModBlocks.CARVING_STATION);
-                        entries.add(ModItems.MASONRY_BLUEPRINT);
-                        entries.add(ModItems.UNIFORM_BLUEPRINT);
-                        entries.add(Blocks.STONE);
-                        entries.add(Blocks.STONE_BRICKS);
-                        entries.add(ModBlocks.STONE_MASONRY_BRICKS);
-                        entries.add(Blocks.POLISHED_DEEPSLATE);
-                        entries.add(Blocks.DEEPSLATE_BRICKS);
-                        entries.add(ModBlocks.DEEPSLATE_MASONRY_BRICKS);
-                        entries.add(Blocks.BRICKS);
-                        entries.add(ModBlocks.UNIFORM_BRICKS);
-                        entries.add(Blocks.PACKED_MUD);
-                        entries.add(ModBlocks.MUD_UNIFORM_BRICKS);
-                        entries.add(ModBlocks.MUD_MASONRY_BRICKS);
-                        entries.add(Blocks.MUD_BRICKS);
-                        entries.add(Blocks.PRISMARINE);
-                        entries.add(ModBlocks.PRISMARINE_UNIFORM_BRICKS);
-                        entries.add(ModBlocks.PRISMARINE_MASONRY_BRICKS);
-                        entries.add(Blocks.PRISMARINE_BRICKS);
-                        entries.add(Blocks.NETHER_BRICKS);
-                        entries.add(ModBlocks.NETHER_UNIFORM_BRICKS);
-                        entries.add(ModBlocks.NETHER_MASONRY_BRICKS);
-                        entries.add(Blocks.RED_NETHER_BRICKS);
-                        entries.add(ModBlocks.RED_NETHER_UNIFORM_BRICKS);
-                        entries.add(ModBlocks.RED_NETHER_MASONRY_BRICKS);
-                        entries.add(Blocks.POLISHED_BLACKSTONE);
-                        entries.add(Blocks.POLISHED_BLACKSTONE_BRICKS);
-                        entries.add(ModBlocks.POLISHED_BLACKSTONE_MASONRY_BRICKS);
-                        entries.add(Blocks.END_STONE);
-                        entries.add(ModBlocks.END_STONE_UNIFORM_BRICKS);
-                        entries.add(Blocks.END_STONE_BRICKS);
-                        entries.add(ModBlocks.END_STONE_MASONRY_BRICKS);
-                        entries.add(Blocks.QUARTZ_BLOCK);
-                        entries.add(ModBlocks.QUARTZ_UNIFORM_BRICKS);
-                        entries.add(ModBlocks.QUARTZ_MASONRY_BRICKS);
-                        entries.add(Blocks.QUARTZ_BRICKS);
-                        entries.add(ModBlocks.MARBLE);
-                        entries.add(ModBlocks.MARBLE_BRICKS);
-                        entries.add(ModBlocks.MARBLE_MASONRY_BRICKS);
-                        entries.add(Blocks.POLISHED_ANDESITE);
-                        entries.add(ModBlocks.POLISHED_ANDESITE_BRICKS);
-                        entries.add(ModBlocks.POLISHED_ANDESITE_MASONRY_BRICKS);
-                        entries.add(Blocks.POLISHED_DIORITE);
-                        entries.add(ModBlocks.POLISHED_DIORITE_BRICKS);
-                        entries.add(ModBlocks.POLISHED_DIORITE_MASONRY_BRICKS);
-                        entries.add(Blocks.POLISHED_GRANITE);
-                        entries.add(ModBlocks.POLISHED_GRANITE_BRICKS);
-                        entries.add(ModBlocks.POLISHED_GRANITE_MASONRY_BRICKS);
-                        entries.add(ModBlocks.POLISHED_BEDROCK);
-                        entries.add(ModBlocks.POLISHED_BEDROCK_BRICKS);
-                        entries.add(ModBlocks.POLISHED_BEDROCK_MASONRY_BRICKS);
-                        entries.add(ModBlocks.VOID_STONE);
-                        entries.add(ModBlocks.VOID_STONE_UNIFORM_BRICKS);
-                        entries.add(ModBlocks.VOID_STONE_BRICKS);
-                        entries.add(ModBlocks.VOID_STONE_MASONRY_BRICKS);
+                        entries.add(ModItems.ENDER_DRAGON_TROPHY);
+                        entries.add(ModItems.WITHER_TROPHY);
+                        entries.add(ModItems.ELDER_GUARDIAN_TROPHY);
+                        entries.add(ModItems.WARDEN_TROPHY);
+                        entries.add(ModItems.SILVERWYRM_TROPHY);
                     }).build());
     public static void registerItemGroups(){
         OresMod.LOGGER.info("Registering Item Groups for " + OresMod.MOD_ID);

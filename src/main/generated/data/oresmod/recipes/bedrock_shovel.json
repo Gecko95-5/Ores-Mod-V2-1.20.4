@@ -16,5 +16,6 @@
   ],
   "result": {
     "item": "oresmod:bedrock_shovel"
-  }
+  },
+  "show_notification": true
 }

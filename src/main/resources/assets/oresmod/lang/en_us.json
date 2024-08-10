@@ -471,6 +471,10 @@
   "block.oresmod.stonebark_leaves": "Stonebark Leaves",
   "block.oresmod.stonebark_sapling": "Stonebark Sapling",
 
+  "item.oresmod.shelled_cobblenut": "Cobble-Nut",
+  "item.oresmod.cobblenut": "Cobble-Nut",
+  "item.oresmod.stuffed_cobblenut": "Stuffed Cobble-Nut",
+
   "block.oresmod.stonebark_stairs": "Stonebark Stairs",
   "block.oresmod.stonebark_slab": "Stonebark Slab",
   "block.oresmod.stonebark_fence": "Stonebark Fence",
@@ -670,6 +674,7 @@
   "block.oresmod.steel_spikes": "Steel Spikes",
 
   "item.oresmod.silver_scale": "Silver Scale",
+  "item.oresmod.silver_stew": "Silver Stew",
   "block.oresmod.silver_crown": "Silver Crown",
 
   "block.oresmod.silver_scales": "Silver Scales",
@@ -689,6 +694,14 @@
   "block.oresmod.elder_guardian_trophy": "Elder Guardian Trophy",
   "block.oresmod.warden_trophy": "Warden Trophy",
   "block.oresmod.silverwyrm_trophy": "Silverwyrm Trophy",
+
+  "item.oresmod.ender_dragon_trophy": "Ender Dragon Trophy",
+  "item.oresmod.wither_trophy": "Wither Trophy",
+  "item.oresmod.elder_guardian_trophy": "Elder Guardian Trophy",
+  "item.oresmod.warden_trophy": "Warden Trophy",
+  "item.oresmod.silverwyrm_trophy": "Silverwyrm Trophy",
+
+  "block.oresmod.flint_block": "Block of Flint",
 
   "block.oresmod.leafite_block": "Block of Leafite",
 
@@ -1047,8 +1060,6 @@
   "itemgroup.ores_mod_tools": "OOM Tools & Weapons",
   "itemgroup.ores_mod_other_blocks": "OOM Other Blocks",
   "itemgroup.ores_mod_other": "OOM Other Stuff",
-  "itemgroup.ores_mod_mobs": "OOM Mobs & Trophies",
-  "itemgroup.ores_mod_carving": "OOM Carving Stuff",
 
   "tooltip.oresmod.modded_upgrade_smithing_template_1": "Ingredients:",
   "tooltip.oresmod.modded_upgrade_smithing_template_2": "Applies to:",

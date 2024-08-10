@@ -13,5 +13,6 @@
   ],
   "result": {
     "item": "oresmod:nickel_block"
-  }
+  },
+  "show_notification": true
 }

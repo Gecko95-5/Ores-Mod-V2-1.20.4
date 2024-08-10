@@ -1,0 +1,116 @@
+{
+  "parent": "oresmod:the_quarry",
+  "criteria": {
+    "oresmod:quarry": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "oresmod:quarry"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "oresmod:wooded_quarry": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "oresmod:wooded_quarry"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "oresmod:snowy_quarry": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "oresmod:snowy_quarry"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "oresmod:quarry_peaks": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "oresmod:quarry_peaks"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "oresmod:frozen_quarry_peaks": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "oresmod:frozen_quarry_peaks"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "description": "Find all Quarry Biomes",
+    "frame": "challenge",
+    "icon": {
+      "item": "oresmod:aluminum_boots",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": "Quarry Master"
+  },
+  "requirements": [
+    [
+      "oresmod:quarry"
+    ],
+    [
+      "oresmod:wooded_quarry"
+    ],
+    [
+      "oresmod:snowy_quarry"
+    ],
+    [
+      "oresmod:quarry_peaks"
+    ],
+    [
+      "oresmod:frozen_quarry_peaks"
+    ]
+  ],
+  "rewards": {
+    "experience": 500
+  },
+  "sends_telemetry_event": true
+}

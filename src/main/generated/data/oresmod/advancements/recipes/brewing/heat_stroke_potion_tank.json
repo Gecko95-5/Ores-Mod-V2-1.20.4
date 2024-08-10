@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:heat_stroke_potion_tank"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

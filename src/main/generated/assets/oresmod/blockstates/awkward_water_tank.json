@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "oresmod:block/awkward_water_tank"
+      "model": "oresmod:block/water_tank"
     }
   }
 }

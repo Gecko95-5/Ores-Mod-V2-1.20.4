@@ -1,5 +1,5 @@
 {
-  "parent": "oresmod:kill_a_silverpede",
+  "parent": "oresmod:the_quarry",
   "criteria": {
     "fossil": {
       "conditions": {

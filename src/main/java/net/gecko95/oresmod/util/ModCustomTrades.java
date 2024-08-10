@@ -244,6 +244,21 @@ public class ModCustomTrades {
                             new ItemStack(Items.EMERALD, 2),
                             3, 30, 0.2f));
                 });
+        TradeOfferHelper.registerVillagerOffers(VillagerProfession.MASON,3,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD, 8),
+                            new ItemStack(ModItems.SILVER_CARVER, 1),
+                            3, 30, 0.05f));
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD, 16),
+                            new ItemStack(ModItems.MASONRY_BLUEPRINT, 1),
+                            1, 30, 0.05f));
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD, 16),
+                            new ItemStack(ModItems.UNIFORM_BLUEPRINT, 1),
+                            1, 30, 0.05f));
+                });
 
         TradeOfferHelper.registerWanderingTraderOffers(1,
                 factories -> {
@@ -275,6 +290,26 @@ public class ModCustomTrades {
                             new ItemStack(Items.EMERALD, 1),
                             new ItemStack(ModBlocks.ICY_CROCUS, 1),
                             8, 0, 0.0f));
+
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD, 1),
+                            new ItemStack(ModBlocks.ALPINE_SPEEDWELL, 1),
+                            8, 0, 0.0f));
+
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD, 1),
+                            new ItemStack(ModBlocks.SUBALPINE_DAISY, 1),
+                            12, 0, 0.0f));
+
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD, 5),
+                            new ItemStack(ModBlocks.SILVER_ROSE, 1),
+                            5, 0, 0.0f));
+
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD, 4),
+                            new ItemStack(ModItems.SHELLED_COBBLENUT, 1),
+                            5, 0, 0.0f));
                 });
 
         TradeOfferHelper.registerWanderingTraderOffers(2,

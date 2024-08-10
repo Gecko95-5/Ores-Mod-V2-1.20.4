@@ -30,5 +30,6 @@
     "recipes": [
       "oresmod:chiseled_black_sandstone"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

@@ -16,5 +16,6 @@
   ],
   "result": {
     "item": "oresmod:steel_compound_nickinupper"
-  }
+  },
+  "show_notification": true
 }

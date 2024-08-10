@@ -13,5 +13,6 @@
   ],
   "result": {
     "item": "oresmod:aluminum_leggings"
-  }
+  },
+  "show_notification": true
 }

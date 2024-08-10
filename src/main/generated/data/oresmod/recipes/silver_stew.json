@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "oresmod:silver_scale"
+    },
+    {
+      "item": "oresmod:silver_scale"
+    },
+    {
+      "item": "oresmod:silver_scale"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "oresmod:silver_stew"
+  }
+}

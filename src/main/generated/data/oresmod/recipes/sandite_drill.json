@@ -19,5 +19,6 @@
   ],
   "result": {
     "item": "oresmod:sandite_drill"
-  }
+  },
+  "show_notification": true
 }

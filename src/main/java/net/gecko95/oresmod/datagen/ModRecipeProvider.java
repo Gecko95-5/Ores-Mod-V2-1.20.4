@@ -1537,12 +1537,9 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
                 .offerTo(exporter, new Identifier("steel_compound_form_steel_compound_nickinupper"));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_STEEL)
-                .pattern("SSS")
-                .pattern("SII")
-                .pattern("II ")
-                .input('S', ModItems.STEEL_COMPOUND)
-                .input('I', Items.RAW_IRON)
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_STEEL)
+                .input(ModItems.STEEL_COMPOUND,4)
+                .input(Items.RAW_IRON,4)
                 .criterion(hasItem(ModItems.STEEL_COMPOUND), conditionsFromItem(ModItems.STEEL_COMPOUND))
                 .criterion(hasItem(Items.RAW_IRON), conditionsFromItem(Items.RAW_IRON))
                 .offerTo(exporter, new Identifier("raw_steel_from_steel_compound"));
@@ -2001,12 +1998,9 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.TITANIUM_INGOT), conditionsFromItem(ModItems.TITANIUM_INGOT))
                 .offerTo(exporter, new Identifier("titanium_alloy_scrap"));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.TITANIUM_ALLOY_INGOT)
-                .pattern("TTT")
-                .pattern("TAA")
-                .pattern("AA ")
-                .input('T', ModItems.TITANIUM_ALLOY_SCRAP)
-                .input('A', ModItems.ALUMINUM_INGOT)
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.TITANIUM_ALLOY_INGOT)
+                .input(ModItems.TITANIUM_ALLOY_SCRAP,4)
+                .input(ModItems.ALUMINUM_INGOT,4)
                 .criterion(hasItem(ModItems.TITANIUM_ALLOY_SCRAP), conditionsFromItem(ModItems.TITANIUM_ALLOY_SCRAP))
                 .criterion(hasItem(ModItems.ALUMINUM_INGOT), conditionsFromItem(ModItems.ALUMINUM_INGOT))
                 .offerTo(exporter, new Identifier("titanium_alloy_ingot_from_titanium_alloy_scrap"));
@@ -4611,12 +4605,9 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.PLATINUM_INGOT,
                 RecipeCategory.BUILDING_BLOCKS, ModBlocks.PLATINUM_BLOCK);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.PLATINUM_INGOT)
-                .pattern("PPP")
-                .pattern("PAA")
-                .pattern("AA ")
-                .input('P', ModItems.PLATINUM_SCRAP)
-                .input('A', Items.AMETHYST_SHARD)
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.PLATINUM_INGOT)
+                .input(ModItems.PLATINUM_SCRAP,4)
+                .input(Items.AMETHYST_SHARD,4)
                 .criterion(hasItem(ModItems.PLATINUM_SCRAP), conditionsFromItem(ModItems.PLATINUM_SCRAP))
                 .criterion(hasItem(Items.AMETHYST_SHARD), conditionsFromItem(Items.AMETHYST_SHARD))
                 .offerTo(exporter, new Identifier("platinum_ingot_from_platinum_scrap"));
@@ -5899,5 +5890,42 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.VOID_STONE_UNIFORM_BRICK_SLAB, ModBlocks.VOID_STONE_UNIFORM_BRICKS,2);
         offerWallRecipe(exporter, RecipeCategory.MISC, ModBlocks.VOID_STONE_UNIFORM_BRICK_WALL, ModBlocks.VOID_STONE_UNIFORM_BRICKS);
         offerStonecuttingRecipe(exporter, RecipeCategory.MISC, ModBlocks.VOID_STONE_UNIFORM_BRICK_WALL, ModBlocks.VOID_STONE_UNIFORM_BRICKS);
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.FOOD, ModItems.COBBLENUT,4)
+                .input(ModItems.SHELLED_COBBLENUT)
+                .criterion(hasItem(ModItems.SHELLED_COBBLENUT), conditionsFromItem(ModItems.SHELLED_COBBLENUT))
+                .offerTo(exporter, new Identifier("cobblenut"));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.FOOD, ModItems.STUFFED_COBBLENUT)
+                .input(ModItems.SHELLED_COBBLENUT)
+                .input(Items.CARROT)
+                .input(Items.BAKED_POTATO)
+                .input(Items.BROWN_MUSHROOM)
+                .criterion(hasItem(ModItems.SHELLED_COBBLENUT), conditionsFromItem(ModItems.SHELLED_COBBLENUT))
+                .criterion(hasItem(Items.CARROT), conditionsFromItem(Items.CARROT))
+                .criterion(hasItem(Items.BAKED_POTATO), conditionsFromItem(Items.BAKED_POTATO))
+                .criterion(hasItem(Items.BROWN_MUSHROOM), conditionsFromItem(Items.BROWN_MUSHROOM))
+                .offerTo(exporter, new Identifier("stuffed_cobblenut_from_brown_mushroom"));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.FOOD, ModItems.STUFFED_COBBLENUT)
+                .input(ModItems.SHELLED_COBBLENUT)
+                .input(Items.CARROT)
+                .input(Items.BAKED_POTATO)
+                .input(Items.RED_MUSHROOM)
+                .criterion(hasItem(ModItems.SHELLED_COBBLENUT), conditionsFromItem(ModItems.SHELLED_COBBLENUT))
+                .criterion(hasItem(Items.CARROT), conditionsFromItem(Items.CARROT))
+                .criterion(hasItem(Items.BAKED_POTATO), conditionsFromItem(Items.BAKED_POTATO))
+                .criterion(hasItem(Items.RED_MUSHROOM), conditionsFromItem(Items.RED_MUSHROOM))
+                .offerTo(exporter, new Identifier("stuffed_cobblenut_from_red_mushroom"));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.FOOD, ModItems.SILVER_STEW)
+                .input(ModItems.SILVER_SCALE,3)
+                .input(Items.BOWL)
+                .criterion(hasItem(ModItems.SILVER_SCALE), conditionsFromItem(ModItems.SILVER_SCALE))
+                .criterion(hasItem(Items.BOWL), conditionsFromItem(Items.BOWL))
+                .offerTo(exporter, new Identifier("silver_stew"));
+
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, Items.FLINT,
+                RecipeCategory.BUILDING_BLOCKS, ModBlocks.FLINT_BLOCK);
     }
 }

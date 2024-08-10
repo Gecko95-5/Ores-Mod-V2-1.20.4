@@ -1,18 +1,31 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "key": {
-    "I": {
+  "ingredients": [
+    {
+      "item": "oresmod:steel_compound"
+    },
+    {
+      "item": "oresmod:steel_compound"
+    },
+    {
+      "item": "oresmod:steel_compound"
+    },
+    {
+      "item": "oresmod:steel_compound"
+    },
+    {
       "item": "minecraft:raw_iron"
     },
-    "S": {
-      "item": "oresmod:steel_compound"
+    {
+      "item": "minecraft:raw_iron"
+    },
+    {
+      "item": "minecraft:raw_iron"
+    },
+    {
+      "item": "minecraft:raw_iron"
     }
-  },
-  "pattern": [
-    "SSS",
-    "SII",
-    "II "
   ],
   "result": {
     "item": "oresmod:raw_steel"

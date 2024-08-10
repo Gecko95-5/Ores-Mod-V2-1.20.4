@@ -30,5 +30,6 @@
     "recipes": [
       "minecraft:dark_cut_sandite_stairs"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

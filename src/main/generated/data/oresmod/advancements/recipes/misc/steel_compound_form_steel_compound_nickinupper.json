@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:steel_compound_form_steel_compound_nickinupper"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

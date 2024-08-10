@@ -30,5 +30,6 @@
     "recipes": [
       "oresmod:light_cut_leafite_slab"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

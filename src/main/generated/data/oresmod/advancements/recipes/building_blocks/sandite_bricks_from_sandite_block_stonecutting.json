@@ -30,5 +30,6 @@
     "recipes": [
       "minecraft:sandite_bricks_from_sandite_block_stonecutting"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

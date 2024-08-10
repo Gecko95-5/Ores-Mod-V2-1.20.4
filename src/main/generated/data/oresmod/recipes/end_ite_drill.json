@@ -19,5 +19,6 @@
   ],
   "result": {
     "item": "oresmod:end_ite_drill"
-  }
+  },
+  "show_notification": true
 }

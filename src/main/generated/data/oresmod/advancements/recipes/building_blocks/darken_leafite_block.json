@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:darken_leafite_block"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }
